@@ -1,0 +1,12 @@
+# 301 Permanent Redirects to preserve 100% of old WordPress backlinks & SEO PageRank
+/best-old-age-home-services-in-bangalore/          /old-age-homes-bangalore                   301
+/best-old-age-home-services-in-bangalore           /old-age-homes-bangalore                   301
+/how-to-choose-the-best-old-age-home-in-bangalore/ /old-age-homes-bangalore                   301
+/how-to-choose-the-best-old-age-home-in-bangalore  /old-age-homes-bangalore                   301
+/home-nursing-services/                            /home-nursing-services-bangalore           301
+/dementia-care/                                    /dementia-alzheimers-care-bangalore        301
+/palliative-care/                                  /palliative-cancer-care-bangalore          301
+/contact/                                          /contact-us                                301
+
+# SPA Fallback Rule
+/*                                                 /index.html                                200

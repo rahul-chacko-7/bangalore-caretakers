@@ -1,0 +1,25 @@
+{
+  "redirects": [
+    {
+      "source": "/best-old-age-home-services-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-best-old-age-home-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
