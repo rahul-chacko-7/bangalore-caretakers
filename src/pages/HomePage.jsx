@@ -13,8 +13,8 @@ export default function HomePage({ onOpenInquiry }) {
   const homeSchema = {
     "@context": "https://schema.org",
     "@type": ["MedicalBusiness", "LocalBusiness"],
-    "name": "Bangalore Caretakers - Best Old Age Homes in Bangalore with Medical Care",
-    "description": "Bangalore Caretakers provides the Best Old Age Homes in Bangalore equipped with 24/7 medical facilities, nursing care, doctor visits, and caretaker at home services. Rated 4.9★.",
+    "name": "Bangalore Caretakers - #1 Elder Care Services & Old Age Homes in Bangalore",
+    "description": "Bangalore Caretakers provides #1 Elder Care Services & Best Old Age Homes in Bangalore with 24/7 doctor supervision, home nursing, and caretakers at home. 4.9★ Rated.",
     "telephone": "+917760506666",
     "image": "https://bangalorecaretakers.in/assets/old-age-home-room.jpg",
     "aggregateRating": {
@@ -53,12 +53,24 @@ export default function HomePage({ onOpenInquiry }) {
 
   const homeFaqs = [
     {
-      q: "Why is Bangalore Caretakers ranked among the Best Old Age Homes in Bangalore?",
-      a: "Bangalore Caretakers combines 24/7 doctor availability, round-the-clock skilled nursing care, dietitian-approved meal plans, high hygiene standards, and emergency ambulance tie-ups. We hold a 4.9★ Google rating based on 761+ family reviews."
+      q: "Why is Bangalore Caretakers ranked among the Best Elder Care Services in Bangalore?",
+      a: "Bangalore Caretakers combines 24/7 doctor availability, 12h & 24h skilled home nursing, dietitian-approved meal plans, high hygiene standards, and emergency ambulance tie-ups across Bangalore. Rated 4.9★ based on 761+ verified Google reviews."
     },
     {
-      q: "What medical facilities are provided in your Old Age Homes in Bangalore?",
-      a: "Our old age home facilities include 24/7 on-duty nurses, physician visits, oxygen support, vitals monitoring, wheelchair ramps, grab rails, and specialized bedridden patient care."
+      q: "What is the cost of 12hrs duty vs 24hrs duty in home care services in Bangalore?",
+      a: "12-hour daytime or nighttime home care shifts in Bangalore range from ₹18,000 to ₹26,000 per month, while 24-hour live-in home caretakers range from ₹28,000 to ₹42,000 per month."
+    },
+    {
+      q: "What is the monthly price list for paid, ISKCON, Christian, or free old age homes in Bangalore?",
+      a: "Standard paid old age homes range from ₹18,000 to ₹35,000/month, luxury retirement communities range from ₹50,000 to ₹95,000/month, while charitable/Christian & government trust homes offer low-cost or free stay options for low-income seniors."
+    },
+    {
+      q: "Do you provide residential care for mentally challenged adults and bedridden seniors in Bangalore?",
+      a: "Yes. We offer specialized residential care homes equipped for mentally challenged adults (MR/ID), Alzheimer's/dementia memory care, stroke rehabilitation, and bedridden seniors requiring 24/7 nursing."
+    },
+    {
+      q: "What medical facilities are provided in your Old Age Homes in Bangalore (ವೃದ್ಧಾಶ್ರಮ ಬೆಂಗಳೂರು)?",
+      a: "Facilities include 24/7 ICU-trained nurses, oxygen readiness, multi-para monitors, daily vitals tracking, physiotherapy sessions, customized diabetic diets, and emergency ambulance response within minutes."
     },
     {
       q: "Can I get a Care Taker at Home in Bangalore for 24/7 Elderly Care?",

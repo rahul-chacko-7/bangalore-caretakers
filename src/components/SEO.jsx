@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export default function SEO({ title, description, keywords, canonicalPath, schemaData }) {
   useEffect(() => {
     // 1. Update Title
-    document.title = title || "Best Old Age Homes in Bangalore | 24/7 Home Nursing & Medical Care";
+    document.title = title || "Bangalore Caretakers | #1 Elder Care Services & Best Old Age Homes in Bangalore";
 
     // 2. Update Meta Description
     let metaDesc = document.querySelector('meta[name="description"]');
@@ -12,7 +12,7 @@ export default function SEO({ title, description, keywords, canonicalPath, schem
       metaDesc.name = 'description';
       document.head.appendChild(metaDesc);
     }
-    metaDesc.content = description || "Bangalore Caretakers provides 24/7 senior living, old age homes with medical care, home nursing services, dementia care, and palliative care in Bangalore.";
+    metaDesc.content = description || "Top-rated Elder Care Services & Best Old Age Homes in Bangalore with 24/7 Doctor-On-Call, Home Caretakers & Nursing. 4.9★ Rated. Free Quote & Consultation!";
 
     // 3. Update Meta Keywords
     if (keywords) {
