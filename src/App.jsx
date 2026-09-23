@@ -18,6 +18,8 @@ import DisabledCarePage from './pages/DisabledCarePage';
 import JobsPage from './pages/JobsPage';
 import ContactPage from './pages/ContactPage';
 import NeighborhoodCarePage from './pages/NeighborhoodCarePage';
+import BlogListPage from './pages/BlogListPage';
+import BlogPostPage from './pages/BlogPostPage';
 
 export default function App() {
   const [inquiryOpen, setInquiryOpen] = useState(false);
@@ -47,6 +49,8 @@ export default function App() {
             <Route path="/post-surgery-rehabilitation-care" element={<PostSurgeryCarePage onOpenInquiry={() => handleOpenInquiry('Post Surgery Care')} />} />
             <Route path="/specialized-nursing-care" element={<SpecializedNursingPage onOpenInquiry={() => handleOpenInquiry('Specialized Nursing')} />} />
             <Route path="/home-for-disabled-and-rehabilitation" element={<DisabledCarePage onOpenInquiry={() => handleOpenInquiry('Disabled Care')} />} />
+            <Route path="/blog" element={<BlogListPage onOpenInquiry={() => handleOpenInquiry('Blog Inquiry')} />} />
+            <Route path="/blog/:slug" element={<BlogPostPage onOpenInquiry={() => handleOpenInquiry('Blog Post Inquiry')} />} />
             <Route path="/caretaker-nursing-jobs-bangalore" element={<JobsPage />} />
             <Route path="/contact-us" element={<ContactPage onOpenInquiry={() => handleOpenInquiry()} />} />
             

@@ -195,6 +195,13 @@ export default function Header({ onOpenInquiry }) {
             </div>
 
             <Link
+              to="/blog"
+              className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
+            >
+              Guides
+            </Link>
+
+            <Link
               to="/caretaker-nursing-jobs-bangalore"
               className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
             >

@@ -77,6 +77,11 @@ export default function Footer({ onOpenInquiry }) {
                   <ChevronRight className="w-4 h-4 text-teal-400" /> Post-Surgery & Stroke Rehab Care
                 </Link>
               </li>
+              <li>
+                <Link to="/blog" className="hover:text-amber-400 transition-colors flex items-center gap-1.5 font-bold text-amber-300">
+                  <ChevronRight className="w-4 h-4 text-amber-400" /> Senior Care Guides & Blog
+                </Link>
+              </li>
             </ul>
           </div>
 
