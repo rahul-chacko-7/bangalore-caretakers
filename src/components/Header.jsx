@@ -12,9 +12,7 @@ export default function Header({ onOpenInquiry }) {
   const primaryNav = [
     { name: 'Home', path: '/' },
     { name: 'Old Age Homes', path: '/old-age-homes-bangalore', badge: 'Top Rated' },
-    { name: 'Home Nursing', path: '/home-nursing-services-bangalore' },
-    { name: 'Dementia Care', path: '/dementia-alzheimers-care-bangalore', hiddenOnLg: true },
-    { name: 'Palliative Care', path: '/palliative-cancer-care-bangalore', hiddenOnLg: true }
+    { name: 'Home Nursing', path: '/home-nursing-services-bangalore' }
   ];
 
   const serviceCategories = [
@@ -106,9 +104,7 @@ export default function Header({ onOpenInquiry }) {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`px-2.5 xl:px-3 py-2 rounded-xl transition-all whitespace-nowrap items-center gap-1.5 ${
-                    link.hiddenOnLg ? 'hidden xl:inline-flex' : 'inline-flex'
-                  } ${
+                  className={`px-2.5 xl:px-3 py-2 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1.5 ${
                     isActive
                       ? 'text-teal-800 bg-teal-50/90 font-black shadow-sm ring-1 ring-teal-500/20'
                       : 'hover:text-teal-700 hover:bg-slate-100/70'
