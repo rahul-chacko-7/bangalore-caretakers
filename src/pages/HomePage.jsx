@@ -360,16 +360,16 @@ export default function HomePage({ onOpenInquiry }) {
 
               <div className="bg-slate-900 text-white rounded-2xl overflow-hidden shadow-lg border border-slate-800">
                 <img
-                  src="/assets/nurse-patient-care.jpg"
-                  alt="Care Taker at Home in Bangalore"
+                  src="/assets/senior-caretaker-bond.jpg"
+                  alt="Compassionate Female Care Taker at Home in Bangalore"
                   width="400"
                   height="300"
                   loading="lazy"
-                  className="w-full h-44 object-cover"
+                  className="w-full h-44 object-cover hover:scale-105 transition-transform duration-300"
                 />
                 <div className="p-3 text-xs">
-                  <div className="font-bold text-blue-400">Care Taker at Home</div>
-                  <div className="text-slate-300">12h & 24h live-in home nursing caretakers</div>
+                  <div className="font-bold text-amber-400">Verified Female Caretaker</div>
+                  <div className="text-slate-300">Compassionate 1-on-1 senior nursing care</div>
                 </div>
               </div>
 
