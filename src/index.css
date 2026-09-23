@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  html {
+  html, body {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden !important;
+    max-w-full: 100%;
+    width: 100%;
   }
 }
 

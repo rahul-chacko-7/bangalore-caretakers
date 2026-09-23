@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-sans selection:bg-teal-500 selection:text-white pb-14 lg:pb-0">
+      <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-sans selection:bg-teal-500 selection:text-white pb-14 lg:pb-0 overflow-x-hidden w-full max-w-full">
         
         {/* Navigation */}
         <Header onOpenInquiry={() => handleOpenInquiry()} />
