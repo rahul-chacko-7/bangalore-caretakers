@@ -109,15 +109,15 @@ export default function Header({ onOpenInquiry }) {
             />
           </Link>
 
-          {/* Desktop Nav Links (Visible on XL screens >= 1280px) */}
-          <nav className="hidden xl:flex items-center gap-1 2xl:gap-2 font-bold text-slate-700 text-xs 2xl:text-sm shrink min-w-0">
+          {/* Desktop Nav Links (Visible on 2XL screens >= 1400px/1536px) */}
+          <nav className="hidden 2xl:flex items-center gap-1.5 3xl:gap-2 font-bold text-slate-700 text-xs 2xl:text-sm shrink-0">
             {primaryNav.map((link) => {
               const isActive = location.pathname === link.path;
               return (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1 shrink-0 ${
+                  className={`px-2 2xl:px-2.5 py-1.5 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1 shrink-0 ${
                     isActive
                       ? 'text-teal-800 bg-teal-50/90 font-black shadow-sm ring-1 ring-teal-500/20'
                       : 'hover:text-teal-700 hover:bg-slate-100/70'
@@ -146,7 +146,7 @@ export default function Header({ onOpenInquiry }) {
                   setServicesDropdown(!servicesDropdown);
                   setLocationsDropdown(false);
                 }}
-                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors cursor-pointer ${
+                className={`px-2 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors cursor-pointer ${
                   servicesDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
                 aria-expanded={servicesDropdown}
@@ -193,7 +193,7 @@ export default function Header({ onOpenInquiry }) {
                   setLocationsDropdown(!locationsDropdown);
                   setServicesDropdown(false);
                 }}
-                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors cursor-pointer ${
+                className={`px-2 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors cursor-pointer ${
                   locationsDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
                 aria-expanded={locationsDropdown}
@@ -226,14 +226,14 @@ export default function Header({ onOpenInquiry }) {
 
             <Link
               to="/blog"
-              className="px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors shrink-0"
+              className="px-2 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors shrink-0"
             >
               Guides
             </Link>
 
             <Link
               to="/caretaker-nursing-jobs-bangalore"
-              className="px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors shrink-0"
+              className="px-2 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors shrink-0"
             >
               Jobs
             </Link>
@@ -252,10 +252,10 @@ export default function Header({ onOpenInquiry }) {
               <span>Call Helpline</span>
             </a>
 
-            {/* Mobile/Tablet Hamburger Toggle Button (Visible on screens < 1280px) */}
+            {/* Mobile/Tablet Hamburger Toggle Button (Visible on screens < 1536px) */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="xl:hidden p-2 px-2.5 sm:px-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 focus:outline-none border border-slate-700 shadow-md flex items-center gap-1 font-bold text-xs transition-colors shrink-0"
+              className="2xl:hidden p-2 px-2.5 sm:px-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 focus:outline-none border border-slate-700 shadow-md flex items-center gap-1 font-bold text-xs transition-colors shrink-0"
               aria-label="Toggle Navigation Menu"
             >
               {mobileMenuOpen ? (
@@ -272,15 +272,16 @@ export default function Header({ onOpenInquiry }) {
         {/* Backdrop Overlay when Mobile Drawer is Open */}
         {mobileMenuOpen && (
           <div 
-            className="fixed inset-0 top-[110px] bg-slate-950/50 backdrop-blur-xs z-30 xl:hidden"
+            className="fixed inset-0 top-[110px] bg-slate-950/50 backdrop-blur-xs z-30 2xl:hidden"
             onClick={() => setMobileMenuOpen(false)}
             aria-hidden="true"
           />
         )}
 
-        {/* Mobile Slide-down Navigation Drawer (Visible on screens < 1280px) */}
+        {/* Mobile Slide-down Navigation Drawer (Visible on screens < 1536px) */}
         {mobileMenuOpen && (
-          <div className="xl:hidden border-t border-slate-200/90 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-8 space-y-4 shadow-2xl max-h-[85vh] overflow-y-auto animate-fadeIn divide-y divide-slate-100 z-40 relative">
+          <div className="2xl:hidden border-t border-slate-200/90 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-8 space-y-4 shadow-2xl max-h-[85vh] overflow-y-auto animate-fadeIn divide-y divide-slate-100 z-40 relative">
+
             
             {/* Instant Mobile Quick Search Bar */}
             <div className="relative pt-1 pb-1">
