@@ -1,10 +1,14 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Phone, Menu, X, ShieldCheck, Clock, MapPin, ChevronDown, MessageSquare, Star, HeartHandshake, Sparkles } from 'lucide-react';
+import { Phone, Menu, X, ShieldCheck, Clock, MapPin, ChevronDown, MessageSquare, Star, HeartHandshake, Sparkles, Search } from 'lucide-react';
 import { GENERAL_INFO } from '../data/keywordsData';
 
 export default function Header({ onOpenInquiry }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileSearch, setMobileSearch] = useState('');
+  const [mobileServicesExpanded, setMobileServicesExpanded] = useState(true);
+  const [mobileLocationsExpanded, setMobileLocationsExpanded] = useState(true);
+
   const [servicesDropdown, setServicesDropdown] = useState(false);
   const [locationsDropdown, setLocationsDropdown] = useState(false);
   const location = useLocation();
@@ -33,6 +37,15 @@ export default function Header({ onOpenInquiry }) {
     { name: 'Electronic City Caretakers', path: '/elderly-care-electronic-city' },
     { name: 'Yelahanka Medical Care', path: '/elderly-care-yelahanka' },
   ];
+
+  const filteredServices = mobileSearch.trim()
+    ? serviceCategories.filter(s => s.name.toLowerCase().includes(mobileSearch.toLowerCase()) || s.desc.toLowerCase().includes(mobileSearch.toLowerCase()))
+    : serviceCategories;
+
+  const filteredLocations = mobileSearch.trim()
+    ? locationLinks.filter(l => l.name.toLowerCase().includes(mobileSearch.toLowerCase()))
+    : locationLinks;
+
 
   return (
     <>
@@ -256,12 +269,43 @@ export default function Header({ onOpenInquiry }) {
 
         </div>
 
+        {/* Backdrop Overlay when Mobile Drawer is Open */}
+        {mobileMenuOpen && (
+          <div 
+            className="fixed inset-0 top-[110px] bg-slate-950/50 backdrop-blur-xs z-30 xl:hidden"
+            onClick={() => setMobileMenuOpen(false)}
+            aria-hidden="true"
+          />
+        )}
+
         {/* Mobile Slide-down Navigation Drawer (Visible on screens < 1280px) */}
         {mobileMenuOpen && (
-          <div className="xl:hidden border-t border-slate-200/90 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-8 space-y-4 shadow-2xl max-h-[85vh] overflow-y-auto animate-fadeIn divide-y divide-slate-100">
+          <div className="xl:hidden border-t border-slate-200/90 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-8 space-y-4 shadow-2xl max-h-[85vh] overflow-y-auto animate-fadeIn divide-y divide-slate-100 z-40 relative">
             
+            {/* Instant Mobile Quick Search Bar */}
+            <div className="relative pt-1 pb-1">
+              <div className="relative">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={mobileSearch}
+                  onChange={(e) => setMobileSearch(e.target.value)}
+                  placeholder="Search care services, locations, jobs..."
+                  className="w-full bg-slate-100/90 border border-slate-200 focus:border-teal-500 text-slate-900 placeholder:text-slate-400 text-xs rounded-xl pl-9 pr-8 py-2.5 outline-none font-semibold transition-all"
+                />
+                {mobileSearch && (
+                  <button
+                    onClick={() => setMobileSearch('')}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-xs font-bold"
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+            </div>
+
             {/* 1. Primary Nav Pages */}
-            <div className="space-y-1 pt-1">
+            <div className="space-y-1 pt-3">
               <div className="text-[11px] font-black uppercase tracking-wider text-slate-400 px-2 pb-1">
                 Main Pages
               </div>
@@ -322,49 +366,78 @@ export default function Header({ onOpenInquiry }) {
               </div>
             </div>
 
-            {/* 2. All 8 Medical & Senior Services */}
+            {/* 2. All 8 Medical & Senior Services (Collapsible Accordion) */}
             <div className="pt-3 space-y-1">
-              <div className="text-[11px] font-black uppercase tracking-wider text-teal-700 px-2 pb-1 flex items-center justify-between">
-                <span>All Care Services</span>
-                <span className="text-[10px] text-slate-400 font-medium">8 Services</span>
-              </div>
-              <div className="grid grid-cols-1 gap-1">
-                {serviceCategories.map((s, idx) => (
-                  <Link
-                    key={idx}
-                    to={s.path}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="p-2.5 rounded-xl hover:bg-teal-50/80 transition-colors block border border-slate-100 hover:border-teal-200"
-                  >
-                    <div className="font-bold text-slate-900 text-xs flex items-center justify-between">
-                      <span className="text-teal-900">{s.name}</span>
-                      <span className="text-teal-600 text-xs">→</span>
-                    </div>
-                    <div className="text-[11px] text-slate-500 mt-0.5">{s.desc}</div>
-                  </Link>
-                ))}
-              </div>
+              <button
+                onClick={() => setMobileServicesExpanded(!mobileServicesExpanded)}
+                className="w-full text-[11px] font-black uppercase tracking-wider text-teal-700 px-2 pb-1 flex items-center justify-between cursor-pointer hover:text-teal-900"
+              >
+                <span>Medical & Senior Services ({filteredServices.length})</span>
+                <span className="text-teal-600 text-xs font-bold flex items-center gap-1">
+                  {mobileServicesExpanded ? 'Hide' : 'Expand'}
+                  <ChevronDown className={`w-3.5 h-3.5 transition-transform ${mobileServicesExpanded ? 'rotate-180' : ''}`} />
+                </span>
+              </button>
+
+              {mobileServicesExpanded && (
+                <div className="grid grid-cols-1 gap-1">
+                  {filteredServices.length > 0 ? (
+                    filteredServices.map((s, idx) => (
+                      <Link
+                        key={idx}
+                        to={s.path}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="p-2.5 rounded-xl hover:bg-teal-50/80 transition-colors block border border-slate-100 hover:border-teal-200"
+                      >
+                        <div className="font-bold text-slate-900 text-xs flex items-center justify-between">
+                          <span className="text-teal-900">{s.name}</span>
+                          <span className="text-teal-600 text-xs">→</span>
+                        </div>
+                        <div className="text-[11px] text-slate-500 mt-0.5">{s.desc}</div>
+                      </Link>
+                    ))
+                  ) : (
+                    <div className="text-xs text-slate-400 p-2 text-center">No services matching "{mobileSearch}"</div>
+                  )}
+                </div>
+              )}
             </div>
 
-            {/* 3. Bangalore Service Locations */}
+            {/* 3. Bangalore Service Locations (Collapsible Accordion) */}
             <div className="pt-3 space-y-1">
-              <div className="text-[11px] font-black uppercase tracking-wider text-slate-400 px-2 pb-1 flex items-center gap-1">
-                <MapPin className="w-3.5 h-3.5 text-teal-600" />
-                <span>Covered Bangalore Areas</span>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-                {locationLinks.map((loc, idx) => (
-                  <Link
-                    key={idx}
-                    to={loc.path}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className="px-3 py-2 rounded-xl text-xs font-bold text-slate-700 bg-slate-50 hover:bg-teal-50 hover:text-teal-800 transition-colors flex items-center justify-between"
-                  >
-                    <span>{loc.name}</span>
-                    <span className="text-[10px] text-teal-600 font-extrabold">View</span>
-                  </Link>
-                ))}
-              </div>
+              <button
+                onClick={() => setMobileLocationsExpanded(!mobileLocationsExpanded)}
+                className="w-full text-[11px] font-black uppercase tracking-wider text-slate-400 px-2 pb-1 flex items-center justify-between cursor-pointer hover:text-slate-600"
+              >
+                <span className="flex items-center gap-1">
+                  <MapPin className="w-3.5 h-3.5 text-teal-600" />
+                  <span>Covered Bangalore Areas ({filteredLocations.length})</span>
+                </span>
+                <span className="text-slate-500 text-xs font-bold flex items-center gap-1">
+                  {mobileLocationsExpanded ? 'Hide' : 'Expand'}
+                  <ChevronDown className={`w-3.5 h-3.5 transition-transform ${mobileLocationsExpanded ? 'rotate-180' : ''}`} />
+                </span>
+              </button>
+
+              {mobileLocationsExpanded && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
+                  {filteredLocations.length > 0 ? (
+                    filteredLocations.map((loc, idx) => (
+                      <Link
+                        key={idx}
+                        to={loc.path}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="px-3 py-2 rounded-xl text-xs font-bold text-slate-700 bg-slate-50 hover:bg-teal-50 hover:text-teal-800 transition-colors flex items-center justify-between"
+                      >
+                        <span>{loc.name}</span>
+                        <span className="text-[10px] text-teal-600 font-extrabold">View</span>
+                      </Link>
+                    ))
+                  ) : (
+                    <div className="text-xs text-slate-400 p-2 text-center col-span-2">No locations matching "{mobileSearch}"</div>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* 4. Trust Badges & Contact Options */}
@@ -418,6 +491,7 @@ export default function Header({ onOpenInquiry }) {
 
           </div>
         )}
+
 
       </header>
     </>
