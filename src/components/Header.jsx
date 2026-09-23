@@ -210,25 +210,25 @@ export default function Header({ onOpenInquiry }) {
           </nav>
 
           {/* Right Action Buttons */}
-          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+          <div className="flex items-center gap-2 shrink-0">
             
-            {/* Primary CTA - Book 24/7 Care (Desktop/Tablet) */}
+            {/* Secondary CTA - Book 24/7 Care (Visible only on 2XL wide screens) */}
             <button
               onClick={() => onOpenInquiry()}
-              className="hidden sm:inline-flex items-center gap-1.5 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white text-xs xl:text-sm py-2 px-3 xl:px-3.5 rounded-xl font-extrabold shadow-md shadow-teal-700/20 hover:shadow-lg transition-all whitespace-nowrap shrink-0"
+              className="hidden 2xl:inline-flex items-center gap-1.5 bg-teal-50 hover:bg-teal-100 text-teal-900 border border-teal-200 text-xs xl:text-sm py-2 px-3 rounded-xl font-extrabold transition-all whitespace-nowrap shrink-0"
             >
-              <HeartHandshake className="w-4 h-4 text-teal-200 shrink-0" />
+              <HeartHandshake className="w-4 h-4 text-teal-700 shrink-0" />
               <span>Book 24/7 Care</span>
             </button>
 
-            {/* Emergency Phone CTA - Compact on Laptop, Full Pill on XL */}
+            {/* Primary Action Button - Call Helpline / Direct Emergency Call */}
             <a
               href={`tel:${GENERAL_INFO.phoneRaw}`}
-              className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs xl:text-sm py-2 px-3 xl:px-3.5 rounded-xl font-black shadow-md shadow-amber-500/25 border border-amber-300 hover:shadow-lg transition-all whitespace-nowrap shrink-0"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs xl:text-sm py-2 px-3.5 sm:px-4 rounded-xl font-black shadow-md shadow-amber-500/20 border border-amber-300 hover:shadow-lg transition-all whitespace-nowrap shrink-0"
               aria-label="Call helpline"
             >
               <Phone className="w-4 h-4 fill-slate-950 text-slate-950 shrink-0" />
-              <span className="hidden sm:inline">Call Helpline</span>
+              <span>Call 24/7 Helpline</span>
             </a>
 
             {/* Mobile Hamburger Toggle Button (ALWAYS Visible on Mobile) */}
