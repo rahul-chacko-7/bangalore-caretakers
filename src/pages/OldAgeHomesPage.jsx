@@ -41,8 +41,8 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Best Old Age Homes in Bangalore | 24/7 Medical Care & Nursing"
-        description="Top-rated Old Age Homes in Bangalore with 24/7 medical care, nursing facilities, doctor visits, and emergency backup. Rated 4.9★ by 760+ families."
+        title="Top Old Age Homes in Bangalore | Monthly Pricing & 24/7 Medical Care"
+        description="Compare top-rated Old Age Homes in Bangalore with 24/7 doctor backup, nursing, dementia care & custom food plans. transparent monthly fees. Rated 4.9★."
         keywords={[
           "Old Age Homes in Bangalore",
           "Old Age Home Bangalore",

@@ -85,8 +85,8 @@ export default function HomePage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Best Old Age Homes in Bangalore | 24/7 Medical Care & Nursing"
-        description="Looking for the Best Old Age Homes in Bangalore? Bangalore Caretakers offers 24/7 Old Age Home Care Services with medical facilities, nursing care, doctor visits & caretaker at home."
+        title="Bangalore Caretakers | #1 Old Age Homes & Home Nursing Services in Bangalore"
+        description="Looking for the Best Old Age Homes or Home Nursing Services in Bangalore? Bangalore Caretakers offers 24/7 Medical Care, Dementia Care, and Home Nursing. Call +91 77605 06666."
         keywords={[
           "Old Age Homes in Bangalore",
           "Old Age Home Bangalore",
