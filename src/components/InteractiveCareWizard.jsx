@@ -19,9 +19,9 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
         <span className="text-xs font-extrabold uppercase tracking-widest text-teal-700 bg-teal-50 px-3 py-1 rounded-full border border-teal-200">
           Easy 30-Second Finder
         </span>
-        <h3 className="text-2xl sm:text-3xl font-black text-slate-900">
+        <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
           Find the Right Care for Your Loved One
-        </h3>
+        </h2>
         <p className="text-sm text-slate-600">
           Select your requirements below to get instant pricing and personalized recommendations.
         </p>
@@ -29,15 +29,15 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
 
       {/* Step Progress */}
       <div className="flex items-center justify-center gap-3 text-xs font-bold">
-        <div className={`px-3 py-1 rounded-full ${step >= 1 ? 'bg-teal-600 text-white' : 'bg-slate-100 text-slate-500'}`}>
+        <div className={`px-3 py-1 rounded-full ${step >= 1 ? 'bg-teal-600 text-white' : 'bg-slate-100 text-slate-600'}`}>
           1. Select Condition
         </div>
-        <span className="text-slate-300">→</span>
-        <div className={`px-3 py-1 rounded-full ${step >= 2 ? 'bg-teal-600 text-white' : 'bg-slate-100 text-slate-500'}`}>
+        <span className="text-slate-400">→</span>
+        <div className={`px-3 py-1 rounded-full ${step >= 2 ? 'bg-teal-600 text-white' : 'bg-slate-100 text-slate-600'}`}>
           2. Care Location
         </div>
-        <span className="text-slate-300">→</span>
-        <div className={`px-3 py-1 rounded-full ${step === 3 ? 'bg-amber-500 text-slate-950 font-black' : 'bg-slate-100 text-slate-500'}`}>
+        <span className="text-slate-400">→</span>
+        <div className={`px-3 py-1 rounded-full ${step === 3 ? 'bg-amber-500 text-slate-950 font-black' : 'bg-slate-100 text-slate-600'}`}>
           3. Get Fee Quote
         </div>
       </div>
@@ -52,7 +52,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
             <div className="p-3 bg-teal-600 text-white rounded-xl w-fit group-hover:scale-110 transition-transform">
               <Heart className="w-6 h-6" />
             </div>
-            <h4 className="font-bold text-slate-900 text-base">Elderly & Assisted Living</h4>
+            <h3 className="font-bold text-slate-900 text-base">Elderly & Assisted Living</h3>
             <p className="text-xs text-slate-600">General senior care, mobility, feeding, hygiene, and daily companion care.</p>
           </button>
 
@@ -63,7 +63,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
             <div className="p-3 bg-amber-600 text-white rounded-xl w-fit group-hover:scale-110 transition-transform">
               <Stethoscope className="w-6 h-6" />
             </div>
-            <h4 className="font-bold text-slate-900 text-base">Post-Surgery & Bedridden</h4>
+            <h3 className="font-bold text-slate-900 text-base">Post-Surgery & Bedridden</h3>
             <p className="text-xs text-slate-600">Catheter, tracheostomy, IV fluids, wound dressing, and clinical nursing care.</p>
           </button>
 
@@ -74,7 +74,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
             <div className="p-3 bg-blue-600 text-white rounded-xl w-fit group-hover:scale-110 transition-transform">
               <UserCheck className="w-6 h-6" />
             </div>
-            <h4 className="font-bold text-slate-900 text-base">Dementia & Memory Care</h4>
+            <h3 className="font-bold text-slate-900 text-base">Dementia & Memory Care</h3>
             <p className="text-xs text-slate-600">Alzheimer's, Parkinson's, cognitive support, and safe anti-wandering care.</p>
           </button>
         </div>
@@ -91,7 +91,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
               <div className="p-3 bg-teal-600 text-white rounded-xl w-fit group-hover:scale-110 transition-transform">
                 <Home className="w-6 h-6" />
               </div>
-              <h4 className="font-bold text-slate-900 text-lg">Care Provided At Home</h4>
+              <h3 className="font-bold text-slate-900 text-lg">Care Provided At Home</h3>
               <p className="text-xs text-slate-600">Certified male or female nurse/caretaker arrives at your home in Bangalore (12h / 24h shifts).</p>
             </button>
 
@@ -102,13 +102,13 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
               <div className="p-3 bg-amber-600 text-white rounded-xl w-fit group-hover:scale-110 transition-transform">
                 <Building className="w-6 h-6" />
               </div>
-              <h4 className="font-bold text-slate-900 text-lg">Stay in an Old Age Home Center</h4>
+              <h3 className="font-bold text-slate-900 text-lg">Stay in an Old Age Home Center</h3>
               <p className="text-xs text-slate-600">Peaceful residential stay with 24/7 doctor supervision, nutritious meals, and medical rooms.</p>
             </button>
           </div>
 
           <div className="text-center">
-            <button onClick={() => setStep(1)} className="text-xs text-slate-500 hover:underline">
+            <button onClick={() => setStep(1)} className="text-xs text-slate-600 hover:underline">
               ← Back to Step 1
             </button>
           </div>
@@ -122,7 +122,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
             <CheckCircle className="w-6 h-6" />
           </div>
 
-          <h4 className="text-xl font-bold">Recommended Care Plan Ready!</h4>
+          <h3 className="text-xl font-bold">Recommended Care Plan Ready!</h3>
           <p className="text-sm text-slate-300 max-w-md mx-auto">
             Customized plan for <strong>{careType.toUpperCase()} CARE ({locationType === 'home' ? 'AT HOME' : 'OLD AGE HOME STAY'})</strong> in Bangalore.
           </p>

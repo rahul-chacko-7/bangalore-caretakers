@@ -44,7 +44,7 @@ export default function TrustBadges() {
                   <IconComp className="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-slate-900 text-sm">{b.title}</h4>
+                  <div className="font-bold text-slate-900 text-sm">{b.title}</div>
                   <p className="text-xs text-slate-600 mt-0.5">{b.desc}</p>
                 </div>
               </div>
