@@ -97,7 +97,7 @@ export default function Header({ onOpenInquiry }) {
           </Link>
 
           {/* Desktop Nav Links (Visible on XL screens >= 1280px) */}
-          <nav className="hidden xl:flex items-center gap-1 2xl:gap-2 font-bold text-slate-700 text-xs 2xl:text-sm shrink min-w-0 overflow-hidden">
+          <nav className="hidden xl:flex items-center gap-1 2xl:gap-2 font-bold text-slate-700 text-xs 2xl:text-sm shrink min-w-0">
             {primaryNav.map((link) => {
               const isActive = location.pathname === link.path;
               return (
@@ -128,7 +128,12 @@ export default function Header({ onOpenInquiry }) {
               onMouseLeave={() => setServicesDropdown(false)}
             >
               <button 
-                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                type="button"
+                onClick={() => {
+                  setServicesDropdown(!servicesDropdown);
+                  setLocationsDropdown(false);
+                }}
+                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors cursor-pointer ${
                   servicesDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
                 aria-expanded={servicesDropdown}
@@ -138,24 +143,27 @@ export default function Header({ onOpenInquiry }) {
               </button>
 
               {servicesDropdown && (
-                <div className="absolute top-full right-0 w-96 bg-white rounded-2xl border border-slate-200/90 shadow-2xl p-3 z-50 animate-fadeIn grid grid-cols-1 gap-1">
-                  <div className="text-[10px] font-black uppercase tracking-wider text-teal-700 px-3 py-1.5 bg-teal-50/80 rounded-lg mb-1 flex items-center justify-between">
-                    <span>Medical & Senior Services</span>
-                    <span className="text-[9px] font-bold text-slate-500">Bangalore Wide</span>
+                <div className="absolute top-full left-0 pt-1 z-50 w-96 animate-fadeIn">
+                  <div className="bg-white rounded-2xl border border-slate-200/90 shadow-2xl p-3 grid grid-cols-1 gap-1">
+                    <div className="text-[10px] font-black uppercase tracking-wider text-teal-700 px-3 py-1.5 bg-teal-50/80 rounded-lg mb-1 flex items-center justify-between">
+                      <span>Medical & Senior Services</span>
+                      <span className="text-[9px] font-bold text-slate-500">Bangalore Wide</span>
+                    </div>
+                    {serviceCategories.map((s, idx) => (
+                      <Link
+                        key={idx}
+                        to={s.path}
+                        onClick={() => setServicesDropdown(false)}
+                        className="p-2.5 rounded-xl hover:bg-teal-50/80 transition-colors group block"
+                      >
+                        <div className="font-bold text-slate-900 text-xs group-hover:text-teal-700 flex items-center justify-between">
+                          <span>{s.name}</span>
+                          <span className="text-teal-600 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                        </div>
+                        <div className="text-[11px] text-slate-500 mt-0.5">{s.desc}</div>
+                      </Link>
+                    ))}
                   </div>
-                  {serviceCategories.map((s, idx) => (
-                    <Link
-                      key={idx}
-                      to={s.path}
-                      className="p-2.5 rounded-xl hover:bg-teal-50/80 transition-colors group block"
-                    >
-                      <div className="font-bold text-slate-900 text-xs group-hover:text-teal-700 flex items-center justify-between">
-                        <span>{s.name}</span>
-                        <span className="text-teal-600 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-                      </div>
-                      <div className="text-[11px] text-slate-500 mt-0.5">{s.desc}</div>
-                    </Link>
-                  ))}
                 </div>
               )}
             </div>
@@ -167,9 +175,15 @@ export default function Header({ onOpenInquiry }) {
               onMouseLeave={() => setLocationsDropdown(false)}
             >
               <button 
-                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                type="button"
+                onClick={() => {
+                  setLocationsDropdown(!locationsDropdown);
+                  setServicesDropdown(false);
+                }}
+                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors cursor-pointer ${
                   locationsDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
+                aria-expanded={locationsDropdown}
               >
                 <MapPin className="w-3.5 h-3.5 text-teal-600" />
                 <span>Locations</span>
@@ -177,19 +191,22 @@ export default function Header({ onOpenInquiry }) {
               </button>
 
               {locationsDropdown && (
-                <div className="absolute top-full right-0 w-64 bg-white rounded-2xl border border-slate-200/90 shadow-2xl p-2 z-50 animate-fadeIn space-y-1">
-                  <div className="text-[10px] font-black uppercase tracking-wider text-slate-400 px-3 py-1.5 border-b border-slate-100">
-                    Covered Bangalore Areas
+                <div className="absolute top-full left-0 pt-1 z-50 w-64 animate-fadeIn">
+                  <div className="bg-white rounded-2xl border border-slate-200/90 shadow-2xl p-2 space-y-1">
+                    <div className="text-[10px] font-black uppercase tracking-wider text-slate-400 px-3 py-1.5 border-b border-slate-100">
+                      Covered Bangalore Areas
+                    </div>
+                    {locationLinks.map((loc, idx) => (
+                      <Link
+                        key={idx}
+                        to={loc.path}
+                        onClick={() => setLocationsDropdown(false)}
+                        className="block px-3 py-2 rounded-xl text-xs font-bold text-slate-700 hover:bg-teal-50 hover:text-teal-700 transition-colors"
+                      >
+                        {loc.name}
+                      </Link>
+                    ))}
                   </div>
-                  {locationLinks.map((loc, idx) => (
-                    <Link
-                      key={idx}
-                      to={loc.path}
-                      className="block px-3 py-2 rounded-xl text-xs font-bold text-slate-700 hover:bg-teal-50 hover:text-teal-700 transition-colors"
-                    >
-                      {loc.name}
-                    </Link>
-                  ))}
                 </div>
               )}
             </div>
