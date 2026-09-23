@@ -97,14 +97,14 @@ export default function Header({ onOpenInquiry }) {
           </Link>
 
           {/* Desktop Nav Links */}
-          <nav className="hidden lg:flex items-center gap-1 xl:gap-2 font-bold text-slate-700 text-xs xl:text-sm">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1.5 font-bold text-slate-700 text-xs xl:text-sm shrink min-w-0">
             {primaryNav.map((link) => {
               const isActive = location.pathname === link.path;
               return (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`px-2.5 xl:px-3 py-2 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1.5 ${
+                  className={`px-2 xl:px-2.5 py-1.5 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1 ${
                     isActive
                       ? 'text-teal-800 bg-teal-50/90 font-black shadow-sm ring-1 ring-teal-500/20'
                       : 'hover:text-teal-700 hover:bg-slate-100/70'
@@ -128,7 +128,7 @@ export default function Header({ onOpenInquiry }) {
               onMouseLeave={() => setServicesDropdown(false)}
             >
               <button 
-                className={`px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                className={`px-2 xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
                   servicesDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
                 aria-expanded={servicesDropdown}
@@ -167,7 +167,7 @@ export default function Header({ onOpenInquiry }) {
               onMouseLeave={() => setLocationsDropdown(false)}
             >
               <button 
-                className={`px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                className={`px-2 xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
                   locationsDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
               >
@@ -196,39 +196,39 @@ export default function Header({ onOpenInquiry }) {
 
             <Link
               to="/blog"
-              className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
+              className="px-2 xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
             >
               Guides
             </Link>
 
             <Link
               to="/caretaker-nursing-jobs-bangalore"
-              className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
+              className="px-2 xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
             >
               Jobs
             </Link>
           </nav>
 
           {/* Right Action Buttons */}
-          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             
             {/* Primary CTA - Book 24/7 Care (Desktop/Tablet) */}
             <button
               onClick={() => onOpenInquiry()}
-              className="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white text-xs xl:text-sm py-2.5 px-3.5 xl:px-4 rounded-xl font-extrabold shadow-md shadow-teal-700/20 hover:shadow-lg transition-all"
+              className="hidden sm:inline-flex items-center gap-1.5 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white text-xs xl:text-sm py-2 px-3 xl:px-3.5 rounded-xl font-extrabold shadow-md shadow-teal-700/20 hover:shadow-lg transition-all whitespace-nowrap shrink-0"
             >
               <HeartHandshake className="w-4 h-4 text-teal-200 shrink-0" />
-              <span className="whitespace-nowrap">Book 24/7 Care</span>
+              <span>Book 24/7 Care</span>
             </button>
 
-            {/* Emergency Phone CTA - Compact Icon on Mobile, Full Pill on Tablet/Desktop */}
+            {/* Emergency Phone CTA - Compact on Laptop, Full Pill on XL */}
             <a
               href={`tel:${GENERAL_INFO.phoneRaw}`}
-              className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs xl:text-sm p-2.5 sm:py-2.5 sm:px-4 rounded-xl font-black shadow-md shadow-amber-500/25 border border-amber-300 hover:shadow-lg transition-all"
+              className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs xl:text-sm py-2 px-3 xl:px-3.5 rounded-xl font-black shadow-md shadow-amber-500/25 border border-amber-300 hover:shadow-lg transition-all whitespace-nowrap shrink-0"
               aria-label="Call helpline"
             >
               <Phone className="w-4 h-4 fill-slate-950 text-slate-950 shrink-0" />
-              <span className="hidden sm:inline whitespace-nowrap">Call Helpline</span>
+              <span className="hidden sm:inline">Call Helpline</span>
             </a>
 
             {/* Mobile Hamburger Toggle Button (ALWAYS Visible on Mobile) */}
