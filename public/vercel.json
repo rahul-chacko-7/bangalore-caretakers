@@ -1,127 +1,126 @@
 {
   "cleanUrls": true,
-  "routes": [
+  "redirects": [
     {
-      "src": "/best-old-age-home-services-in-bangalore/(.*)",
-      "status": 301,
-      "headers": { "Location": "/old-age-homes-bangalore" }
+      "source": "/best-old-age-home-services-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
     },
     {
-      "src": "/how-to-choose-the-best-old-age-home-in-bangalore/(.*)",
-      "status": 301,
-      "headers": { "Location": "/old-age-homes-bangalore" }
+      "source": "/how-to-choose-the-best-old-age-home-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
     },
     {
-      "src": "/old-age-home/(.*)",
-      "status": 301,
-      "headers": { "Location": "/old-age-homes-bangalore" }
+      "source": "/old-age-home/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
     },
     {
-      "src": "/old-age-homes/(.*)",
-      "status": 301,
-      "headers": { "Location": "/old-age-homes-bangalore" }
+      "source": "/old-age-homes/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
     },
     {
-      "src": "/old-age-home-in-bangalore/(.*)",
-      "status": 301,
-      "headers": { "Location": "/old-age-homes-bangalore" }
+      "source": "/old-age-home-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
     },
     {
-      "src": "/old-age-homes-in-bangalore/(.*)",
-      "status": 301,
-      "headers": { "Location": "/old-age-homes-bangalore" }
+      "source": "/old-age-homes-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
     },
     {
-      "src": "/home-nursing-services/(.*)",
-      "status": 301,
-      "headers": { "Location": "/home-nursing-services-bangalore" }
+      "source": "/home-nursing-services/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
     },
     {
-      "src": "/home-nursing/(.*)",
-      "status": 301,
-      "headers": { "Location": "/home-nursing-services-bangalore" }
+      "source": "/home-nursing/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
     },
     {
-      "src": "/nursing-services/(.*)",
-      "status": 301,
-      "headers": { "Location": "/home-nursing-services-bangalore" }
+      "source": "/nursing-services/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
     },
     {
-      "src": "/caretaker-services/(.*)",
-      "status": 301,
-      "headers": { "Location": "/home-nursing-services-bangalore" }
+      "source": "/caretaker-services/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
     },
     {
-      "src": "/caretaker/(.*)",
-      "status": 301,
-      "headers": { "Location": "/home-nursing-services-bangalore" }
+      "source": "/caretaker/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
     },
     {
-      "src": "/dementia-care/(.*)",
-      "status": 301,
-      "headers": { "Location": "/dementia-alzheimers-care-bangalore" }
+      "source": "/dementia-care/(.*)",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
     },
     {
-      "src": "/alzheimers-care/(.*)",
-      "status": 301,
-      "headers": { "Location": "/dementia-alzheimers-care-bangalore" }
+      "source": "/alzheimers-care/(.*)",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
     },
     {
-      "src": "/palliative-care/(.*)",
-      "status": 301,
-      "headers": { "Location": "/palliative-cancer-care-bangalore" }
+      "source": "/palliative-care/(.*)",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
     },
     {
-      "src": "/cancer-care/(.*)",
-      "status": 301,
-      "headers": { "Location": "/palliative-cancer-care-bangalore" }
+      "source": "/cancer-care/(.*)",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
     },
     {
-      "src": "/assisted-living/(.*)",
-      "status": 301,
-      "headers": { "Location": "/assisted-living-senior-care-bangalore" }
+      "source": "/assisted-living/(.*)",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
     },
     {
-      "src": "/senior-living/(.*)",
-      "status": 301,
-      "headers": { "Location": "/assisted-living-senior-care-bangalore" }
+      "source": "/senior-living/(.*)",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
     },
     {
-      "src": "/post-surgery-care/(.*)",
-      "status": 301,
-      "headers": { "Location": "/post-surgery-rehabilitation-care" }
+      "source": "/post-surgery-care/(.*)",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
     },
     {
-      "src": "/contact/(.*)",
-      "status": 301,
-      "headers": { "Location": "/contact-us" }
+      "source": "/contact/(.*)",
+      "destination": "/contact-us",
+      "permanent": true
     },
     {
-      "src": "/about/(.*)",
-      "status": 301,
-      "headers": { "Location": "/" }
+      "source": "/about/(.*)",
+      "destination": "/",
+      "permanent": true
     },
     {
-      "src": "/about-us/(.*)",
-      "status": 301,
-      "headers": { "Location": "/" }
+      "source": "/about-us/(.*)",
+      "destination": "/",
+      "permanent": true
     },
     {
-      "src": "/services/(.*)",
-      "status": 301,
-      "headers": { "Location": "/old-age-homes-bangalore" }
+      "source": "/services/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
     },
     {
-      "src": "/careers/(.*)",
-      "status": 301,
-      "headers": { "Location": "/caretaker-nursing-jobs-bangalore" }
-    },
+      "source": "/careers/(.*)",
+      "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
     {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/.*",
-      "dest": "/index.html"
+      "source": "/:path*",
+      "destination": "/index.html"
     }
   ]
 }
