@@ -29,7 +29,10 @@ const ROUTES = [
   '/blog',
   '/blog/how-to-choose-old-age-home-bangalore',
   '/blog/dementia-home-care-guide-bangalore',
-  '/blog/post-surgery-nursing-care-checklist'
+  '/blog/post-surgery-nursing-care-checklist',
+  '/blog/physiotherapy-at-home-bangalore-guide',
+  '/blog/parkinsons-disease-care-home-bangalore',
+  '/blog/icu-setup-at-home-bangalore-cost-guide'
 ];
 
 async function prerender() {

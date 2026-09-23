@@ -30,7 +30,7 @@ export const BLOG_POSTS = [
         <li><strong>Round-the-clock ICU-trained nurses and qualified caretakers.</strong></li>
         <li><strong>On-call doctor visits</strong> and daily vitals monitoring (Blood pressure, SPO2, Blood sugar).</li>
         <li><strong>Oxygen support and ICU setup readiness</strong> for sudden respiratory or cardiac emergencies.</li>
-        <li><strong>TIE-ups with major hospital chains</strong> like Manipal, Apollo, or Fortis for immediate ambulance transfer.</li>
+        <li><strong>Tie-ups with major hospital chains</strong> like Manipal, Apollo, or Fortis for immediate ambulance transfer.</li>
       </ul>
 
       <h3>2. Specialized Memory & Dementia Care Facilities</h3>
@@ -151,6 +151,134 @@ export const BLOG_POSTS = [
       {
         question: "How long is home nursing required after major surgery?",
         answer: "Depending on the procedure, post-surgery home nursing is typically recommended for 7 to 30 days until wound healing and independent mobility are restored."
+      }
+    ]
+  },
+  {
+    id: 'physiotherapy-at-home-bangalore-guide',
+    slug: 'physiotherapy-at-home-bangalore-guide',
+    title: 'Physiotherapy at Home in Bangalore: Senior Rehabilitation & Mobility Guide',
+    excerpt: 'Comprehensive guide to home physiotherapy for seniors recovering from stroke, paralysis, knee replacement, or age-related mobility decline in Bangalore.',
+    category: 'Physiotherapy & Mobility',
+    date: 'September 21, 2026',
+    readTime: '6 min read',
+    author: 'Physiotherapy & Rehab Team | Bangalore Caretakers',
+    image: '/assets/senior-caretaker-bond.jpg',
+    metaTitle: 'Physiotherapy at Home Bangalore | Stroke & Knee Rehab Specialists',
+    metaDescription: 'Book certified home physiotherapists in Bangalore for senior stroke rehabilitation, knee replacement recovery, and paralysis mobility exercises.',
+    keywords: [
+      'physiotherapy at home bangalore',
+      'home physiotherapist for seniors bangalore',
+      'stroke rehabilitation at home bangalore',
+      'knee replacement physio at home'
+    ],
+    content: `
+      <h2>Restoring Mobility and Independence for Seniors in Bangalore</h2>
+      <p>Age-related joint stiffness, stroke paralysis, and post-surgical recovery often make traveling to a hospital or clinic painful for elderly patients. In-home physiotherapy brings certified physical therapists directly to the senior’s living room, eliminating stress and transportation risks.</p>
+
+      <h3>1. Key Conditions Benefiting from Home Physiotherapy</h3>
+      <ul>
+        <li><strong>Stroke & Hemiplegia Rehabilitation:</strong> Retraining muscle memory, limb coordination, and gait balance post-stroke.</li>
+        <li><strong>Post Knee & Hip Replacement:</strong> Guided range-of-motion exercises, swelling management, and walking support.</li>
+        <li><strong>Parkinson’s Disease Balance Exercises:</strong> Postural alignment and fall prevention training.</li>
+        <li><strong>General Geriatric Frailty:</strong> Muscle strengthening to prevent bed sores and mobility collapse.</li>
+      </ul>
+
+      <h3>2. How Home Physiotherapy Sessions Work</h3>
+      <p>Each home session lasts 45 to 60 minutes and includes electrotherapy (TENS/IFT for pain relief), manual joint mobilization, and active-assisted exercises using resistance bands and balance balls.</p>
+
+      <h2>Book Certified Home Physiotherapists Across Bangalore</h2>
+      <p>Our experienced physiotherapists visit homes in Indiranagar, Whitefield, Jayanagar, Electronic City, and Yelahanka. Explore our <a href="/specialized-nursing-care" class="text-teal-600 underline font-semibold">Specialized Nursing & Rehabilitation Services</a> to schedule an assessment.</p>
+    `,
+    faq: [
+      {
+        question: "What is the cost of home physiotherapy sessions in Bangalore?",
+        answer: "Home physiotherapy sessions in Bangalore typically range between ₹600 and ₹1,200 per session depending on patient location and condition complexity."
+      }
+    ]
+  },
+  {
+    id: 'parkinsons-disease-care-home-bangalore',
+    slug: 'parkinsons-disease-care-home-bangalore',
+    title: 'Parkinson’s Disease Senior Care: Home Nursing & Daily Mobility Strategies',
+    excerpt: 'Essential tips for managing tremors, gait freezing, dysphagia, and daily activity support for Parkinson’s patients at home in Bangalore.',
+    category: 'Specialized Care',
+    date: 'September 22, 2026',
+    readTime: '6 min read',
+    author: 'Neurology Nursing Specialist | Bangalore Caretakers',
+    image: '/assets/senior-caretaker-bond.jpg',
+    metaTitle: 'Parkinsons Caretakers at Home Bangalore | Specialized Senior Nursing',
+    metaDescription: 'Specialized home caretakers for Parkinson’s disease in Bangalore. Support for tremors, gait freezing, medication timing, and feeding assistance.',
+    keywords: [
+      'parkinsons disease caretaker bangalore',
+      'parkinsons home nursing bangalore',
+      'senior parkinsons care at home',
+      'gait freezing home management'
+    ],
+    content: `
+      <h2>Compassionate Management of Parkinson’s at Home</h2>
+      <p>Parkinson’s disease affects dopamine-producing neurons in the brain, leading to resting tremors, muscle rigidity, slowed movement (bradykinesia), and difficulty swallowing. As the condition advances, daily assistance becomes essential.</p>
+
+      <h3>1. Precise Medication Timings</h3>
+      <p>Levodopa-carbidopa medications require strict timing relative to meals to maintain smooth motor control. Dedicated caretakers maintain exact dose schedules to prevent "off" periods.</p>
+
+      <h3>2. Preventing Gait Freezing & Fall Hazards</h3>
+      <p>Gait freezing (feeling like feet are glued to the floor) is a major fall hazard. Caretakers use rhythmic counting or laser line cues to help patients step smoothly over obstacles.</p>
+
+      <h3>3. Feeding & Dysphagia Management</h3>
+      <p>Difficulty swallowing (dysphagia) requires posture adjustment during meals (chin-tuck position) and feeding thickened liquids to prevent aspiration pneumonia.</p>
+
+      <h2>Hire Parkinson’s Specialized Caretakers in Bangalore</h2>
+      <p>Discover how our <a href="/caretaker-services" class="text-teal-600 underline font-semibold">Dedicated Caretaker Services</a> provide 24/7 dignified support for Parkinson’s seniors.</p>
+    `,
+    faq: [
+      {
+        question: "Can Parkinson's patients receive 24/7 care at home in Bangalore?",
+        answer: "Yes. Certified 24/7 home caretakers assist with mobility, medication administration, hygiene, and feeding, allowing seniors to live safely at home."
+      }
+    ]
+  },
+  {
+    id: 'icu-setup-at-home-bangalore-cost-guide',
+    slug: 'icu-setup-at-home-bangalore-cost-guide',
+    title: 'ICU Setup at Home in Bangalore: Medical Equipment, Costs & Nursing Protocols',
+    excerpt: 'Transform your home room into a hospital-grade Intensive Care Unit with ventilators, multi-para monitors, oxygen concentrators, and 24/7 ICU nurses.',
+    category: 'Critical Nursing',
+    date: 'September 23, 2026',
+    readTime: '8 min read',
+    author: 'Critical Care Medical Director | Bangalore Caretakers',
+    image: '/assets/senior-caretaker-bond.jpg',
+    metaTitle: 'ICU Setup at Home Bangalore Cost & Equipment | 24/7 ICU Nurses',
+    metaDescription: 'Hospital-grade ICU setup at home in Bangalore. Ventilators, oxygen concentrators, suction machines, multi-para monitors, and 24/7 critical care nurses.',
+    keywords: [
+      'icu setup at home bangalore cost',
+      'home icu equipment rental bangalore',
+      'icu trained nurse for home care bangalore',
+      'ventilator care at home bangalore'
+    ],
+    content: `
+      <h2>Hospital-Level Intensive Care in the Comfort of Home</h2>
+      <p>For terminally ill seniors, tracheostomy patients, or long-term coma recovery, remaining in a hospital ICU for months is emotionally draining and financially astronomical. An ICU setup at home cuts hospital costs by 50% to 70% while surrounding the patient with family.</p>
+
+      <h3>1. Core Medical Equipment Required for Home ICU</h3>
+      <ul>
+        <li><strong>BiPAP / Mechanical Ventilator:</strong> For non-invasive or invasive respiratory support.</li>
+        <li><strong>Multi-Para Cardiac Monitor:</strong> Continuous tracking of ECG, SpO2, NIBP, and Heart Rate.</li>
+        <li><strong>Suction Machine & Oxygen Concentrator:</strong> Airway clearance and continuous O2 delivery.</li>
+        <li><strong>Motorized Electric ICU Bed & Alpha Mattress:</strong> Prevents pressure bed sores during prolonged immobility.</li>
+        <li><strong>Infusion & Syringe Pumps:</strong> Precise IV medication delivery.</li>
+      </ul>
+
+      <h3>2. The Role of 24/7 Critical Care Nurses</h3>
+      <p>Equipment alone is useless without expert hands. Certified ICU nurses handle tracheostomy care, Ryle’s tube feeding, catheterization, arterial line monitoring, and emergency CPR protocol.</p>
+
+      <h2>Get Free Quote for Home ICU Setup in Bangalore</h2>
+      <p>Contact our critical care team for immediate equipment delivery and 24/7 nursing deployment across Bangalore. Learn more on our <a href="/specialized-nursing-care" class="text-teal-600 underline font-semibold">Specialized ICU & Tracheostomy Care Page</a>.</p>
+    `,
+    faq: [
+      {
+        question: "How much does an ICU setup at home cost in Bangalore?",
+        answer: "A complete home ICU setup (equipment rental + 24/7 ICU nursing staff) costs between ₹4,500 and ₹9,500 per day in Bangalore, compared to ₹25,000–₹60,000/day in private hospital ICUs."
       }
     ]
   }
