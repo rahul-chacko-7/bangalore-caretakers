@@ -240,22 +240,31 @@ export default function Header({ onOpenInquiry }) {
           </nav>
 
           {/* Right Action Buttons */}
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
             
-            {/* Primary Action Button - Call Helpline / Direct Emergency Call */}
+            {/* Primary Action Button - Full on Desktop/Tablet (>=640px), Compact Icon on Mobile (<640px) */}
             <a
               href={`tel:${GENERAL_INFO.phoneRaw}`}
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs sm:text-sm py-2 px-3.5 sm:px-4 rounded-xl font-black shadow-md shadow-amber-500/20 border border-amber-300 hover:shadow-lg transition-all whitespace-nowrap shrink-0"
+              className="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs sm:text-sm py-2 px-3.5 sm:px-4 rounded-xl font-black shadow-md shadow-amber-500/20 border border-amber-300 hover:shadow-lg transition-all whitespace-nowrap shrink-0"
               aria-label="Call helpline"
             >
               <Phone className="w-4 h-4 fill-slate-950 text-slate-950 shrink-0" />
               <span>Call Helpline</span>
             </a>
 
-            {/* Mobile/Tablet Hamburger Toggle Button (Visible on screens < 1536px) */}
+            {/* Mobile Call Icon Button (Visible only on mobile screens < 640px) */}
+            <a
+              href={`tel:${GENERAL_INFO.phoneRaw}`}
+              className="sm:hidden inline-flex items-center justify-center p-2 rounded-xl bg-amber-400 hover:bg-amber-500 text-slate-950 shadow-md border border-amber-300 shrink-0"
+              aria-label="Call emergency line"
+            >
+              <Phone className="w-4.5 h-4.5 fill-slate-950 text-slate-950" />
+            </a>
+
+            {/* Mobile/Tablet Hamburger Toggle Button (Always visible on screens < 1536px) */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="2xl:hidden p-2 px-2.5 sm:px-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 focus:outline-none border border-slate-700 shadow-md flex items-center gap-1 font-bold text-xs transition-colors shrink-0"
+              className="2xl:hidden p-2 px-2.5 sm:px-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 focus:outline-none border border-slate-700 shadow-md flex items-center gap-1.5 font-bold text-xs transition-colors shrink-0"
               aria-label="Toggle Navigation Menu"
             >
               {mobileMenuOpen ? (
@@ -263,7 +272,7 @@ export default function Header({ onOpenInquiry }) {
               ) : (
                 <Menu className="w-5 h-5 text-amber-400" />
               )}
-              <span className="text-[11px] uppercase tracking-wider font-extrabold text-amber-400 hidden xs:inline">Menu</span>
+              <span className="text-[11px] uppercase tracking-wider font-extrabold text-amber-400 hidden sm:inline">Menu</span>
             </button>
           </div>
 
