@@ -29,7 +29,11 @@ const ROUTES = [
   '/blog/post-surgery-nursing-care-checklist',
   '/blog/physiotherapy-at-home-bangalore-guide',
   '/blog/parkinsons-disease-care-home-bangalore',
-  '/blog/icu-setup-at-home-bangalore-cost-guide'
+  '/blog/icu-setup-at-home-bangalore-cost-guide',
+  '/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide',
+  '/blog/residential-care-physical-intellectual-disabilities-bangalore',
+  '/blog/home-nursing-services-near-me-bangalore-guide',
+  '/blog/palliative-care-bangalore-home-cost-cancer-guide'
 ];
 
 async function prerender() {
