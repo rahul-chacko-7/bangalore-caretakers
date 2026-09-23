@@ -83,8 +83,7 @@ export default function LeadCaptureModal({ isOpen, onClose, defaultService = "Ol
                 <input
                   type="tel"
                   required
-                  pattern="[0-9]{10}"
-                  placeholder="e.g. 9876543210"
+                  placeholder="e.g. 98765 43210 or +91 77605 06666"
                   className="w-full px-4 py-2.5 rounded-lg border border-slate-300 focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-sm"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
