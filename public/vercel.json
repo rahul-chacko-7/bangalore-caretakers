@@ -11,8 +11,108 @@
       "permanent": true
     },
     {
+      "source": "/old-age-home/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
       "source": "/home-nursing-services/(.*)",
       "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-services/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-services/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker/(.*)",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care/(.*)",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/alzheimers-care/(.*)",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care/(.*)",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-care/(.*)",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living/(.*)",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living/(.*)",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/post-surgery-care/(.*)",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/contact/(.*)",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/about/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us/(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services/(.*)",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/careers/(.*)",
+      "destination": "/caretaker-nursing-jobs-bangalore",
       "permanent": true
     }
   ],

@@ -1,12 +1,71 @@
 # 301 Permanent Redirects to preserve 100% of old WordPress backlinks & SEO PageRank
+
+# Old Age Home Legacy URLs
 /best-old-age-home-services-in-bangalore/          /old-age-homes-bangalore                   301
 /best-old-age-home-services-in-bangalore           /old-age-homes-bangalore                   301
 /how-to-choose-the-best-old-age-home-in-bangalore/ /old-age-homes-bangalore                   301
 /how-to-choose-the-best-old-age-home-in-bangalore  /old-age-homes-bangalore                   301
+/old-age-home/                                      /old-age-homes-bangalore                   301
+/old-age-home                                       /old-age-homes-bangalore                   301
+/old-age-homes/                                     /old-age-homes-bangalore                   301
+/old-age-homes                                      /old-age-homes-bangalore                   301
+/old-age-home-in-bangalore/                         /old-age-homes-bangalore                   301
+/old-age-home-in-bangalore                          /old-age-homes-bangalore                   301
+/old-age-homes-in-bangalore/                        /old-age-homes-bangalore                   301
+/old-age-homes-in-bangalore                         /old-age-homes-bangalore                   301
+/good-old-age-homes-in-bangalore/                   /old-age-homes-bangalore                   301
+/good-old-age-homes-in-bangalore                    /old-age-homes-bangalore                   301
+
+# Home Nursing & Caretaker Legacy URLs
 /home-nursing-services/                            /home-nursing-services-bangalore           301
+/home-nursing-services                             /home-nursing-services-bangalore           301
+/home-nursing/                                     /home-nursing-services-bangalore           301
+/home-nursing                                      /home-nursing-services-bangalore           301
+/nursing-services/                                 /home-nursing-services-bangalore           301
+/nursing-services                                  /home-nursing-services-bangalore           301
+/nurse-at-home/                                    /home-nursing-services-bangalore           301
+/nurse-at-home                                     /home-nursing-services-bangalore           301
+/caretaker-services/                               /home-nursing-services-bangalore           301
+/caretaker-services                                /home-nursing-services-bangalore           301
+/caretaker/                                        /home-nursing-services-bangalore           301
+/caretaker                                         /home-nursing-services-bangalore           301
+/caretakers-in-bangalore/                          /home-nursing-services-bangalore           301
+/caretakers-in-bangalore                           /home-nursing-services-bangalore           301
+
+# Specialized Care Legacy URLs
 /dementia-care/                                    /dementia-alzheimers-care-bangalore        301
+/dementia-care                                     /dementia-alzheimers-care-bangalore        301
+/alzheimers-care/                                  /dementia-alzheimers-care-bangalore        301
+/alzheimers-care                                   /dementia-alzheimers-care-bangalore        301
 /palliative-care/                                  /palliative-cancer-care-bangalore          301
+/palliative-care                                   /palliative-cancer-care-bangalore          301
+/cancer-care/                                      /palliative-cancer-care-bangalore          301
+/cancer-care                                       /palliative-cancer-care-bangalore          301
+/assisted-living/                                  /assisted-living-senior-care-bangalore     301
+/assisted-living                                   /assisted-living-senior-care-bangalore     301
+/senior-living/                                    /assisted-living-senior-care-bangalore     301
+/senior-living                                     /assisted-living-senior-care-bangalore     301
+/post-surgery-care/                                /post-surgery-rehabilitation-care          301
+/post-surgery-care                                 /post-surgery-rehabilitation-care          301
+/rehabilitation/                                   /home-for-disabled-and-rehabilitation      301
+/rehabilitation                                    /home-for-disabled-and-rehabilitation      301
+
+# Page & Utility Legacy URLs
 /contact/                                          /contact-us                                301
+/contact                                           /contact-us                                301
+/contact-us/                                       /contact-us                                301
+/about/                                            /                                          301
+/about                                             /                                          301
+/about-us/                                         /                                          301
+/about-us                                          /                                          301
+/services/                                         /old-age-homes-bangalore                   301
+/services                                          /old-age-homes-bangalore                   301
+/our-services/                                     /old-age-homes-bangalore                   301
+/our-services                                      /old-age-homes-bangalore                   301
+/careers/                                          /caretaker-nursing-jobs-bangalore          301
+/careers                                           /caretaker-nursing-jobs-bangalore          301
+/jobs/                                             /caretaker-nursing-jobs-bangalore          301
+/jobs                                              /caretaker-nursing-jobs-bangalore          301
 
 # SPA Fallback Rule
 /*                                                 /index.html                                200
