@@ -153,8 +153,8 @@ export default function HomePage({ onOpenInquiry }) {
             <div className="lg:col-span-5 bg-white text-slate-900 rounded-3xl p-4 shadow-2xl border border-slate-100 space-y-4">
               <div className="relative rounded-2xl overflow-hidden shadow-md">
                 <img
-                  src="/assets/old-age-home-room.jpg"
-                  alt="Best Old Age Homes in Bangalore - Medical Beds Facility"
+                  src="/assets/senior-caretaker-bond.jpg"
+                  alt="Bangalore Caretakers - Verified Nurse & Senior Bonding Care"
                   width="600"
                   height="400"
                   fetchpriority="high"
@@ -162,8 +162,8 @@ export default function HomePage({ onOpenInquiry }) {
                   className="w-full h-56 sm:h-64 object-cover hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 to-transparent p-4 text-white">
-                  <span className="text-xs font-bold uppercase tracking-wider text-amber-400">Old Age Home Bangalore</span>
-                  <div className="text-sm font-bold">24/7 Medical Care & Nursing Rooms</div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-amber-400">Bangalore Care Takers</span>
+                  <div className="text-sm font-bold">Compassionate 24/7 Medical Care & Nursing</div>
                 </div>
               </div>
 
