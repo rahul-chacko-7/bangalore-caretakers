@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, ShieldCheck, Heart, Stethoscope, Star, CheckCircle, ArrowRight, UserCheck, Activity, Award, Building } from 'lucide-react';
+import { Phone, ShieldCheck, Heart, Stethoscope, Star, CheckCircle, ArrowRight, UserCheck, Activity, Award, Building, BookOpen, Calendar, Clock, ChevronRight } from 'lucide-react';
 import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import FAQSection from '../components/FAQSection';
@@ -7,6 +7,7 @@ import InteractiveCareWizard from '../components/InteractiveCareWizard';
 import CareComparisonMatrix from '../components/CareComparisonMatrix';
 import TransitionCareSection from '../components/TransitionCareSection';
 import { GENERAL_INFO } from '../data/keywordsData';
+import { BLOG_POSTS } from '../data/blogData';
 
 export default function HomePage({ onOpenInquiry }) {
   const homeSchema = {
@@ -391,6 +392,68 @@ export default function HomePage({ onOpenInquiry }) {
 
           </div>
 
+        </div>
+      </section>
+
+      {/* Senior Care Guides & Blog Knowledge Hub Section */}
+      <section className="py-16 bg-slate-100/80 border-y border-slate-200/80 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-10">
+            <div>
+              <span className="inline-flex items-center gap-1.5 bg-teal-100 text-teal-800 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full border border-teal-200 mb-3">
+                <BookOpen className="w-4 h-4 text-teal-700" /> Elder Care Knowledge Hub
+              </span>
+              <h2 className="text-2xl md:text-4xl font-extrabold text-slate-900 tracking-tight">
+                Senior Care Guides & Expert Articles
+              </h2>
+              <p className="text-slate-600 mt-2 text-sm md:text-base max-w-2xl">
+                Read essential medical checklists, old age home selection tips, and home nursing advice written by our healthcare team.
+              </p>
+            </div>
+            <Link 
+              to="/blog" 
+              className="mt-4 md:mt-0 inline-flex items-center font-bold text-teal-700 hover:text-teal-800 text-sm bg-white px-4 py-2.5 rounded-xl border border-slate-200 shadow-xs hover:shadow transition-all"
+            >
+              View All 6 Guides <ArrowRight className="w-4 h-4 ml-1.5" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {BLOG_POSTS.slice(0, 3).map((post) => (
+              <article key={post.id} className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow border border-slate-200/80 flex flex-col overflow-hidden">
+                <div className="relative h-44 bg-slate-200 overflow-hidden">
+                  <img 
+                    src={post.image} 
+                    alt={post.title}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <span className="absolute top-3 left-3 bg-teal-800 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                    {post.category}
+                  </span>
+                </div>
+                <div className="p-5 flex flex-col flex-grow">
+                  <div className="flex items-center text-xs text-slate-500 gap-3 mb-2">
+                    <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5 text-teal-600" /> {post.date}</span>
+                    <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5 text-teal-600" /> {post.readTime}</span>
+                  </div>
+                  <h3 className="text-lg font-bold text-slate-900 hover:text-teal-700 transition-colors mb-2 line-clamp-2">
+                    <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                  </h3>
+                  <p className="text-slate-600 text-xs mb-4 flex-grow line-clamp-2">
+                    {post.excerpt}
+                  </p>
+                  <Link 
+                    to={`/blog/${post.slug}`} 
+                    className="inline-flex items-center text-teal-700 font-bold text-xs hover:text-teal-800 pt-3 border-t border-slate-100 mt-auto"
+                  >
+                    Read Guide <ChevronRight className="w-3.5 h-3.5 ml-1" />
+                  </Link>
+                </div>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 
