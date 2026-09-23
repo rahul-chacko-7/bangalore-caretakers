@@ -97,14 +97,14 @@ export default function Header({ onOpenInquiry }) {
           </Link>
 
           {/* Desktop Nav Links (Visible on XL screens >= 1280px) */}
-          <nav className="hidden xl:flex items-center gap-1 2xl:gap-2 font-bold text-slate-700 text-xs 2xl:text-sm shrink min-w-0">
+          <nav className="hidden xl:flex items-center gap-1 2xl:gap-2 font-bold text-slate-700 text-xs 2xl:text-sm shrink min-w-0 overflow-hidden">
             {primaryNav.map((link) => {
               const isActive = location.pathname === link.path;
               return (
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`px-2.5 py-1.5 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1 ${
+                  className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1 shrink-0 ${
                     isActive
                       ? 'text-teal-800 bg-teal-50/90 font-black shadow-sm ring-1 ring-teal-500/20'
                       : 'hover:text-teal-700 hover:bg-slate-100/70'
@@ -123,12 +123,12 @@ export default function Header({ onOpenInquiry }) {
 
             {/* All Care Services Mega Menu Dropdown */}
             <div 
-              className="relative"
+              className="relative shrink-0"
               onMouseEnter={() => setServicesDropdown(true)}
               onMouseLeave={() => setServicesDropdown(false)}
             >
               <button 
-                className={`px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
                   servicesDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
                 aria-expanded={servicesDropdown}
@@ -162,12 +162,12 @@ export default function Header({ onOpenInquiry }) {
 
             {/* Locations Dropdown */}
             <div 
-              className="relative"
+              className="relative shrink-0"
               onMouseEnter={() => setLocationsDropdown(true)}
               onMouseLeave={() => setLocationsDropdown(false)}
             >
               <button 
-                className={`px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                className={`px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
                   locationsDropdown ? 'bg-slate-100 text-teal-800' : ''
                 }`}
               >
@@ -196,14 +196,14 @@ export default function Header({ onOpenInquiry }) {
 
             <Link
               to="/blog"
-              className="px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
+              className="px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors shrink-0"
             >
               Guides
             </Link>
 
             <Link
               to="/caretaker-nursing-jobs-bangalore"
-              className="px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
+              className="px-1.5 2xl:px-2.5 py-1.5 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors shrink-0"
             >
               Jobs
             </Link>
