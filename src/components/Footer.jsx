@@ -14,7 +14,7 @@ export default function Footer({ onOpenInquiry }) {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src="/assets/site-logo.png" 
+                src="/assets/site-logo.webp" 
                 alt="Bangalore Caretakers Logo" 
                 width="200"
                 height="35"

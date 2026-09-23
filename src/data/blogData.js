@@ -8,7 +8,7 @@ export const BLOG_POSTS = [
     date: 'September 15, 2026',
     readTime: '6 min read',
     author: 'Medical Editorial Team | Bangalore Caretakers',
-    image: '/assets/senior-caretaker-bond.jpg',
+    image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'How to Choose the Best Old Age Home in Bangalore (2026 Checklist)',
     metaDescription: 'Complete checklist for families choosing an old age home in Bangalore. Learn about 24/7 doctor coverage, luxury vs affordable options, nursing ratios, and emergency care.',
     keywords: [
@@ -68,7 +68,7 @@ export const BLOG_POSTS = [
     date: 'September 18, 2026',
     readTime: '7 min read',
     author: 'Neurology Nursing Team | Bangalore Caretakers',
-    image: '/assets/senior-caretaker-bond.jpg',
+    image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Dementia & Alzheimer’s Home Care Guide Bangalore | Expert Caretakers',
     metaDescription: 'Learn essential dementia care strategies, home safety tips, and how specialized memory caretakers in Bangalore assist seniors with Alzheimer’s and dementia.',
     keywords: [
@@ -122,7 +122,7 @@ export const BLOG_POSTS = [
     date: 'September 20, 2026',
     readTime: '5 min read',
     author: 'Surgical Nursing Unit | Bangalore Caretakers',
-    image: '/assets/senior-caretaker-bond.jpg',
+    image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Post-Surgery Home Care Checklist Bangalore | 24/7 Home Nurses',
     metaDescription: 'Complete post-operative recovery guide: wound care, IV/catheter care, pain management, and home nurse hiring in Bangalore.',
     keywords: [
@@ -163,7 +163,7 @@ export const BLOG_POSTS = [
     date: 'September 21, 2026',
     readTime: '6 min read',
     author: 'Physiotherapy & Rehab Team | Bangalore Caretakers',
-    image: '/assets/senior-caretaker-bond.jpg',
+    image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Physiotherapy at Home Bangalore | Stroke & Knee Rehab Specialists',
     metaDescription: 'Book certified home physiotherapists in Bangalore for senior stroke rehabilitation, knee replacement recovery, and paralysis mobility exercises.',
     keywords: [
@@ -206,7 +206,7 @@ export const BLOG_POSTS = [
     date: 'September 22, 2026',
     readTime: '6 min read',
     author: 'Neurology Nursing Specialist | Bangalore Caretakers',
-    image: '/assets/senior-caretaker-bond.jpg',
+    image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Parkinsons Caretakers at Home Bangalore | Specialized Senior Nursing',
     metaDescription: 'Specialized home caretakers for Parkinson’s disease in Bangalore. Support for tremors, gait freezing, medication timing, and feeding assistance.',
     keywords: [
@@ -247,7 +247,7 @@ export const BLOG_POSTS = [
     date: 'September 23, 2026',
     readTime: '8 min read',
     author: 'Critical Care Medical Director | Bangalore Caretakers',
-    image: '/assets/senior-caretaker-bond.jpg',
+    image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'ICU Setup at Home Bangalore Cost & Equipment | 24/7 ICU Nurses',
     metaDescription: 'Hospital-grade ICU setup at home in Bangalore. Ventilators, oxygen concentrators, suction machines, multi-para monitors, and 24/7 critical care nurses.',
     keywords: [

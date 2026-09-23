@@ -111,7 +111,7 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-900 text-white space-y-4">
               <img
-                src="/assets/old-age-home-room.jpg"
+                src="/assets/old-age-home-room.webp"
                 alt="Bangalore Caretakers Old Age Home Room with Medical Beds"
                 width="600"
                 height="400"
@@ -129,7 +129,7 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
 
             <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-900 text-white space-y-4">
               <img
-                src="/assets/senior-healthy-meal.jpg"
+                src="/assets/senior-healthy-meal.webp"
                 alt="Nutritious Senior Diet Meals at Bangalore Caretakers"
                 width="600"
                 height="400"

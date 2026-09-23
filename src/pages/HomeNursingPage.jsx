@@ -93,7 +93,7 @@ export default function HomeNursingPage({ onOpenInquiry }) {
           <div className="bg-slate-900 text-white rounded-3xl overflow-hidden shadow-2xl grid grid-cols-1 lg:grid-cols-12 items-center">
             <div className="lg:col-span-6">
               <img
-                src="/assets/senior-caretaker-bond.jpg"
+                src="/assets/senior-caretaker-bond.webp"
                 alt="Compassionate Female Nurse & Care Taker at Home in Bangalore"
                 width="600"
                 height="400"

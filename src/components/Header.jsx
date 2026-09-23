@@ -88,7 +88,7 @@ export default function Header({ onOpenInquiry }) {
           {/* Brand Logo */}
           <Link to="/" className="flex items-center group shrink-0">
             <img 
-              src="/assets/site-logo.png" 
+              src="/assets/site-logo.webp" 
               alt="Bangalore Caretakers Official Logo" 
               width="233" 
               height="44"

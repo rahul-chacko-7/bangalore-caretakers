@@ -153,7 +153,7 @@ export default function HomePage({ onOpenInquiry }) {
             <div className="lg:col-span-5 bg-white text-slate-900 rounded-3xl p-4 shadow-2xl border border-slate-100 space-y-4">
               <div className="relative rounded-2xl overflow-hidden shadow-md">
                 <img
-                  src="/assets/senior-caretaker-bond.jpg"
+                  src="/assets/senior-caretaker-bond.webp"
                   alt="Bangalore Caretakers - Verified Nurse & Senior Bonding Care"
                   width="600"
                   height="400"
@@ -330,7 +330,7 @@ export default function HomePage({ onOpenInquiry }) {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-slate-900 text-white rounded-2xl overflow-hidden shadow-lg border border-slate-800">
                 <img
-                  src="/assets/old-age-home-room.jpg"
+                  src="/assets/old-age-home-room.webp"
                   alt="Old Age Home with Medical Facilities in Bangalore"
                   width="400"
                   height="300"
@@ -345,7 +345,7 @@ export default function HomePage({ onOpenInquiry }) {
 
               <div className="bg-slate-900 text-white rounded-2xl overflow-hidden shadow-lg border border-slate-800">
                 <img
-                  src="/assets/senior-healthy-meal.jpg"
+                  src="/assets/senior-healthy-meal.webp"
                   alt="Hygienic Senior Meal at Old Age Home Bangalore"
                   width="400"
                   height="300"
@@ -360,7 +360,7 @@ export default function HomePage({ onOpenInquiry }) {
 
               <div className="bg-slate-900 text-white rounded-2xl overflow-hidden shadow-lg border border-slate-800">
                 <img
-                  src="/assets/senior-caretaker-bond.jpg"
+                  src="/assets/senior-caretaker-bond.webp"
                   alt="Compassionate Female Care Taker at Home in Bangalore"
                   width="400"
                   height="300"
@@ -375,7 +375,7 @@ export default function HomePage({ onOpenInquiry }) {
 
               <div className="bg-slate-900 text-white rounded-2xl overflow-hidden shadow-lg border border-slate-800">
                 <img
-                  src="/assets/medical-camp-team.jpg"
+                  src="/assets/medical-camp-team.webp"
                   alt="Free Medical Camp Staff Team Bangalore"
                   width="400"
                   height="300"
