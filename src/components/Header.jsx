@@ -207,34 +207,39 @@ export default function Header({ onOpenInquiry }) {
           </nav>
 
           {/* Right Action Buttons */}
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
             
-            {/* Primary CTA - Book 24/7 Care */}
+            {/* Primary CTA - Book 24/7 Care (Desktop/Tablet) */}
             <button
               onClick={() => onOpenInquiry()}
-              className="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white text-xs xl:text-sm py-2.5 px-4 rounded-xl font-extrabold shadow-md shadow-teal-700/20 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+              className="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white text-xs xl:text-sm py-2.5 px-3.5 xl:px-4 rounded-xl font-extrabold shadow-md shadow-teal-700/20 hover:shadow-lg transition-all"
             >
               <HeartHandshake className="w-4 h-4 text-teal-200 shrink-0" />
               <span className="whitespace-nowrap">Book 24/7 Care</span>
             </button>
 
-            {/* Emergency Phone CTA - Call Helpline */}
+            {/* Emergency Phone CTA - Compact Icon on Mobile, Full Pill on Tablet/Desktop */}
             <a
               href={`tel:${GENERAL_INFO.phoneRaw}`}
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs xl:text-sm py-2.5 px-3.5 sm:px-4 rounded-xl font-black shadow-md shadow-amber-500/25 border border-amber-300 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+              className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs xl:text-sm p-2.5 sm:py-2.5 sm:px-4 rounded-xl font-black shadow-md shadow-amber-500/25 border border-amber-300 hover:shadow-lg transition-all"
               aria-label="Call helpline"
             >
               <Phone className="w-4 h-4 fill-slate-950 text-slate-950 shrink-0" />
-              <span className="whitespace-nowrap">Call Helpline</span>
+              <span className="hidden sm:inline whitespace-nowrap">Call Helpline</span>
             </a>
 
-            {/* Mobile Hamburger Toggle */}
+            {/* Mobile Hamburger Toggle Button (ALWAYS Visible on Mobile) */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none border border-slate-200 transition-colors"
+              className="lg:hidden p-2 px-2.5 sm:px-3 rounded-xl bg-slate-900 text-white hover:bg-slate-800 focus:outline-none border border-slate-700 shadow-md flex items-center gap-1 font-bold text-xs transition-colors shrink-0"
               aria-label="Toggle Navigation Menu"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6 text-teal-700" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? (
+                <X className="w-5 h-5 text-amber-400" />
+              ) : (
+                <Menu className="w-5 h-5 text-amber-400" />
+              )}
+              <span className="text-[11px] uppercase tracking-wider font-extrabold text-amber-400 hidden xs:inline">Menu</span>
             </button>
           </div>
 
