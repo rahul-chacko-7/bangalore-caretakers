@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Phone, Menu, X, ShieldCheck, Clock, MapPin, ChevronDown, MessageSquare, Star, HeartHandshake } from 'lucide-react';
+import { Phone, Menu, X, ShieldCheck, Clock, MapPin, ChevronDown, MessageSquare, Star, HeartHandshake, Sparkles } from 'lucide-react';
 import { GENERAL_INFO } from '../data/keywordsData';
 
 export default function Header({ onOpenInquiry }) {
@@ -38,44 +38,45 @@ export default function Header({ onOpenInquiry }) {
 
   return (
     <>
-      {/* 1. Top Emergency & Rating Announcement Bar */}
-      <div className="bg-slate-950 text-white text-xs py-2 px-4 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      {/* 1. Top Announcement Bar */}
+      <div className="bg-slate-950 text-white text-xs py-2 px-4 border-b border-slate-800/80 tracking-wide">
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2.5">
           
           <div className="flex items-center gap-4 text-slate-300">
-            <span className="flex items-center gap-1.5 font-bold text-amber-400">
-              <Clock className="w-3.5 h-3.5" /> 24/7 Open Helpline
+            <span className="inline-flex items-center gap-1.5 font-bold text-amber-400">
+              <Clock className="w-3.5 h-3.5" /> 24/7 Medical Emergency Line
             </span>
-            <span className="hidden md:flex items-center gap-1 text-slate-300">
+            <span className="hidden md:inline-flex items-center gap-1.5 text-slate-300">
               <ShieldCheck className="w-3.5 h-3.5 text-teal-400" /> 100% Police Verified Staff & Doctor On-Call
             </span>
           </div>
 
-          <div className="flex items-center gap-5 ml-auto text-xs">
+          <div className="flex items-center gap-4 ml-auto">
             <a 
               href="https://share.google/W9H1wtPkYyfOfYpsT" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-slate-200 hover:text-amber-300 transition-colors"
+              className="inline-flex items-center gap-1.5 bg-amber-500/10 hover:bg-amber-500/20 px-2.5 py-0.5 rounded-full border border-amber-500/30 text-amber-300 transition-all text-[11px] font-semibold"
             >
-              <span className="bg-amber-500 text-slate-950 font-black text-[10px] px-1.5 py-0.5 rounded">4.9 ★</span>
-              <span className="font-semibold text-slate-200">761+ Google Reviews</span>
+              <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
+              <span className="font-extrabold text-amber-400">4.9 ★</span>
+              <span className="text-slate-200">761+ Verified Google Reviews</span>
             </a>
 
             <a
               href={`https://wa.me/${GENERAL_INFO.whatsappNumber}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden sm:flex items-center gap-1 text-emerald-400 hover:text-emerald-300 font-bold"
+              className="hidden sm:inline-flex items-center gap-1 text-emerald-400 hover:text-emerald-300 font-bold transition-colors"
             >
               <MessageSquare className="w-3.5 h-3.5" /> WhatsApp Us
             </a>
 
             <a 
               href={`tel:${GENERAL_INFO.phoneRaw}`} 
-              className="font-extrabold text-amber-400 hover:underline flex items-center gap-1 text-sm bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30"
+              className="font-black text-amber-400 hover:text-amber-300 inline-flex items-center gap-1 text-xs"
             >
-              <Phone className="w-3.5 h-3.5" /> {GENERAL_INFO.phone}
+              <Phone className="w-3.5 h-3.5 text-amber-400" /> {GENERAL_INFO.phone}
             </a>
           </div>
 
@@ -83,59 +84,66 @@ export default function Header({ onOpenInquiry }) {
       </div>
 
       {/* 2. Main Executive Header Navbar */}
-      <header className="sticky top-0 z-40 bg-white/98 backdrop-blur-md border-b border-slate-200 shadow-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-xl border-b border-slate-200/80 shadow-sm transition-all">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex items-center justify-between gap-4">
           
-          {/* Logo */}
+          {/* Brand Logo */}
           <Link to="/" className="flex items-center group shrink-0">
             <img 
               src="/assets/site-logo.png" 
               alt="Bangalore Caretakers Official Logo" 
               width="233" 
-              height="39"
-              className="h-11 sm:h-13 w-auto object-contain group-hover:scale-[1.02] transition-transform"
+              height="44"
+              className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
             />
           </Link>
 
           {/* Desktop Nav Links */}
-          <nav className="hidden xl:flex items-center gap-1 font-bold text-slate-700 text-sm">
-            {primaryNav.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                className={`px-3 py-2 rounded-xl transition-all flex items-center gap-1.5 ${
-                  location.pathname === link.path
-                    ? 'text-teal-700 bg-teal-50 font-extrabold'
-                    : 'hover:text-teal-700 hover:bg-slate-50'
-                }`}
-              >
-                <span>{link.name}</span>
-                {link.badge && (
-                  <span className="text-[9px] uppercase font-black px-1.5 py-0.5 rounded bg-amber-500 text-slate-950">
-                    {link.badge}
-                  </span>
-                )}
-              </Link>
-            ))}
+          <nav className="hidden lg:flex items-center gap-1 xl:gap-2 font-bold text-slate-700 text-xs xl:text-sm">
+            {primaryNav.map((link) => {
+              const isActive = location.pathname === link.path;
+              return (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  className={`px-3 py-2 rounded-xl transition-all whitespace-nowrap inline-flex items-center gap-1.5 ${
+                    isActive
+                      ? 'text-teal-800 bg-teal-50/90 font-black shadow-sm ring-1 ring-teal-500/20'
+                      : 'hover:text-teal-700 hover:bg-slate-100/70'
+                  }`}
+                >
+                  <span>{link.name}</span>
+                  {link.badge && (
+                    <span className="text-[9px] uppercase font-black px-1.5 py-0.5 rounded-full bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 shadow-xs inline-flex items-center gap-0.5">
+                      <Sparkles className="w-2.5 h-2.5 text-slate-950" />
+                      {link.badge}
+                    </span>
+                  )}
+                </Link>
+              );
+            })}
 
-            {/* All Services Dropdown Mega Menu */}
+            {/* All Care Services Mega Menu Dropdown */}
             <div 
               className="relative"
               onMouseEnter={() => setServicesDropdown(true)}
               onMouseLeave={() => setServicesDropdown(false)}
             >
               <button 
-                className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-50 flex items-center gap-1 font-bold"
+                className={`px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                  servicesDropdown ? 'bg-slate-100 text-teal-800' : ''
+                }`}
                 aria-expanded={servicesDropdown}
               >
                 <span>All Care Services</span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${servicesDropdown ? 'rotate-180 text-teal-600' : ''}`} />
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${servicesDropdown ? 'rotate-180 text-teal-600' : 'text-slate-400'}`} />
               </button>
 
               {servicesDropdown && (
-                <div className="absolute top-full right-0 w-96 bg-white rounded-2xl border border-slate-200 shadow-2xl p-3 z-50 animate-fadeIn grid grid-cols-1 gap-1">
-                  <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 px-3 py-1 border-b border-slate-100">
-                    Medical & Senior Services
+                <div className="absolute top-full right-0 w-96 bg-white rounded-2xl border border-slate-200/90 shadow-2xl p-3 z-50 animate-fadeIn grid grid-cols-1 gap-1">
+                  <div className="text-[10px] font-black uppercase tracking-wider text-teal-700 px-3 py-1.5 bg-teal-50/80 rounded-lg mb-1 flex items-center justify-between">
+                    <span>Medical & Senior Services</span>
+                    <span className="text-[9px] font-bold text-slate-500">Bangalore Wide</span>
                   </div>
                   {serviceCategories.map((s, idx) => (
                     <Link
@@ -143,8 +151,11 @@ export default function Header({ onOpenInquiry }) {
                       to={s.path}
                       className="p-2.5 rounded-xl hover:bg-teal-50/80 transition-colors group block"
                     >
-                      <div className="font-bold text-slate-900 text-xs group-hover:text-teal-700">{s.name}</div>
-                      <div className="text-[11px] text-slate-500">{s.desc}</div>
+                      <div className="font-bold text-slate-900 text-xs group-hover:text-teal-700 flex items-center justify-between">
+                        <span>{s.name}</span>
+                        <span className="text-teal-600 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+                      </div>
+                      <div className="text-[11px] text-slate-500 mt-0.5">{s.desc}</div>
                     </Link>
                   ))}
                 </div>
@@ -158,23 +169,25 @@ export default function Header({ onOpenInquiry }) {
               onMouseLeave={() => setLocationsDropdown(false)}
             >
               <button 
-                className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-50 flex items-center gap-1 font-bold"
+                className={`px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 inline-flex items-center gap-1 font-bold whitespace-nowrap transition-colors ${
+                  locationsDropdown ? 'bg-slate-100 text-teal-800' : ''
+                }`}
               >
                 <MapPin className="w-3.5 h-3.5 text-teal-600" />
                 <span>Locations</span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${locationsDropdown ? 'rotate-180 text-teal-600' : ''}`} />
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${locationsDropdown ? 'rotate-180 text-teal-600' : 'text-slate-400'}`} />
               </button>
 
               {locationsDropdown && (
-                <div className="absolute top-full right-0 w-60 bg-white rounded-2xl border border-slate-200 shadow-2xl p-2 z-50 animate-fadeIn space-y-1">
-                  <div className="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 px-3 py-1 border-b border-slate-100">
-                    Bangalore Localities
+                <div className="absolute top-full right-0 w-64 bg-white rounded-2xl border border-slate-200/90 shadow-2xl p-2 z-50 animate-fadeIn space-y-1">
+                  <div className="text-[10px] font-black uppercase tracking-wider text-slate-400 px-3 py-1.5 border-b border-slate-100">
+                    Covered Bangalore Areas
                   </div>
                   {locationLinks.map((loc, idx) => (
                     <Link
                       key={idx}
                       to={loc.path}
-                      className="block px-3 py-2 rounded-lg text-xs font-bold text-slate-700 hover:bg-teal-50 hover:text-teal-700"
+                      className="block px-3 py-2 rounded-xl text-xs font-bold text-slate-700 hover:bg-teal-50 hover:text-teal-700 transition-colors"
                     >
                       {loc.name}
                     </Link>
@@ -185,92 +198,112 @@ export default function Header({ onOpenInquiry }) {
 
             <Link
               to="/caretaker-nursing-jobs-bangalore"
-              className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-50 font-bold"
+              className="px-3 py-2 rounded-xl text-slate-700 hover:text-teal-700 hover:bg-slate-100/70 font-bold whitespace-nowrap transition-colors"
             >
               Jobs
             </Link>
           </nav>
 
-          {/* Header Action Buttons */}
-          <div className="flex items-center gap-2.5">
+          {/* Right Action Buttons */}
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+            
+            {/* Primary CTA - Book 24/7 Care */}
             <button
               onClick={() => onOpenInquiry()}
-              className="hidden sm:inline-flex btn-primary text-xs sm:text-sm py-2.5 px-4 font-extrabold shadow-lg"
+              className="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white text-xs xl:text-sm py-2.5 px-4 rounded-xl font-extrabold shadow-md shadow-teal-700/20 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0"
             >
-              <HeartHandshake className="w-4 h-4" />
-              <span>Book 24/7 Care</span>
+              <HeartHandshake className="w-4 h-4 text-teal-200 shrink-0" />
+              <span className="whitespace-nowrap">Book 24/7 Care</span>
             </button>
 
+            {/* Emergency Phone CTA - Call Helpline */}
             <a
               href={`tel:${GENERAL_INFO.phoneRaw}`}
-              className="btn-phone text-xs sm:text-sm py-2.5 px-3 sm:px-4 font-black"
-              aria-label="Call emergency line"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 hover:from-amber-500 hover:to-amber-600 text-slate-950 text-xs xl:text-sm py-2.5 px-3.5 sm:px-4 rounded-xl font-black shadow-md shadow-amber-500/25 border border-amber-300 hover:shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+              aria-label="Call helpline"
             >
-              <Phone className="w-4 h-4 text-slate-950 shrink-0" />
-              <span className="hidden sm:inline">Call Helpline</span>
-              <span className="sm:hidden">Call</span>
+              <Phone className="w-4 h-4 fill-slate-950 text-slate-950 shrink-0" />
+              <span className="whitespace-nowrap">Call Helpline</span>
             </a>
 
-            {/* Mobile Hamburger Menu */}
+            {/* Mobile Hamburger Toggle */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="xl:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none border border-slate-200"
+              className="lg:hidden p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none border border-slate-200 transition-colors"
               aria-label="Toggle Navigation Menu"
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-6 h-6 text-teal-700" /> : <Menu className="w-6 h-6" />}
             </button>
           </div>
 
         </div>
 
-        {/* Mobile Navigation Drawer */}
+        {/* Mobile Slide-down Navigation Drawer */}
         {mobileMenuOpen && (
-          <div className="xl:hidden border-t border-slate-200 bg-white px-4 pt-3 pb-6 space-y-2 shadow-2xl max-h-[85vh] overflow-y-auto">
+          <div className="lg:hidden border-t border-slate-200/90 bg-white/98 backdrop-blur-xl px-4 pt-3 pb-6 space-y-3 shadow-2xl max-h-[85vh] overflow-y-auto animate-fadeIn">
             
-            <div className="text-xs font-black uppercase tracking-wider text-slate-400 px-2 pt-2">
+            <div className="text-[11px] font-black uppercase tracking-wider text-slate-400 px-2 pt-1">
               Main Menu
             </div>
             
-            {primaryNav.map((link) => (
-              <Link
-                key={link.path}
-                to={link.path}
-                onClick={() => setMobileMenuOpen(false)}
-                className={`block px-4 py-2.5 rounded-xl text-sm font-bold ${
-                  location.pathname === link.path
-                    ? 'bg-teal-600 text-white'
-                    : 'text-slate-800 hover:bg-slate-100'
-                }`}
-              >
-                {link.name}
-              </Link>
-            ))}
-
-            <div className="text-xs font-black uppercase tracking-wider text-slate-400 px-2 pt-3 border-t border-slate-100">
-              Services & Localities
+            <div className="grid grid-cols-1 gap-1">
+              {primaryNav.map((link) => (
+                <Link
+                  key={link.path}
+                  to={link.path}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={`flex items-center justify-between px-4 py-2.5 rounded-xl text-sm font-bold transition-all ${
+                    location.pathname === link.path
+                      ? 'bg-teal-600 text-white shadow-md'
+                      : 'text-slate-800 hover:bg-slate-100'
+                  }`}
+                >
+                  <span>{link.name}</span>
+                  {link.badge && (
+                    <span className="text-[9px] uppercase font-black px-2 py-0.5 rounded-full bg-amber-400 text-slate-950">
+                      {link.badge}
+                    </span>
+                  )}
+                </Link>
+              ))}
             </div>
 
-            {serviceCategories.slice(0, 4).map((s, idx) => (
-              <Link
-                key={idx}
-                to={s.path}
-                onClick={() => setMobileMenuOpen(false)}
-                className="block px-4 py-2 rounded-lg text-xs font-semibold text-slate-700 hover:bg-teal-50"
-              >
-                • {s.name}
-              </Link>
-            ))}
+            <div className="text-[11px] font-black uppercase tracking-wider text-slate-400 px-2 pt-3 border-t border-slate-100">
+              Services & Specialties
+            </div>
 
-            <div className="pt-3">
+            <div className="grid grid-cols-1 gap-1">
+              {serviceCategories.slice(0, 5).map((s, idx) => (
+                <Link
+                  key={idx}
+                  to={s.path}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="block px-4 py-2 rounded-xl text-xs font-semibold text-slate-700 hover:bg-teal-50 hover:text-teal-800"
+                >
+                  • {s.name}
+                </Link>
+              ))}
+            </div>
+
+            <div className="pt-2 border-t border-slate-100 space-y-2">
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
                   onOpenInquiry();
                 }}
-                className="w-full btn-primary py-3 font-bold text-sm"
+                className="w-full bg-teal-600 hover:bg-teal-700 text-white py-3 rounded-xl font-extrabold text-sm shadow-md flex items-center justify-center gap-2"
               >
-                Request 24/7 Nurse / Caretaker
+                <HeartHandshake className="w-4 h-4 text-teal-200" />
+                <span>Book 24/7 Care / Schedule Visit</span>
               </button>
+
+              <a
+                href={`tel:${GENERAL_INFO.phoneRaw}`}
+                className="w-full bg-amber-400 hover:bg-amber-500 text-slate-950 py-3 rounded-xl font-black text-sm shadow-md flex items-center justify-center gap-2"
+              >
+                <Phone className="w-4 h-4 fill-slate-950 text-slate-950" />
+                <span>Call Helpline (+91 77605 06666)</span>
+              </a>
             </div>
           </div>
         )}
