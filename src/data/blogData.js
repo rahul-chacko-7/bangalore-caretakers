@@ -491,6 +491,85 @@ export const BLOG_POSTS = [
         answer: "Home palliative care ranges from ₹1,800 to ₹3,500 per day depending on nursing hours (12h vs 24h) and clinical procedures required (IV drip, oxygen, tracheostomy)."
       }
     ]
+  },
+  {
+    id: '12-hour-vs-24-hour-home-nursing-bangalore',
+    slug: '12-hour-vs-24-hour-home-nursing-bangalore',
+    title: '12-Hour vs 24-Hour Home Nursing in Bangalore: How to Choose',
+    excerpt: 'Compare daytime, night, and live-in home nursing by supervision needs, clinical tasks, handover, family availability, and written care-plan questions.',
+    category: 'Home Nursing Guide',
+    date: 'October 22, 2026',
+    readTime: '7 min read',
+    author: 'Bangalore Care Takers Editorial Team',
+    image: '/assets/nurse-patient-care.webp',
+    metaTitle: '12-Hour vs 24-Hour Home Nursing in Bangalore | Care Guide',
+    metaDescription: 'Learn how to compare 12-hour, night, and 24-hour home nursing in Bangalore. Review patient needs, clinical tasks, handover, safety, and questions to ask.',
+    keywords: ['12 hour home nursing Bangalore', '24 hour home nursing Bangalore', 'home nurse Bangalore cost', '24/7 elderly care nursing service'],
+    content: `<h2>Start with the patient’s needs</h2><p>Choose the shift around supervision, mobility, medication, hygiene, feeding, wound care, dementia support, and the family’s availability. A written clinical plan should guide the decision.</p><h2>When a 12-hour shift may be suitable</h2><p>A daytime or night shift can work when family members cover the other period and the patient’s needs are predictable. Confirm handover notes, replacement cover, and the tasks included in the shift.</p><h2>When continuous coverage may be needed</h2><p>Families may discuss 24-hour or live-in coverage when a person needs frequent assistance, night supervision, repositioning, feeding support, or close observation. The care team should confirm whether one or multiple shifts are appropriate.</p><h2>Questions to ask before hiring</h2><ul><li>Which tasks are included and excluded?</li><li>Who supervises medication and clinical procedures?</li><li>How are breaks, handovers, replacements, and emergencies handled?</li><li>What supplies, equipment, travel, and additional charges apply?</li></ul><p>For a current quote, visit the <a href="/home-nursing-services-bangalore" class="text-teal-600 underline font-semibold">home nursing services page</a> or <a href="/contact-us" class="text-teal-600 underline font-semibold">contact the care team</a>.</p>`,
+    faq: [{ question: 'Is 24-hour home nursing the same as one nurse working continuously?', answer: 'Not necessarily. Ask how shifts, rest periods, handovers, and replacement coverage are organised, and request the arrangement in writing.' }, { question: 'How much does home nursing cost in Bangalore?', answer: 'The quote depends on hours, clinical tasks, location, experience, and equipment. Request a current written breakdown rather than relying on a general range.' }]
+  },
+  {
+    id: 'home-care-vs-old-age-home-bangalore',
+    slug: 'home-care-vs-old-age-home-bangalore',
+    title: 'Home Care vs Old Age Home in Bangalore: A Practical Family Guide',
+    excerpt: 'Compare home nursing, assisted living, and residential care by medical needs, supervision, family support, accessibility, and visit planning.',
+    category: 'Senior Living Guide',
+    date: 'October 22, 2026',
+    readTime: '8 min read',
+    author: 'Bangalore Care Takers Editorial Team',
+    image: '/assets/old-age-home-room.webp',
+    metaTitle: 'Home Care vs Old Age Home in Bangalore | Family Guide',
+    metaDescription: 'Compare home care and old age homes in Bangalore. Use this checklist to assess supervision, nursing, mobility, family support, visits, and care-plan needs.',
+    keywords: ['home care vs old age home Bangalore', 'old age home Bangalore', 'senior living Bangalore', 'elder care services Bangalore'],
+    content: `<h2>Home care keeps the person in a familiar setting</h2><p>Home nursing can suit families who want care at home and can provide a safe room, family coordination, supplies, and a reliable emergency contact.</p><h2>Residential care changes the daily environment</h2><p>An old age home or assisted-living setting may suit someone who needs regular assistance, meals, social contact, accessible rooms, or supervision that is difficult to organise at home.</p><h2>Compare the practical details</h2><ul><li>Mobility, falls, transfers, feeding, continence, and night supervision</li><li>Distance from family and hospital access</li><li>Room privacy, accessibility, meals, activities, and visiting rules</li><li>Nursing coverage, doctor coordination, equipment, and escalation</li><li>Written inclusions, exclusions, deposits, and recurring costs</li></ul><p>Visit the <a href="/old-age-homes-bangalore" class="text-teal-600 underline font-semibold">old-age-home guide</a> and request a facility visit before deciding.</p>`,
+    faq: [{ question: 'Which is better, home care or an old age home?', answer: 'It depends on clinical needs, safety, family availability, environment, and the person’s preferences. Compare a written plan and visit the facility before choosing.' }, { question: 'Can care needs change after admission?', answer: 'Yes. Ask how reviews, changes in staffing, hospital discharge, and increased support needs are handled.' }]
+  },
+  {
+    id: 'old-age-home-facility-visit-checklist-bangalore',
+    slug: 'old-age-home-facility-visit-checklist-bangalore',
+    title: 'Old Age Home Facility Visit Checklist for Bangalore Families',
+    excerpt: 'Use this practical checklist to review rooms, accessibility, meals, staffing, medical escalation, visiting rules, documents, and fees during a facility visit.',
+    category: 'Senior Living Checklist',
+    date: 'October 22, 2026',
+    readTime: '6 min read',
+    author: 'Bangalore Care Takers Editorial Team',
+    image: '/assets/old-age-home-room.webp',
+    metaTitle: 'Old Age Home Visit Checklist Bangalore | What to Ask',
+    metaDescription: 'A practical old-age-home visit checklist for Bangalore families covering rooms, accessibility, nursing, meals, safety, visiting rules, documents, and fees.',
+    keywords: ['old age home Bangalore checklist', 'list of old age homes in Bangalore', 'old age home with medical facilities Bangalore'],
+    content: `<h2>Inspect the living environment</h2><p>Check room ventilation, bathrooms, ramps, lifts, call systems, cleanliness, privacy, storage, lighting, and how easily a wheelchair or walking aid can move through the space.</p><h2>Ask about daily care</h2><p>Confirm meals, hydration, laundry, bathing, medication handover, mobility support, activities, family visits, and how concerns are recorded.</p><h2>Verify health and safety processes</h2><p>Ask who is present on each shift, how emergencies are escalated, where medicines are stored, how falls are reported, and how families receive updates.</p><h2>Request documents in writing</h2><p>Before admission, request the fee schedule, inclusions, exclusions, deposit and refund rules, notice period, consent forms, visiting policy, and contact details.</p><p>Use the <a href="/contact-us" class="text-teal-600 underline font-semibold">contact page</a> to arrange a care discussion and facility visit.</p>`,
+    faq: [{ question: 'What should I take to a facility visit?', answer: 'Bring the person’s medication list, medical summary, mobility information, emergency contacts, questions, and a way to record the written answers.' }]
+  },
+  {
+    id: 'nri-guide-arranging-elder-care-bangalore',
+    slug: 'nri-guide-arranging-elder-care-bangalore',
+    title: 'NRI Guide to Arranging Elder Care in Bangalore',
+    excerpt: 'A step-by-step guide for families abroad arranging home nursing, assisted living, residential care, visits, updates, documents, and emergency contacts in Bengaluru.',
+    category: 'NRI Family Guide',
+    date: 'October 22, 2026',
+    readTime: '7 min read',
+    author: 'Bangalore Care Takers Editorial Team',
+    image: '/assets/caring-hands.webp',
+    metaTitle: 'NRI Guide to Elder Care in Bangalore | Parents Care Planning',
+    metaDescription: 'Learn how NRI families can arrange elder care in Bangalore with a written plan, local contact, video visit, family updates, documents, and emergency escalation.',
+    keywords: ['NRI elder care Bangalore', 'care for parents in Bangalore', 'old age home Bangalore for NRI families'],
+    content: `<h2>Start with a local care brief</h2><p>Collect the medical summary, medicines, allergies, mobility needs, emergency contacts, consent preferences, and the local family member or friend who can help with decisions.</p><h2>Compare care settings</h2><p>Discuss home nursing, assisted living, and residential care. Ask for a written plan that explains staffing, meals, visits, updates, equipment, escalation, and current fees.</p><h2>Build a remote communication routine</h2><ul><li>Set a primary and backup contact.</li><li>Agree on update frequency and video-call access.</li><li>Document who approves hospital transfer or changes to the plan.</li><li>Keep copies of invoices, reports, prescriptions, and incident notes.</li></ul><p>Explore the <a href="/care-guides/nri-family-elder-care-bangalore" class="text-teal-600 underline font-semibold">NRI care planning guide</a> and <a href="/contact-us" class="text-teal-600 underline font-semibold">contact the team</a>.</p>`,
+    faq: [{ question: 'Can an NRI arrange a facility visit remotely?', answer: 'Ask whether a video tour, local representative visit, document review, and scheduled family call are available. Confirm every arrangement directly with the provider.' }]
+  },
+  {
+    id: 'stroke-paralysis-home-rehabilitation-bangalore',
+    slug: 'stroke-paralysis-home-rehabilitation-bangalore',
+    title: 'Stroke and Paralysis Home Rehabilitation in Bangalore',
+    excerpt: 'A family guide to planning post-stroke and paralysis care at home, including discharge information, mobility, nutrition, skin care, therapy, and escalation.',
+    category: 'Rehabilitation Guide',
+    date: 'October 22, 2026',
+    readTime: '7 min read',
+    author: 'Bangalore Care Takers Editorial Team',
+    image: '/assets/nurse-patient-care.webp',
+    metaTitle: 'Stroke and Paralysis Home Rehabilitation Bangalore | Care Guide',
+    metaDescription: 'Plan stroke and paralysis care at home in Bangalore with a checklist for discharge, mobility, nutrition, skin care, nursing, therapy, and escalation.',
+    keywords: ['stroke rehabilitation Bangalore', 'paralysis care Bangalore', 'bedridden patient care Bangalore', 'post surgery care at home Bangalore'],
+    content: `<h2>Prepare after hospital discharge</h2><p>Keep the discharge summary, medicine list, swallowing and feeding instructions, mobility restrictions, therapy schedule, and emergency numbers together.</p><h2>Plan daily safety</h2><p>Discuss transfers, repositioning, pressure-injury prevention, continence, hygiene, nutrition, hydration, and fall prevention with the clinical team.</p><h2>Coordinate rehabilitation</h2><p>Ask how physiotherapy, occupational therapy, speech therapy, nursing handover, and family training will fit together. The plan should identify warning signs and escalation contacts.</p><p>Read the <a href="/post-surgery-rehabilitation-care" class="text-teal-600 underline font-semibold">post-surgery rehabilitation service page</a> or <a href="/care-guides/stroke-paralysis-coma-rehabilitation-bangalore" class="text-teal-600 underline font-semibold">stroke and paralysis care guide</a>.</p>`,
+    faq: [{ question: 'Does home nursing replace rehabilitation therapy?', answer: 'No. Nursing and rehabilitation have different roles. Ask the treating clinician which professionals are required and how their plans should coordinate.' }]
   }
 ];
-
