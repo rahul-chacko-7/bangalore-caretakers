@@ -59,9 +59,12 @@ try {
   assert.ok(!(await page.$eval('[role=status]', element => element.textContent)).includes('Received'));
   await page.keyboard.press('Escape'); assert.equal(await page.$('[role=dialog]'), null);
   // Wizard retains both care condition and location in the modal.
-  await page.evaluate(() => [...document.querySelectorAll('button')].find(button => button.textContent.includes('Dementia & Memory Care'))?.click());
-  await page.evaluate(() => [...document.querySelectorAll('button')].find(button => button.textContent.includes('Care Provided At Home'))?.click());
-  await page.evaluate(() => [...document.querySelectorAll('button')].find(button => button.textContent.includes('Ask about fees'))?.click());
+  await page.waitForFunction(() => [...document.querySelectorAll('button')].some(button => button.textContent.includes('Dementia & Memory Care')));
+  await page.evaluate(() => [...document.querySelectorAll('button')].find(button => button.textContent.includes('Dementia & Memory Care')).click());
+  await page.waitForFunction(() => [...document.querySelectorAll('button')].some(button => button.textContent.includes('Care Provided At Home')));
+  await page.evaluate(() => [...document.querySelectorAll('button')].find(button => button.textContent.includes('Care Provided At Home')).click());
+  await page.waitForFunction(() => [...document.querySelectorAll('button')].some(button => button.textContent.includes('Ask about fees')));
+  await page.evaluate(() => [...document.querySelectorAll('button')].find(button => button.textContent.includes('Ask about fees')).click());
   await page.waitForSelector('[role=dialog]');
   assert.equal(await page.$eval('select', select => select.value), 'Dementia Care - At Home');
   await page.keyboard.press('Escape');

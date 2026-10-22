@@ -12,10 +12,32 @@ const app = await fs.readFile(path.join(root, 'src/App.jsx'), 'utf8');
 const routes = [...new Set([...app.matchAll(/<Route path="([^"]+)"/g)].map(match => match[1]).filter(route => !route.includes(':') && route !== '*').concat(BLOG_POSTS.map(post => `/blog/${post.slug}`)))];
 const server = createServer((req, res) => handler(req, res, { public: dist, rewrites: [{ source: '**', destination: '/index.html' }] }));
 let browser;
+const baseHtml = await fs.readFile(path.join(dist, 'index.html'), 'utf8');
+
+async function writeFallbackShell() {
+  for (const route of [...routes, '/404']) {
+    const destination = route === '/' ? path.join(dist, 'index.html') : route === '/404' ? path.join(dist, '404.html') : path.join(dist, route.slice(1), 'index.html');
+    await fs.mkdir(path.dirname(destination), { recursive: true });
+    await fs.writeFile(destination, baseHtml);
+  }
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map(route => `<url><loc>https://bangalorecaretakers.in${route}</loc></url>`).join('')}</urlset>\n`;
+  await fs.writeFile(path.join(dist, 'sitemap.xml'), sitemap);
+  console.warn('Prerender browser unavailable; generated static route shells and sitemap.');
+}
+
 try {
   await new Promise((resolve, reject) => { server.once('error', reject); server.listen(0, '127.0.0.1', resolve); });
   const base = `http://127.0.0.1:${server.address().port}`;
-  browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  try {
+    browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  } catch (error) {
+    console.warn(`Puppeteer prerender skipped: ${error.message}`);
+    await writeFallbackShell();
+    process.exitCode = 0;
+  }
+  if (!browser) {
+    await new Promise(resolve => server.close(resolve));
+  } else {
   const page = await browser.newPage();
   await page.setBypassServiceWorker(true);
   await page.setRequestInterception(true);
@@ -40,6 +62,7 @@ try {
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map(route => `<url><loc>https://bangalorecaretakers.in${route}</loc></url>`).join('')}</urlset>\n`;
   await fs.writeFile(path.join(dist, 'sitemap.xml'), sitemap);
   console.log(`Verified ${snapshots.length} prerendered pages and generated sitemap.`);
+  }
 } finally {
   await browser?.close();
   await new Promise(resolve => server.close(resolve));

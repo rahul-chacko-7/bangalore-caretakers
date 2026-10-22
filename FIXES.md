@@ -13,7 +13,7 @@ Project: `C:\Users\rahul\.gemini\antigravity\scratch\bangalore-caretakers`
 - Route metadata now updates canonical, Open Graph and Twitter fields, clears stale page schema and keywords, and only scrolls on route changes.
 - Generated a 1200x630 social image and correctly sized 192/512 app icons. Corrected logo dimensions and retained existing optimized gallery assets.
 - Unknown pages and blog slugs display a noindex not-found page. Static deployment includes `404.html`.
-- Prerendering now renders the homepage and all routes on every environment, verifies output, and fails the build on errors. It discovers blog routes from source, produces page-specific HTML and generates the sitemap.
+- Prerendering renders the homepage and all routes when Chrome is available, verifies output, and generates the sitemap. Hosted builds without Chrome now fall back to route shells instead of failing deployment; local builds still produce page-specific HTML. It discovers blog routes from source.
 - Moved Vercel configuration to the project root; removed the universal homepage rewrite. Retained legacy redirects, added static-hosting headers for Vercel/Netlify, and configured custom not-found handling.
 - The service worker no longer serves stale HTML or caches error responses. It caches only public assets and refreshes them in the background.
 
