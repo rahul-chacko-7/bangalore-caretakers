@@ -87,6 +87,7 @@ export default function App() {
 
         {/* Lead Capture Modal */}
         <LeadCaptureModal
+          key={inquiryService}
           isOpen={inquiryOpen}
           onClose={closeInquiry}
           defaultService={inquiryService}
