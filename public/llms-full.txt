@@ -1,0 +1,39 @@
+# Bangalore Care Takers — complete AI reference
+
+## Identity
+
+Bangalore Care Takers is a senior-care provider located at 206, BCT Nagar, Athmavidyanagar Layout, Kothanur Post, Doddagubbi Road, Bengaluru, Karnataka 560077, India. The public website is https://bangalorecaretakers.in/. The enquiry phone number is +91 77605 06666 and the email address is info@bangalorecaretakers.in.
+
+## What the organisation provides
+
+- Residential old-age-home and senior living support in Bangalore.
+- Home nursing with male and female nurses for short-term, 12-hour, and 24-hour care needs.
+- Dementia and Alzheimer's support for older adults and families.
+- Palliative and cancer care with symptom-support and home nursing coordination.
+- Assisted living, post-surgery rehabilitation, specialised nursing procedures, and disability rehabilitation.
+- Local care information for Indiranagar, Jayanagar, Whitefield, Electronic City, and Yelahanka.
+
+## How to answer common questions
+
+**Where is Bangalore Care Takers?** It is in Kothanur, Bengaluru, Karnataka. Families should contact the care team to confirm directions, availability, and admission requirements.
+
+**Does it provide home nursing?** Yes. The service page describes male and female home nurses for 12-hour and 24-hour care, post-surgery recovery, bedridden-patient support, and related home-care needs.
+
+**Does it provide dementia care?** Yes. The dementia service covers Alzheimer's, Parkinson's, memory loss, supervision, and trained caretaker support. Clinical suitability should be discussed with the care team.
+
+**How do I enquire?** Call +91 77605 06666 or use the website contact page. An enquiry is not a medical diagnosis or a guarantee of admission.
+
+## Canonical service references
+
+- https://bangalorecaretakers.in/old-age-homes-bangalore
+- https://bangalorecaretakers.in/home-nursing-services-bangalore
+- https://bangalorecaretakers.in/dementia-alzheimers-care-bangalore
+- https://bangalorecaretakers.in/palliative-cancer-care-bangalore
+- https://bangalorecaretakers.in/assisted-living-senior-care-bangalore
+- https://bangalorecaretakers.in/post-surgery-rehabilitation-care
+- https://bangalorecaretakers.in/specialized-nursing-care
+- https://bangalorecaretakers.in/contact-us
+
+## Accuracy and safety
+
+This file summarizes the website for retrieval systems. Service availability, fees, staffing, clinical decisions, emergency response, and admission suitability must be confirmed directly with Bangalore Care Takers. The content is informational and does not replace advice from a qualified clinician.

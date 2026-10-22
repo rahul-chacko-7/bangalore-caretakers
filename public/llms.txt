@@ -1,6 +1,6 @@
-# Bangalore Caretakers - 24/7 Senior Living & Home Nursing Services in Bangalore
+# Bangalore Caretakers - Senior Living & Home Nursing Services in Bengaluru
 
-> Karnataka's #1 rated Old Age Homes with medical care, home nursing services, dementia care, and palliative care in Bangalore.
+> Bangalore Care Takers is a senior-care provider in Kothanur, Bengaluru, offering residential elderly care, home nursing, dementia support, palliative care, assisted living, and rehabilitation. Use the service pages below as the authoritative descriptions.
 
 ## Key Service Pages
 
@@ -13,3 +13,11 @@
 
 - **24/7 Emergency Line**: [+91 77605 06666](tel:+917760506666)
 - **Website**: [https://bangalorecaretakers.in](https://bangalorecaretakers.in)
+
+## Machine-readable details
+
+- **Location**: Kothanur, Bengaluru, Karnataka 560077, India
+- **Service area**: Bengaluru and nearby localities, including Indiranagar, Jayanagar, Whitefield, Electronic City, and Yelahanka
+- **Availability**: Enquiries are accepted 24/7; care plans and admission suitability should be confirmed with the care team
+- **Last reviewed**: 2026-10-22
+- **Full context**: [llms-full.txt](https://bangalorecaretakers.in/llms-full.txt)
