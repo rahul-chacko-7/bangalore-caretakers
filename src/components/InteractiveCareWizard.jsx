@@ -23,7 +23,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
           Find the Right Care for Your Loved One
         </h2>
         <p className="text-sm text-slate-600">
-          Select your requirements below to get instant pricing and personalized recommendations.
+          Select your care needs to prepare an inquiry for our team.
         </p>
       </div>
 
@@ -122,9 +122,9 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
             <CheckCircle className="w-6 h-6" />
           </div>
 
-          <h3 className="text-xl font-bold">Recommended Care Plan Ready!</h3>
+          <h3 className="text-xl font-bold">Your care preferences</h3>
           <p className="text-sm text-slate-300 max-w-md mx-auto">
-            Customized plan for <strong>{careType.toUpperCase()} CARE ({locationType === 'home' ? 'AT HOME' : 'OLD AGE HOME STAY'})</strong> in Bangalore.
+            Inquiry for <strong>{careType.toUpperCase()} CARE ({locationType === 'home' ? 'AT HOME' : 'OLD AGE HOME STAY'})</strong> in Bangalore.
           </p>
 
           <div className="pt-2 flex flex-col sm:flex-row gap-3 justify-center">
@@ -132,7 +132,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
               onClick={handleFinish}
               className="btn-primary py-3.5 px-6 font-bold text-sm"
             >
-              Get Free Fee Quote & Callback
+              Ask about fees and availability
             </button>
             <a
               href={`tel:${GENERAL_INFO.phoneRaw}`}

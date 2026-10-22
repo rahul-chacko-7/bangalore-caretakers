@@ -1,11 +1,14 @@
 import { useParams, Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import NotFoundPage from './NotFoundPage';
 import { BLOG_POSTS } from '../data/blogData';
 import { Calendar, Clock, User, ArrowLeft, PhoneCall, ShieldCheck, CheckCircle2 } from 'lucide-react';
 
 export default function BlogPostPage({ onOpenInquiry }) {
   const { slug } = useParams();
-  const post = BLOG_POSTS.find((p) => p.slug === slug) || BLOG_POSTS[0];
+  const post = BLOG_POSTS.find((p) => p.slug === slug);
+
+  if (!post) return <NotFoundPage />;
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -26,18 +29,6 @@ export default function BlogPostPage({ onOpenInquiry }) {
     "mainEntityOfPage": `https://bangalorecaretakers.in/blog/${post.slug}`
   };
 
-  const faqSchema = post.faq && post.faq.length > 0 ? {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": post.faq.map(f => ({
-      "@type": "Question",
-      "name": f.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": f.answer
-      }
-    }))
-  } : null;
 
   return (
     <div className="bg-slate-50 min-h-screen">
@@ -46,7 +37,7 @@ export default function BlogPostPage({ onOpenInquiry }) {
         description={post.metaDescription}
         keywords={post.keywords}
         canonicalPath={`/blog/${post.slug}`}
-        schemaData={[articleSchema, faqSchema].filter(Boolean)}
+        schemaData={articleSchema} image={`https://bangalorecaretakers.in${post.image}`}
       />
 
       {/* Article Header */}

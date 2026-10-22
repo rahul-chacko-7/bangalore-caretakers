@@ -8,7 +8,7 @@ export default function CareComparisonMatrix({ onOpenInquiry }) {
       doctor: "Weekly Checkup",
       nursing: "On-Call Support",
       meals: "4 Dietitian Meals",
-      bgCheck: "100% Verified",
+      bgCheck: "Discuss verification",
       price: "Flexible Monthly",
       link: "/assisted-living-senior-care-bangalore"
     },
@@ -18,7 +18,7 @@ export default function CareComparisonMatrix({ onOpenInquiry }) {
       doctor: "Daily Physician Visit",
       nursing: "24/7 On-Duty Nurses",
       meals: "Diabetic & Custom Diet",
-      bgCheck: "100% Verified",
+      bgCheck: "Discuss verification",
       price: "Comprehensive Plan",
       featured: true,
       link: "/old-age-homes-bangalore"
@@ -29,7 +29,7 @@ export default function CareComparisonMatrix({ onOpenInquiry }) {
       doctor: "Daily Doctor & Specialist",
       nursing: "1-on-1 Dedicated Nurse",
       meals: "Ryle's Tube / Soft Diet",
-      bgCheck: "100% Verified",
+      bgCheck: "Discuss verification",
       price: "Full Medical Support",
       link: "/home-nursing-services-bangalore"
     },
@@ -39,7 +39,7 @@ export default function CareComparisonMatrix({ onOpenInquiry }) {
       doctor: "Geriatric Specialist",
       nursing: "24/7 Trained Attendant",
       meals: "Soft & Pureed Diet",
-      bgCheck: "100% Verified",
+      bgCheck: "Discuss verification",
       price: "Specialized Care",
       link: "/dementia-alzheimers-care-bangalore"
     }

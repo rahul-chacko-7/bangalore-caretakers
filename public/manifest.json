@@ -3,12 +3,12 @@
   "name": "Bangalore Caretakers - 24/7 Elder Care & Home Nursing",
   "icons": [
     {
-      "src": "/assets/site-logo.png",
+      "src": "/assets/icon-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/assets/site-logo.png",
+      "src": "/assets/icon-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

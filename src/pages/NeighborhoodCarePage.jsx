@@ -48,26 +48,22 @@ export default function NeighborhoodCarePage({ localityKey, onOpenInquiry }) {
 
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
-    "name": `Bangalore Caretakers - ${data.name}`,
+    "@type": "Service",
+    "provider": { "@id": "https://bangalorecaretakers.in/#business" },
+    "name": `Home care services in ${data.name}`,
     "description": data.metaDesc,
     "telephone": "+917760506666",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": data.name,
-      "addressRegion": "Bangalore",
-      "addressCountry": "IN"
-    }
+    "areaServed": { "@type": "Place", "name": data.name }
   };
 
   const neighborhoodFaqs = [
     {
       q: `How quickly can a home nurse or caretaker reach my location in ${data.name}?`,
-      a: `We deploy background-verified male and female home nurses to any home address in ${data.name} within 2 to 4 hours of your booking request.`
+      a: `Contact our team to confirm staff availability and an estimated start time for your address in ${data.name}. Deployment time depends on care needs and available staff.`
     },
     {
       q: `Are your Old Age Homes near ${data.name} equipped with doctor facilities?`,
-      a: `Yes, our partner senior care centers near ${data.name} feature daily physician visits, 24/7 on-duty nurses, oxygen support, and hospital tie-ups for emergency admission.`
+      a: `Our residential care facility is in Kothanur. Families from ${data.name} can visit and confirm nursing coverage, doctor arrangements and emergency coordination before admission.`
     }
   ];
 
@@ -98,7 +94,7 @@ export default function NeighborhoodCarePage({ localityKey, onOpenInquiry }) {
           </h1>
 
           <p className="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed">
-            Searching for reliable <strong className="text-white">Old Age Homes in {data.name}</strong> or professional <strong className="text-white">Home Nursing Services</strong>? Bangalore Caretakers delivers 24/7 medical supervision, background-checked caretakers, and peaceful senior living.
+            Families in {data.name} can discuss home nursing availability with our team or arrange a visit to our residential care facility in Kothanur. Care arrangements depend on individual needs and staff availability.
           </p>
 
           <p className="text-xs text-amber-300 font-medium">📍 {data.landmark}</p>
@@ -125,7 +121,7 @@ export default function NeighborhoodCarePage({ localityKey, onOpenInquiry }) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
               <h3 className="font-bold text-lg text-slate-900">Old Age Homes with Medical Care</h3>
-              <p className="text-sm text-slate-600">Peaceful residential centers near {data.name} equipped with doctor visits, 24/7 nursing, and nutritious meals.</p>
+              <p className="text-sm text-slate-600">Our residential facility is in Kothanur. Families from {data.name} can arrange a visit and discuss the care plan, nursing availability and meals.</p>
               <Link to="/old-age-homes-bangalore" className="text-xs font-bold text-teal-700 block pt-2">Learn More →</Link>
             </div>
 

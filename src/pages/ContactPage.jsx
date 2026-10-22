@@ -31,8 +31,8 @@ export default function ContactPage({ onOpenInquiry }) {
               <div className="p-3 bg-amber-500 text-slate-950 rounded-xl w-fit font-bold">
                 <Phone className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900">24/7 Emergency Line</h3>
-              <p className="text-sm text-slate-700">Immediate admission or emergency nurse deployment.</p>
+              <h3 className="text-xl font-bold text-slate-900">Care inquiries</h3>
+              <p className="text-sm text-slate-700">Discuss admission requirements and nursing availability.</p>
               <a href={`tel:${GENERAL_INFO.phoneRaw}`} className="text-lg font-black text-slate-900 hover:underline block">
                 {GENERAL_INFO.phone}
               </a>
@@ -43,7 +43,7 @@ export default function ContactPage({ onOpenInquiry }) {
                 <MessageSquare className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-slate-900">WhatsApp Instant Connect</h3>
-              <p className="text-sm text-slate-700">Send patient details for quick pricing & photo brochure.</p>
+              <p className="text-sm text-slate-700">Ask about availability, fees and arranging a facility visit.</p>
               <a 
                 href={`https://wa.me/${GENERAL_INFO.whatsappNumber}`}
                 target="_blank"

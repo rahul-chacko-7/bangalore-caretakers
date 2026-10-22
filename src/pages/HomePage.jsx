@@ -10,19 +10,6 @@ import { GENERAL_INFO } from '../data/keywordsData';
 import { BLOG_POSTS } from '../data/blogData';
 
 export default function HomePage({ onOpenInquiry }) {
-  const homeSchema = {
-    "@context": "https://schema.org",
-    "@type": ["MedicalBusiness", "LocalBusiness"],
-    "name": "Bangalore Caretakers - #1 Elder Care Services & Old Age Homes in Bangalore",
-    "description": "Bangalore Caretakers provides #1 Elder Care Services & Best Old Age Homes in Bangalore with 24/7 doctor supervision, home nursing, and caretakers at home. 4.9★ Rated.",
-    "telephone": "+917760506666",
-    "image": "https://bangalorecaretakers.in/assets/old-age-home-room.jpg",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "761"
-    }
-  };
 
   const oldAgeHomeHighlights = [
     {
@@ -70,7 +57,7 @@ export default function HomePage({ onOpenInquiry }) {
     },
     {
       q: "What medical facilities are provided in your Old Age Homes in Bangalore (ವೃದ್ಧಾಶ್ರಮ ಬೆಂಗಳೂರು)?",
-      a: "Facilities include 24/7 ICU-trained nurses, oxygen readiness, multi-para monitors, daily vitals tracking, physiotherapy sessions, customized diabetic diets, and emergency ambulance response within minutes."
+      a: "Families can discuss nursing support, health monitoring, mobility assistance, diet and doctor coordination. Confirm available equipment and the emergency transfer process during a visit."
     },
     {
       q: "Can I get a Care Taker at Home in Bangalore for 24/7 Elderly Care?",
@@ -85,8 +72,8 @@ export default function HomePage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Bangalore Caretakers | #1 Old Age Homes & Home Nursing Services in Bangalore"
-        description="Looking for the Best Old Age Homes or Home Nursing Services in Bangalore? Bangalore Caretakers offers 24/7 Medical Care, Dementia Care, and Home Nursing. Call +91 77605 06666."
+        title="Old Age Home in Bangalore | Bangalore Care Takers"
+        description="Explore elderly care, nursing support and assisted living at Bangalore Care Takers in Kothanur. Call to discuss care needs or arrange a facility visit."
         keywords={[
           "Old Age Homes in Bangalore",
           "Old Age Home Bangalore",
@@ -100,7 +87,6 @@ export default function HomePage({ onOpenInquiry }) {
           "Care Taker at Home in Bangalore"
         ]}
         canonicalPath="/"
-        schemaData={homeSchema}
       />
 
       {/* Hero Section */}
@@ -114,15 +100,15 @@ export default function HomePage({ onOpenInquiry }) {
               
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs sm:text-sm font-semibold">
                 <Star className="w-4 h-4 fill-current text-amber-400" />
-                <span>#1 Rated Old Age Home & Senior Care in Bangalore (4.9★ Rating)</span>
+                <span>Elderly care in Kothanur, Bengaluru</span>
               </div>
 
               <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-                Best <span className="text-amber-400 underline decoration-teal-500 decoration-4">Old Age Homes in Bangalore</span> (24/7 Medical & Nursing Care)
+                <span className="text-amber-400">Old Age Home in Bangalore</span> with Nursing Support
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-                Looking for <strong className="text-white">Good Old Age Homes in Bangalore</strong> or an <strong className="text-white">Old Age Home with Medical Facilities</strong>? Bangalore Caretakers provides 24/7 doctor-supervised senior living, skilled nursing care, dietitian meals, and verified <strong className="text-white">Care Takers at Home in Bangalore</strong>.
+                Bangalore Care Takers provides residential elderly care in Kothanur, Bengaluru. Discuss nursing support, daily assistance, dementia care and recovery needs with our team, then visit the facility before deciding.
               </p>
 
               {/* Action Buttons */}

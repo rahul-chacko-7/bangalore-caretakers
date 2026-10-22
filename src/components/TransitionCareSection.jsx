@@ -10,7 +10,7 @@ export default function TransitionCareSection({ onOpenInquiry }) {
     {
       num: "02",
       title: "ICU / Room Equipment Setup",
-      desc: "Immediate delivery of medical beds, oxygen concentrators, suction apparatus, IV stands, and air beds to your home or room within 2 hours."
+      desc: "Discuss availability and delivery arrangements for medical beds, oxygen concentrators, suction apparatus and other equipment."
     },
     {
       num: "03",
@@ -56,7 +56,7 @@ export default function TransitionCareSection({ onOpenInquiry }) {
         <div className="p-8 rounded-3xl bg-gradient-to-r from-teal-900 to-brand-blue border border-teal-500/30 flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-center md:text-left">
             <h3 className="text-2xl font-bold text-white">Need Immediate Post-Discharge Caretaker or Nurse?</h3>
-            <p className="text-sm text-slate-300">We deploy trained care staff to all Bangalore hospitals and homes within 2 hours.</p>
+            <p className="text-sm text-slate-300">Contact our team to discuss care needs, staff availability and an estimated start time.</p>
           </div>
           <button
             onClick={() => onOpenInquiry('Transition Care / Post-Discharge')}

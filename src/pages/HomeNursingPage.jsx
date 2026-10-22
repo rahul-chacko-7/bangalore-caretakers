@@ -7,7 +7,8 @@ import { GENERAL_INFO } from '../data/keywordsData';
 export default function HomeNursingPage({ onOpenInquiry }) {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    "@type": "Service",
+    "provider": { "@id": "https://bangalorecaretakers.in/#business" },
     "name": "Best Home Nursing Services in Bangalore - Bangalore Caretakers",
     "description": "Hire verified male and female home nurses in Bangalore for 12-hour or 24-hour home care, post-surgery recovery, and bedridden elderly patient care.",
     "telephone": "+917760506666",

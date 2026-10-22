@@ -67,5 +67,5 @@
 /jobs/                                             /caretaker-nursing-jobs-bangalore          301
 /jobs                                              /caretaker-nursing-jobs-bangalore          301
 
-# SPA Fallback Rule
-/*                                                 /index.html                                200
+# Unmatched URLs use the prerendered not-found page
+/*                                                 /404.html                                  404

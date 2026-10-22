@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Heart, Shield, Star, ChevronRight } from 'lucide-react';
-import { GENERAL_INFO, KEYWORD_CATEGORIES } from '../data/keywordsData';
+import { GENERAL_INFO } from '../data/keywordsData';
 
 export default function Footer({ onOpenInquiry }) {
   return (
@@ -16,8 +16,8 @@ export default function Footer({ onOpenInquiry }) {
               <img 
                 src="/assets/site-logo.webp" 
                 alt="Bangalore Caretakers Logo" 
-                width="200"
-                height="35"
+                width="299"
+                height="52"
                 className="h-10 w-auto bg-white p-1 rounded-lg"
               />
             </div>
@@ -36,7 +36,7 @@ export default function Footer({ onOpenInquiry }) {
                 onClick={onOpenInquiry}
                 className="btn-primary py-2.5 px-4 text-xs font-bold"
               >
-                Request 15-Min Callback
+                Discuss care availability
               </button>
             </div>
           </div>
@@ -137,14 +137,14 @@ export default function Footer({ onOpenInquiry }) {
               >
                 <Phone className="w-5 h-5 text-amber-400" />
                 <div>
-                  <span className="block text-[10px] text-amber-200 uppercase tracking-wider font-normal">Call 24/7 Emergency Line</span>
+                  <span className="block text-[10px] text-amber-200 uppercase tracking-wider font-normal">Call the care team</span>
                   <span>{GENERAL_INFO.phone}</span>
                 </div>
               </a>
 
               <div className="flex items-start gap-3 text-slate-300">
                 <MapPin className="w-5 h-5 text-teal-400 shrink-0 mt-0.5" />
-                <span>Serving all areas across Bangalore Urban, Indiranagar, Jayanagar, Whitefield, Electronic City, Yelahanka & surrounding suburbs.</span>
+                <span>{GENERAL_INFO.address}</span>
               </div>
 
               <div className="flex items-center gap-3 text-slate-300">
@@ -156,26 +156,12 @@ export default function Footer({ onOpenInquiry }) {
 
         </div>
 
-        {/* SEO Keyword Cloud */}
-        <div className="py-8 border-b border-slate-800 space-y-4 text-xs text-slate-400">
-          <h4 className="text-slate-200 font-bold text-sm uppercase tracking-wider">
-            Popular Care Searches in Bangalore:
-          </h4>
-          <div className="flex flex-wrap gap-2 leading-relaxed">
-            {KEYWORD_CATEGORIES.flatMap(cat => cat.keywords).map((kw, i) => (
-              <span key={i} className="bg-slate-800/60 hover:bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md border border-slate-700/50">
-                {kw}
-              </span>
-            ))}
-          </div>
-        </div>
-
         {/* Bottom copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} Bangalore Caretakers. All Rights Reserved. Designed for 100/100 Speed & Mobile Performance.</p>
+          <p>© {new Date().getFullYear()} Bangalore Caretakers. All Rights Reserved. Care information and availability: contact our team.</p>
           <div className="flex items-center gap-4">
-            <Link to="/contact-us" className="hover:text-slate-400">Privacy Policy</Link>
-            <Link to="/contact-us" className="hover:text-slate-400">Terms of Service</Link>
+            <Link to="/privacy-policy" className="hover:text-slate-400">Privacy Policy</Link>
+            <Link to="/terms-of-service" className="hover:text-slate-400">Terms of Service</Link>
             <Link to="/caretaker-nursing-jobs-bangalore" className="hover:text-slate-400">Careers</Link>
           </div>
         </div>

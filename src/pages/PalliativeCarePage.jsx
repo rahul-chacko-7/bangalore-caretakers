@@ -7,7 +7,8 @@ import { GENERAL_INFO } from '../data/keywordsData';
 export default function PalliativeCarePage({ onOpenInquiry }) {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    "@type": "Service",
+    "provider": { "@id": "https://bangalorecaretakers.in/#business" },
     "name": "Palliative & Cancer Care Services Bangalore - Bangalore Caretakers",
     "description": "Compassionate Palliative Care Services and Cancer Care at Home in Bangalore. Doctor-supervised pain management, symptom relief, and end-of-life care.",
     "telephone": "+917760506666"

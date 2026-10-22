@@ -1,57 +1,38 @@
 import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION, SOCIAL_IMAGE } from '../data/site';
 
-export default function SEO({ title, description, keywords, canonicalPath, schemaData }) {
+export default function SEO({ title = SITE_TITLE, description = SITE_DESCRIPTION, keywords, canonicalPath, schemaData, image = SOCIAL_IMAGE, noindex = false }) {
+  const { pathname } = useLocation();
+  const keywordText = keywords?.join(', ') || '';
+  const schemaText = schemaData ? JSON.stringify(schemaData).replace(/</g, '\u003c') : '';
   useEffect(() => {
-    // 1. Update Title
-    document.title = title || "Bangalore Caretakers | #1 Elder Care Services & Best Old Age Homes in Bangalore";
-
-    // 2. Update Meta Description
-    let metaDesc = document.querySelector('meta[name="description"]');
-    if (!metaDesc) {
-      metaDesc = document.createElement('meta');
-      metaDesc.name = 'description';
-      document.head.appendChild(metaDesc);
+    document.title = title;
+    const meta = (key, content, property = false) => {
+      const attribute = property ? 'property' : 'name';
+      let element = document.head.querySelector(`meta[${attribute}="${key}"]`);
+      if (!element) { element = document.createElement('meta'); element.setAttribute(attribute, key); document.head.appendChild(element); }
+      element.content = content;
+    };
+    const canonical = new URL(canonicalPath ?? pathname, SITE_URL).href;
+    meta('description', description);
+    meta('keywords', keywordText);
+    meta('robots', noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large');
+    for (const [key, value] of Object.entries({title, description, url: canonical, image, type: 'website', site_name: 'Bangalore Care Takers', locale: 'en_IN'})) meta(`og:${key}`, value, true);
+    if (image === SOCIAL_IMAGE) { meta('og:image:width', '1200', true); meta('og:image:height', '630', true); }
+    else { document.head.querySelector('meta[property="og:image:width"]')?.remove(); document.head.querySelector('meta[property="og:image:height"]')?.remove(); }
+    meta('twitter:card', 'summary_large_image');
+    meta('twitter:title', title); meta('twitter:description', description); meta('twitter:image', image);
+    let link = document.head.querySelector('link[rel="canonical"]');
+    if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
+    link.href = canonical;
+    document.getElementById('dynamic-page-schema')?.remove();
+    if (schemaText) {
+      const script = document.createElement('script'); script.id = 'dynamic-page-schema'; script.type = 'application/ld+json'; script.textContent = schemaText; document.head.appendChild(script);
     }
-    metaDesc.content = description || "Top-rated Elder Care Services & Best Old Age Homes in Bangalore with 24/7 Doctor-On-Call, Home Caretakers & Nursing. 4.9★ Rated. Free Quote & Consultation!";
-
-    // 3. Update Meta Keywords
-    if (keywords) {
-      let metaKw = document.querySelector('meta[name="keywords"]');
-      if (!metaKw) {
-        metaKw = document.createElement('meta');
-        metaKw.name = 'keywords';
-        document.head.appendChild(metaKw);
-      }
-      metaKw.content = keywords.join(', ');
-    }
-
-    // 4. Update Canonical URL
-    let linkCanonical = document.querySelector('link[rel="canonical"]');
-    if (!linkCanonical) {
-      linkCanonical = document.createElement('link');
-      linkCanonical.rel = 'canonical';
-      document.head.appendChild(linkCanonical);
-    }
-    const fullCanonical = `https://bangalorecaretakers.in${canonicalPath || ''}`;
-    linkCanonical.href = fullCanonical;
-
-    // 5. Dynamic Schema Injection
-    if (schemaData) {
-      const scriptId = 'dynamic-page-schema';
-      let oldScript = document.getElementById(scriptId);
-      if (oldScript) {
-        oldScript.remove();
-      }
-      const script = document.createElement('script');
-      script.id = scriptId;
-      script.type = 'application/ld+json';
-      script.innerHTML = JSON.stringify(schemaData);
-      document.head.appendChild(script);
-    }
-
-    // Scroll to top on route change
-    window.scrollTo(0, 0);
-  }, [title, description, keywords, canonicalPath, schemaData]);
-
+    document.documentElement.dataset.seoPath = pathname;
+    return () => { document.getElementById('dynamic-page-schema')?.remove(); delete document.documentElement.dataset.seoPath; };
+  }, [title, description, keywordText, canonicalPath, pathname, schemaText, image, noindex]);
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   return null;
 }

@@ -178,7 +178,7 @@ export const GENERAL_INFO = {
   phone: "+91 77605 06666",
   phoneRaw: "+917760506666",
   email: "info@bangalorecaretakers.in",
-  address: "Bangalore Caretakers Headquarters, Bangalore, Karnataka",
+  address: "206, BCT Nagar, Athmavidyanagar Layout, Kothanur Post, Doddagubbi Road, Bengaluru, Karnataka 560077",
   googleRating: "4.9",
   totalReviews: "761",
   openHours: "Open 24 Hours / 7 Days a Week",

@@ -13,13 +13,13 @@ export default function TrustBadges() {
       icon: Stethoscope,
       color: "text-teal-600 bg-teal-50 border-teal-200",
       title: "24/7 Doctor On-Call",
-      desc: "Instant medical support & emergency escalation"
+      desc: "Discuss doctor availability and emergency coordination"
     },
     {
       icon: ShieldCheck,
       color: "text-emerald-600 bg-emerald-50 border-emerald-200",
-      title: "100% Background Verified",
-      desc: "Police verified & certified male/female nurses"
+      title: "Care team qualifications",
+      desc: "Ask about qualifications and staff verification"
     },
     {
       icon: Clock,

@@ -3,25 +3,9 @@ import { HelpCircle } from 'lucide-react';
 export default function FAQSection({ faqs, title = "Frequently Asked Questions" }) {
   if (!faqs || faqs.length === 0) return null;
 
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map(faq => ({
-      "@type": "Question",
-      "name": faq.q,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.a
-      }
-    }))
-  };
 
   return (
     <section className="py-16 bg-slate-50 border-t border-slate-200">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         
         <div className="text-center space-y-2">

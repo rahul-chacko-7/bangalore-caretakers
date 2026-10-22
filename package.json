@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prerender.js",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare:assets": "node scripts/prepare-assets.js",
+    "test": "node scripts/verify-site.js"
   },
   "dependencies": {
     "lucide-react": "^0.469.0",

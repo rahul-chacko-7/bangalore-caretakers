@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
+import { BUSINESS_SCHEMA } from './data/site';
+
+if (!document.getElementById('business-schema')) {
+  const schema = document.createElement('script'); schema.id = 'business-schema'; schema.type = 'application/ld+json'; schema.textContent = JSON.stringify(BUSINESS_SCHEMA); document.head.appendChild(schema);
+}
 
 // Register Service Worker for Low-Network / Offline Speed Optimization
 if ('serviceWorker' in navigator && import.meta.env.PROD) {

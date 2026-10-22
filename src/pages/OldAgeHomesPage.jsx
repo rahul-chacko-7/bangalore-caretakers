@@ -7,16 +7,12 @@ import { GENERAL_INFO } from '../data/keywordsData';
 export default function OldAgeHomesPage({ onOpenInquiry }) {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    "@type": "Service",
+    "provider": { "@id": "https://bangalorecaretakers.in/#business" },
     "name": "Best Old Age Homes in Bangalore with Medical Care - Bangalore Caretakers",
     "description": "Looking for the best Old Age Homes in Bangalore? Bangalore Caretakers provides 24/7 doctor-supervised senior living homes with medical facilities and nursing care.",
     "telephone": "+917760506666",
-    "image": "https://bangalorecaretakers.in/assets/old-age-home-room.jpg",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "761"
-    }
+    "image": "https://bangalorecaretakers.in/assets/old-age-home-room.jpg"
   };
 
   const oldAgeFaqs = [

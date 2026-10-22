@@ -7,7 +7,8 @@ import { GENERAL_INFO } from '../data/keywordsData';
 export default function DementiaCarePage({ onOpenInquiry }) {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "MedicalBusiness",
+    "@type": "Service",
+    "provider": { "@id": "https://bangalorecaretakers.in/#business" },
     "name": "Dementia & Alzheimer's Care Homes Bangalore - Bangalore Caretakers",
     "description": "Specialized Dementia Care Homes and Home Caretakers in Bangalore for Alzheimer's and Parkinson's patients. Safe 24/7 memory care facilities.",
     "telephone": "+917760506666"
@@ -16,7 +17,7 @@ export default function DementiaCarePage({ onOpenInquiry }) {
   const dementiaFaqs = [
     {
       q: "How do your Dementia Care Homes ensure patient safety and prevent wandering?",
-      a: "Our dementia care facilities feature 24/7 RFID keycard door access, anti-wandering alarm sensors, slip-resistant floors, padded furniture edges, and continuous 1-on-1 staff monitoring to guarantee zero unsafe wandering."
+      a: "Discuss supervision, wandering risks and individual support needs with our team. During a facility visit, ask to review access arrangements, mobility safety and the proposed staffing plan."
     },
     {
       q: "Can I get a specialized Dementia Caretaker at home in Bangalore?",

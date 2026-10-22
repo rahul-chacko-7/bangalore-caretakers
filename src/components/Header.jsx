@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Phone, Menu, X, ShieldCheck, Clock, MapPin, ChevronDown, MessageSquare, Star, HeartHandshake, Sparkles, Search } from 'lucide-react';
 import { GENERAL_INFO } from '../data/keywordsData';
@@ -12,6 +12,8 @@ export default function Header({ onOpenInquiry }) {
   const [servicesDropdown, setServicesDropdown] = useState(false);
   const [locationsDropdown, setLocationsDropdown] = useState(false);
   const location = useLocation();
+
+  useEffect(() => { setMobileMenuOpen(false); setServicesDropdown(false); setLocationsDropdown(false); }, [location.pathname]);
 
   const primaryNav = [
     { name: 'Home', path: '/' },
@@ -55,10 +57,10 @@ export default function Header({ onOpenInquiry }) {
           
           <div className="flex items-center gap-4 text-slate-300">
             <span className="inline-flex items-center gap-1.5 font-bold text-amber-400">
-              <Clock className="w-3.5 h-3.5" /> 24/7 Medical Emergency Line
+              <Clock className="w-3.5 h-3.5" /> Care inquiries and admissions
             </span>
             <span className="hidden md:inline-flex items-center gap-1.5 text-slate-300">
-              <ShieldCheck className="w-3.5 h-3.5 text-teal-400" /> 100% Police Verified Staff & Doctor On-Call
+              <ShieldCheck className="w-3.5 h-3.5 text-teal-400" /> Discuss staff qualifications & doctor availability
             </span>
           </div>
 
@@ -103,8 +105,8 @@ export default function Header({ onOpenInquiry }) {
             <img 
               src="/assets/site-logo.webp" 
               alt="Bangalore Caretakers Official Logo" 
-              width="233" 
-              height="44"
+              width="299"
+              height="52"
               className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
             />
           </Link>
@@ -300,12 +302,14 @@ export default function Header({ onOpenInquiry }) {
                   type="text"
                   value={mobileSearch}
                   onChange={(e) => setMobileSearch(e.target.value)}
-                  placeholder="Search care services, locations, jobs..."
+                  aria-label="Search care services and locations"
+                  placeholder="Search care services and locations..."
                   className="w-full bg-slate-100/90 border border-slate-200 focus:border-teal-500 text-slate-900 placeholder:text-slate-400 text-xs rounded-xl pl-9 pr-8 py-2.5 outline-none font-semibold transition-all"
                 />
                 {mobileSearch && (
                   <button
                     onClick={() => setMobileSearch('')}
+                    aria-label="Clear search"
                     className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 text-xs font-bold"
                   >
                     ✕
