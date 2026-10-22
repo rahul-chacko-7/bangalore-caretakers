@@ -9,6 +9,7 @@ import FloatingMobileBar from './components/FloatingMobileBar';
 import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import PolicyPage from './pages/PolicyPage';
+import CoveragePage from './pages/CoveragePage';
 
 const OldAgeHomesPage = lazy(() => import('./pages/OldAgeHomesPage'));
 const HomeNursingPage = lazy(() => import('./pages/HomeNursingPage'));
@@ -75,6 +76,7 @@ export default function App() {
 
               <Route path="/privacy-policy" element={<PolicyPage />} />
               <Route path="/terms-of-service" element={<PolicyPage terms />} />
+              <Route path="/care-guides/:slug" element={<CoveragePage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </Suspense>

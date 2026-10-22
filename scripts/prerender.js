@@ -5,11 +5,12 @@ import { createServer } from 'node:http';
 import puppeteer from 'puppeteer';
 import handler from 'serve-handler';
 import { BLOG_POSTS } from '../src/data/blogData.js';
+import { COVERAGE_PAGES } from '../src/data/coveragePages.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
 const app = await fs.readFile(path.join(root, 'src/App.jsx'), 'utf8');
-const routes = [...new Set([...app.matchAll(/<Route path="([^"]+)"/g)].map(match => match[1]).filter(route => !route.includes(':') && route !== '*').concat(BLOG_POSTS.map(post => `/blog/${post.slug}`)))];
+const routes = [...new Set([...app.matchAll(/<Route path="([^"]+)"/g)].map(match => match[1]).filter(route => !route.includes(':') && route !== '*').concat(BLOG_POSTS.map(post => `/blog/${post.slug}`), Object.keys(COVERAGE_PAGES).map(slug => `/care-guides/${slug}`)))];
 const server = createServer((req, res) => handler(req, res, { public: dist, rewrites: [{ source: '**', destination: '/index.html' }] }));
 let browser;
 const baseHtml = await fs.readFile(path.join(dist, 'index.html'), 'utf8');
