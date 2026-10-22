@@ -41,15 +41,15 @@ export default function HomePage({ onOpenInquiry }) {
   const homeFaqs = [
     {
       q: "Why is Bangalore Caretakers ranked among the Best Elder Care Services in Bangalore?",
-      a: "Bangalore Caretakers combines 24/7 doctor availability, 12h & 24h skilled home nursing, dietitian-approved meal plans, high hygiene standards, and emergency ambulance tie-ups across Bangalore. Rated 4.9★ based on 761+ verified Google reviews."
+      a: "Families can compare residential care, home nursing, dementia support, and recovery services with the team. Ask about current staffing, doctor availability, facility arrangements, fees, and the emergency escalation process for the person’s needs."
     },
     {
       q: "What is the cost of 12hrs duty vs 24hrs duty in home care services in Bangalore?",
-      a: "12-hour daytime or nighttime home care shifts in Bangalore range from ₹18,000 to ₹26,000 per month, while 24-hour live-in home caretakers range from ₹28,000 to ₹42,000 per month."
+      a: "The cost depends on shift length, caregiver experience, clinical tasks, location, and whether equipment is needed. Request a current written quote for 12-hour or 24-hour care rather than relying on a general range."
     },
     {
       q: "What is the monthly price list for paid, ISKCON, Christian, or free old age homes in Bangalore?",
-      a: "Standard paid old age homes range from ₹18,000 to ₹35,000/month, luxury retirement communities range from ₹50,000 to ₹95,000/month, while charitable/Christian & government trust homes offer low-cost or free stay options for low-income seniors."
+      a: "Fees vary by room type, assistance level, nursing coverage, meals, equipment, and duration. Ask each facility for a written monthly breakdown and clarify admission, deposit, medication, transport, and emergency charges."
     },
     {
       q: "Do you provide residential care for mentally challenged adults and bedridden seniors in Bangalore?",
@@ -201,16 +201,43 @@ export default function HomePage({ onOpenInquiry }) {
       {/* Competitor Feature: Care Comparison Matrix */}
       <CareComparisonMatrix onOpenInquiry={onOpenInquiry} />
 
+      {/* Transparent decision support: helps families compare care without making unverified price claims. */}
+      <section className="py-16 bg-white border-y border-slate-200" aria-labelledby="care-planning-heading">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-10">
+            <span className="text-xs font-bold text-teal-700 uppercase tracking-widest bg-teal-50 px-3 py-1 rounded-full border border-teal-200">Plan with confidence</span>
+            <h2 id="care-planning-heading" className="mt-4 text-3xl font-black text-slate-900">What affects the cost of senior care?</h2>
+            <p className="mt-3 text-slate-600 leading-relaxed">A care plan is quoted after understanding the person’s needs. Ask the team to confirm room type, staffing, medical support, duration, meals, equipment, and any hospital-transfer requirements before making a decision.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            {[
+              ['Care setting', 'Home nursing, assisted living, or residential care can require different staffing and facilities.'],
+              ['Support level', 'Mobility, feeding, dementia supervision, wound care, and post-surgery needs affect the plan.'],
+              ['Visit and review', 'Request a written scope, inclusions, exclusions, visiting hours, and escalation process.']
+            ].map(([title, text]) => (
+              <div key={title} className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                <h3 className="font-extrabold text-slate-900">{title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-600">{text}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 flex flex-col sm:flex-row gap-3">
+            <button onClick={onOpenInquiry} className="btn-primary inline-flex items-center justify-center gap-2 px-6 py-3 font-bold"><Calendar className="w-4 h-4" />Request a written care plan</button>
+            <Link to="/contact-us" className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-300 px-6 py-3 font-bold text-slate-800 hover:bg-slate-50">Ask about a facility visit <ArrowRight className="w-4 h-4" /></Link>
+          </div>
+        </div>
+      </section>
+
       {/* Core Old Age Home Features Section */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           
           <div className="text-center max-w-3xl mx-auto space-y-3">
             <span className="text-xs font-bold text-teal-700 uppercase tracking-widest bg-teal-50 px-3 py-1 rounded-full border border-teal-200">
-              Karnataka's Most Trusted Senior Living
+              Senior Living & Nursing Support in Bengaluru
             </span>
             <h2 className="text-3xl font-black text-slate-900">
-              Top-Rated Old Age Home Care Services in Bangalore & 24/7 Elderly Care
+                Old Age Home Care Services in Bangalore & 24/7 Elderly Care
             </h2>
             <p className="text-slate-600 text-base">
               Engineered to provide home-like warmth alongside hospital-grade medical infrastructure.
@@ -274,8 +301,8 @@ export default function HomePage({ onOpenInquiry }) {
                 24/7 Doctor & Nurse Supervision
               </span>
 
-              <h2 className="text-3xl font-extrabold text-slate-900 leading-tight">
-                Why Bangalore Caretakers is Chosen as the Best Old Age Home in Bangalore
+                <h2 className="text-3xl font-extrabold text-slate-900 leading-tight">
+                Compare care options for an older adult in Bangalore
               </h2>
 
               <p className="text-slate-600 text-base leading-relaxed">
@@ -308,8 +335,8 @@ export default function HomePage({ onOpenInquiry }) {
                     <Award className="w-5 h-5" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-slate-900 text-base">4.9★ Google Rating & Verified Trust</h3>
-                    <p className="text-sm text-slate-600">Rated highest in Bangalore by over 760+ families for cleanliness, food quality, and compassionate staff.</p>
+                    <h3 className="font-bold text-slate-900 text-base">Review and verify the care plan</h3>
+                    <p className="text-sm text-slate-600">Ask about staff qualifications, room arrangements, meals, visiting hours, and the emergency escalation process before admission.</p>
                   </div>
                 </div>
               </div>
