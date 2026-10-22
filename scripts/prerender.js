@@ -18,7 +18,11 @@ async function writeFallbackShell() {
   for (const route of [...routes, '/404']) {
     const destination = route === '/' ? path.join(dist, 'index.html') : route === '/404' ? path.join(dist, '404.html') : path.join(dist, route.slice(1), 'index.html');
     await fs.mkdir(path.dirname(destination), { recursive: true });
-    await fs.writeFile(destination, baseHtml);
+    const pageName = route === '/' ? 'Old Age Home in Bangalore' : route === '/404' ? 'Page not found' : route.split('/').filter(Boolean).pop().replaceAll('-', ' ');
+    const heading = pageName.replace(/\b\w/g, character => character.toUpperCase());
+    const fallbackBody = `<main><h1>${heading}</h1><p>Bangalore Care Takers provides elderly care, nursing support, assisted living, dementia care, and palliative care in Bengaluru.</p><nav aria-label="Primary"><a href="/">Home</a><a href="/old-age-homes-bangalore">Old age homes in Bangalore</a><a href="/home-nursing-services-bangalore">Home nursing services</a><a href="/contact-us">Contact us</a></nav><script id="business-schema" type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'LocalBusiness', name: 'Bangalore Care Takers', url: 'https://bangalorecaretakers.in/' })}</script></main>`;
+    const html = baseHtml.replace('<div id="root"></div>', `<div id="root">${fallbackBody}</div>`);
+    await fs.writeFile(destination, html);
   }
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${routes.map(route => `<url><loc>https://bangalorecaretakers.in${route}</loc></url>`).join('')}</urlset>\n`;
   await fs.writeFile(path.join(dist, 'sitemap.xml'), sitemap);
