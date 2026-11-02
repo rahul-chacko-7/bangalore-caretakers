@@ -92,7 +92,7 @@ export default function InteractiveCareWizard({ onOpenInquiry }) {
                 <Home className="w-6 h-6" />
               </div>
               <h3 className="font-bold text-slate-900 text-lg">Care Provided At Home</h3>
-              <p className="text-xs text-slate-600">Certified male or female nurse/caretaker arrives at your home in Bangalore (12h / 24h shifts).</p>
+              <p className="text-xs text-slate-600">Ask about male or female nurse/caretaker availability at your home in Bangalore (12h / 24h shifts).</p>
             </button>
 
             <button

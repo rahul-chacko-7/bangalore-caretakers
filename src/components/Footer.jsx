@@ -159,6 +159,7 @@ export default function Footer({ onOpenInquiry }) {
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
           <p>© {new Date().getFullYear()} Bangalore Caretakers. All Rights Reserved. Care information and availability: contact our team.</p>
           <div className="flex items-center gap-4">
+            <Link to="/about-bangalore-caretakers" className="hover:text-slate-400">About & Trust</Link>
             <Link to="/privacy-policy" className="hover:text-slate-400">Privacy Policy</Link>
             <Link to="/terms-of-service" className="hover:text-slate-400">Terms of Service</Link>
             <Link to="/caretaker-nursing-jobs-bangalore" className="hover:text-slate-400">Careers</Link>

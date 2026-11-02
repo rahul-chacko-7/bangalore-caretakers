@@ -10,6 +10,7 @@ import HomePage from './pages/HomePage';
 import NotFoundPage from './pages/NotFoundPage';
 import PolicyPage from './pages/PolicyPage';
 import CoveragePage from './pages/CoveragePage';
+import AboutPage from './pages/AboutPage';
 
 const OldAgeHomesPage = lazy(() => import('./pages/OldAgeHomesPage'));
 const HomeNursingPage = lazy(() => import('./pages/HomeNursingPage'));
@@ -66,6 +67,7 @@ export default function App() {
               <Route path="/blog/:slug" element={<BlogPostPage onOpenInquiry={() => handleOpenInquiry('Blog Post Inquiry')} />} />
               <Route path="/caretaker-nursing-jobs-bangalore" element={<JobsPage />} />
               <Route path="/contact-us" element={<ContactPage onOpenInquiry={handleOpenInquiry} />} />
+              <Route path="/about-bangalore-caretakers" element={<AboutPage onOpenInquiry={handleOpenInquiry} />} />
               
               {/* Geo-Targeted Micro-Location Neighborhood Routes */}
               <Route path="/elderly-care-indiranagar" element={<NeighborhoodCarePage localityKey="indiranagar" onOpenInquiry={() => handleOpenInquiry('Indiranagar Care')} />} />

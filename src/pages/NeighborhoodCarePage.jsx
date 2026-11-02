@@ -9,7 +9,7 @@ const NEIGHBORHOOD_DATA = {
   "indiranagar": {
     name: "Indiranagar",
     title: "Best Old Age Homes & Home Nursing Services in Indiranagar Bangalore",
-    metaDesc: "Top-rated 24/7 Old Age Homes and Home Nursing Care in Indiranagar, East Bangalore. Certified male & female nurses, dementia care, and doctor availability.",
+    metaDesc: "Old age homes and home nursing care options for families in Indiranagar, East Bangalore. Discuss staff availability, dementia support and care planning.",
     h1: "24/7 Senior & Home Nursing Care Services in Indiranagar",
     landmark: "Serving Indiranagar 100 Feet Road, CMH Road, HAL 2nd Stage, and Defence Colony."
   },
@@ -17,7 +17,7 @@ const NEIGHBORHOOD_DATA = {
     name: "Jayanagar",
     title: "Old Age Homes & 24/7 Home Nursing Services in Jayanagar Bangalore",
     metaDesc: "Compassionate elderly care, old age homes with medical support, and trained home caretakers in Jayanagar, South Bangalore.",
-    h1: "Trusted Senior Living & Home Caretakers in Jayanagar",
+    h1: "Senior Living & Home Caretakers in Jayanagar",
     landmark: "Serving Jayanagar 3rd Block, 4th Block, 9th Block, JP Nagar, and Banashankari."
   },
   "whitefield": {
@@ -127,19 +127,26 @@ export default function NeighborhoodCarePage({ localityKey, onOpenInquiry }) {
 
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
               <h3 className="font-bold text-lg text-slate-900">12h / 24h Home Nurses & Caretakers</h3>
-              <p className="text-sm text-slate-600">Male & female nurses for bedridden, post-surgery, catheter, and tracheostomy care delivered at your doorstep in {data.name}.</p>
+              <p className="text-sm text-slate-600">Ask about male or female nurse availability for bedridden, post-surgery, catheter, and tracheostomy support at your address in {data.name}.</p>
               <Link to="/home-nursing-services-bangalore" className="text-xs font-bold text-teal-700 block pt-2">Learn More →</Link>
             </div>
 
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
               <h3 className="font-bold text-lg text-slate-900">Dementia & Palliative Care</h3>
-              <p className="text-sm text-slate-600">Memory care and end-of-life palliative symptom management supervised by geriatric specialists.</p>
+              <p className="text-sm text-slate-600">Discuss memory care and palliative support, including the clinical coordination and supervision available for your situation.</p>
               <Link to="/dementia-alzheimers-care-bangalore" className="text-xs font-bold text-teal-700 block pt-2">Learn More →</Link>
             </div>
           </div>
         </div>
       </section>
 
+      <section className="py-12 bg-slate-50 border-y border-slate-200" aria-labelledby="local-planning-heading">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 id="local-planning-heading" className="text-2xl font-black text-slate-900">Local care planning for {data.name}</h2>
+          <p className="mt-3 max-w-3xl text-slate-600 leading-relaxed">The residential facility is in Kothanur, so families in {data.name} should confirm travel, home-visit coverage, start time, shift length and replacement arrangements for their exact address. Use the local landmarks above to explain where care is needed, then request a written scope before booking.</p>
+          <div className="mt-5 flex flex-wrap gap-3 text-sm font-bold"><Link className="rounded-lg bg-white border border-slate-200 px-4 py-2 text-teal-800" to="/about-bangalore-caretakers">How to verify care details</Link><Link className="rounded-lg bg-white border border-slate-200 px-4 py-2 text-teal-800" to="/contact-us">Ask about this area</Link></div>
+        </div>
+      </section>
       <FAQSection faqs={neighborhoodFaqs} title={`Care Services in ${data.name} - FAQ`} />
     </>
   );

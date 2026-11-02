@@ -59,7 +59,7 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
       <section className="bg-gradient-to-r from-brand-blue to-slate-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-500/20 border border-teal-400/40 text-teal-300 text-xs font-semibold">
-            <Building className="w-4 h-4" /> SL #1 Priority Target Service
+            <Building className="w-4 h-4" /> Residential senior-care option
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
