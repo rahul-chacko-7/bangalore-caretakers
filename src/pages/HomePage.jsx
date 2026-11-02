@@ -13,8 +13,8 @@ export default function HomePage({ onOpenInquiry }) {
 
   const oldAgeHomeHighlights = [
     {
-      title: "Best Old Age Homes in Bangalore",
-      desc: "Top-rated residential senior living centers offering peaceful rooms, 24/7 doctor supervision, and specialized geriatric care.",
+      title: "Old Age Homes in Bangalore",
+      desc: "Residential senior living options with peaceful rooms, nursing support and care planning for older adults.",
       icon: Building,
       link: "/old-age-homes-bangalore"
     },
@@ -40,7 +40,7 @@ export default function HomePage({ onOpenInquiry }) {
 
   const homeFaqs = [
     {
-      q: "Why is Bangalore Caretakers ranked among the Best Elder Care Services in Bangalore?",
+      q: "What elder-care services can families discuss in Bangalore?",
       a: "Families can compare residential care, home nursing, dementia support, and recovery services with the team. Ask about current staffing, doctor availability, facility arrangements, fees, and the emergency escalation process for the person’s needs."
     },
     {
@@ -134,7 +134,7 @@ export default function HomePage({ onOpenInquiry }) {
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4 text-xs sm:text-sm text-slate-300">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-teal-400 shrink-0" />
-                  <span>24/7 Doctor On-Call</span>
+                  <span>Doctor availability by care plan</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-teal-400 shrink-0" />
@@ -174,8 +174,8 @@ export default function HomePage({ onOpenInquiry }) {
                   Schedule Campus Tour / Book Room
                 </button>
 
-                <div className="text-center text-[11px] text-slate-500">
-                  ⚡ Trusted by 760+ Bangalore families for Old Age Home Care Services
+                  <div className="text-center text-[11px] text-slate-500">
+                  Discuss current room availability, staffing and care-plan details with the team
                 </div>
               </div>
             </div>
@@ -409,8 +409,8 @@ export default function HomePage({ onOpenInquiry }) {
                   className="w-full h-44 object-cover"
                 />
                 <div className="p-3 text-xs">
-                  <div className="font-bold text-emerald-400">Free Health Camps</div>
-                  <div className="text-slate-300">Doctor & nursing staff team in Bangalore</div>
+                  <div className="font-bold text-emerald-400">Community care support</div>
+                  <div className="text-slate-300">Ask about current health and nursing initiatives</div>
                 </div>
               </div>
             </div>

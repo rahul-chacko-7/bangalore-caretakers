@@ -16,7 +16,7 @@ const NEIGHBORHOOD_DATA = {
   "jayanagar": {
     name: "Jayanagar",
     title: "Old Age Homes & 24/7 Home Nursing Services in Jayanagar Bangalore",
-    metaDesc: "Compassionate Elderly Care, Old Age Homes with medical care, and trained Home Caretakers in Jayanagar, South Bangalore. Rated 4.9★.",
+    metaDesc: "Compassionate elderly care, old age homes with medical support, and trained home caretakers in Jayanagar, South Bangalore.",
     h1: "Trusted Senior Living & Home Caretakers in Jayanagar",
     landmark: "Serving Jayanagar 3rd Block, 4th Block, 9th Block, JP Nagar, and Banashankari."
   },

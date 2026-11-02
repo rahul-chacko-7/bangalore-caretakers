@@ -1,19 +1,12 @@
-import { Star, ShieldCheck, Stethoscope, Clock, Heart, Award } from 'lucide-react';
-import { GENERAL_INFO } from '../data/keywordsData';
+import { ShieldCheck, Stethoscope, Clock } from 'lucide-react';
 
 export default function TrustBadges() {
   const badges = [
     {
-      icon: Star,
-      color: "text-amber-500 bg-amber-50 border-amber-200",
-      title: `${GENERAL_INFO.googleRating}★ Google Rating`,
-      desc: `Based on ${GENERAL_INFO.totalReviews}+ Verified Patient Reviews`
-    },
-    {
       icon: Stethoscope,
       color: "text-teal-600 bg-teal-50 border-teal-200",
-      title: "24/7 Doctor On-Call",
-      desc: "Discuss doctor availability and emergency coordination"
+      title: "Doctor availability",
+      desc: "Discuss doctor coverage and emergency coordination"
     },
     {
       icon: ShieldCheck,

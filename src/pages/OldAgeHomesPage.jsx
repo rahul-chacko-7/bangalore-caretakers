@@ -38,7 +38,7 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
     <>
       <SEO
         title="Top Old Age Homes in Bangalore | Monthly Pricing & 24/7 Medical Care"
-        description="Compare top-rated Old Age Homes in Bangalore with 24/7 doctor backup, nursing, dementia care & custom food plans. transparent monthly fees. Rated 4.9★."
+        description="Compare old age homes in Bangalore with nursing support, dementia care, custom food plans and transparent care-plan discussions."
         keywords={[
           "Old Age Homes in Bangalore",
           "Old Age Home Bangalore",

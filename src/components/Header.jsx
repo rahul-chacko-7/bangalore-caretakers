@@ -17,7 +17,7 @@ export default function Header({ onOpenInquiry }) {
 
   const primaryNav = [
     { name: 'Home', path: '/' },
-    { name: 'Old Age Homes', path: '/old-age-homes-bangalore', badge: 'Top Rated' },
+    { name: 'Old Age Homes', path: '/old-age-homes-bangalore', badge: 'Senior care' },
     { name: 'Home Nursing', path: '/home-nursing-services-bangalore' }
   ];
 
@@ -72,8 +72,8 @@ export default function Header({ onOpenInquiry }) {
               className="inline-flex items-center gap-1.5 bg-amber-500/10 hover:bg-amber-500/20 px-2.5 py-0.5 rounded-full border border-amber-500/30 text-amber-300 transition-all text-[11px] font-semibold"
             >
               <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
-              <span className="font-extrabold text-amber-400">4.9 ★</span>
-              <span className="text-slate-200">761+ Verified Google Reviews</span>
+              <span className="font-extrabold text-amber-400">Care planning</span>
+              <span className="text-slate-200">Discuss availability and facilities</span>
             </a>
 
             <a
@@ -476,7 +476,7 @@ export default function Header({ onOpenInquiry }) {
                   className="flex items-center justify-center gap-1 bg-amber-50 border border-amber-200 text-amber-900 py-2.5 px-3 rounded-xl font-bold text-xs hover:bg-amber-100 transition-colors"
                 >
                   <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                  <span>4.9★ Reviews</span>
+                  <span>Care enquiries</span>
                 </a>
               </div>
 

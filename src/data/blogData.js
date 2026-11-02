@@ -412,7 +412,7 @@ export const BLOG_POSTS = [
     id: 'home-nursing-services-near-me-bangalore-guide',
     slug: 'home-nursing-services-near-me-bangalore-guide',
     title: 'Home Nursing Services Near Me in Bangalore: 2026 Neighborhood Guide & Rates',
-    excerpt: 'Find top-rated local home nurses in Indiranagar, Jayanagar, Whitefield, Electronic City, Yelahanka, and BTM Layout with quick 2-hour dispatch.',
+    excerpt: 'Find local home nurses in Indiranagar, Jayanagar, Whitefield, Electronic City, Yelahanka, and BTM Layout, subject to current staff availability.',
     category: 'Local Care Guide',
     date: 'September 23, 2026',
     readTime: '7 min read',

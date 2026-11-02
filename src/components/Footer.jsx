@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Heart, Shield, Star, ChevronRight } from 'lucide-react';
+import { Phone, Mail, MapPin, Heart, Shield, ChevronRight } from 'lucide-react';
 import { GENERAL_INFO } from '../data/keywordsData';
 
 export default function Footer({ onOpenInquiry }) {
@@ -23,13 +23,8 @@ export default function Footer({ onOpenInquiry }) {
             </div>
 
             <p className="text-sm text-slate-400 leading-relaxed">
-              Bangalore Caretakers is Karnataka's most trusted 24/7 Elderly Care, Old Age Home, Home Nursing, and Palliative Care service provider. Providing compassionate, doctor-supervised medical care at home & centers.
+              Bangalore Caretakers provides elderly care, old age home, home nursing, assisted living and palliative-care enquiries in Bengaluru. Families can discuss current staffing, facilities and care requirements with the team.
             </p>
-
-            <div className="flex items-center gap-2 text-amber-400 font-semibold text-sm">
-              <Star className="w-5 h-5 fill-current" />
-              <span>4.9 / 5.0 Rating based on 761+ Google Reviews</span>
-            </div>
 
             <div className="pt-2">
               <button 
