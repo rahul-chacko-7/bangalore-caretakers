@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Phone, ShieldCheck, Heart, Stethoscope, CheckCircle, Building } from 'lucide-react';
 import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
@@ -9,15 +10,15 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
     "@context": "https://schema.org",
     "@type": "Service",
     "provider": { "@id": "https://bangalorecaretakers.in/#business" },
-    "name": "Best Old Age Homes in Bangalore with Medical Care - Bangalore Caretakers",
-    "description": "Looking for the best Old Age Homes in Bangalore? Bangalore Caretakers provides 24/7 doctor-supervised senior living homes with medical facilities and nursing care.",
+    "name": "Best Old Age Homes in Bangalore with Medical Care - Bangalore Care Takers",
+    "description": "Looking for the best Old Age Homes in Bangalore? Bangalore Care Takers provides 24/7 doctor-supervised senior living homes with medical facilities and nursing care.",
     "telephone": "+917760506666",
     "image": "https://bangalorecaretakers.in/assets/old-age-home-room.jpg"
   };
 
   const oldAgeFaqs = [
     {
-      q: "What medical facilities are available in Bangalore Caretakers Old Age Homes?",
+      q: "What medical facilities are available in Bangalore Care Takers Old Age Homes?",
       a: "Our old age homes in Bangalore are equipped with 24/7 registered nursing staff, daily doctor visits, oxygen concentrators, vitals monitoring, wheelchair support, and rapid emergency ambulance escalation."
     },
     {
@@ -37,8 +38,8 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Top Old Age Homes in Bangalore | Monthly Pricing & 24/7 Medical Care"
-        description="Compare old age homes in Bangalore with nursing support, dementia care, custom food plans and transparent care-plan discussions."
+        title="Old Age Home in Kothanur, Bangalore | 24/7 Nursing Care"
+        description="Residential elderly care in Kothanur, Bangalore with 24/7 nursing, dementia support and doctor coordination. See typical monthly fees and book a facility visit."
         keywords={[
           "Old Age Homes in Bangalore",
           "Old Age Home Bangalore",
@@ -63,11 +64,11 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-            Best <span className="text-amber-400">Old Age Homes in Bangalore</span> with 24/7 Medical & Nursing Care
+            <span className="text-amber-400">Old Age Home in Bangalore</span> with 24/7 Nursing & Medical Care
           </h1>
 
           <p className="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed">
-            Searching for reliable, medical-assisted <strong className="text-white">Old Age Home Care Services in Bangalore</strong>? We offer peaceful residential environments equipped with 24/7 nursing supervision, physician visits, customized nutritious meals, and complete emergency medical backup.
+            Searching for reliable, medical-assisted <strong className="text-white">Old Age Home Care Services in Bangalore</strong>? Our Kothanur facility offers a peaceful residential setting with 24/7 nursing supervision, doctor coordination, customised meals and emergency escalation support.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -85,6 +86,10 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
               Call Helpline (+91 77605 06666)
             </a>
           </div>
+          <p className="text-sm text-slate-300">
+            Typical monthly fees by room type and care level are in our{' '}
+            <Link to="/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide" className="underline font-semibold text-white">old age home cost guide for Bangalore</Link>.
+          </p>
         </div>
       </section>
 
@@ -108,7 +113,7 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
             <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-900 text-white space-y-4">
               <img
                 src="/assets/old-age-home-room.webp"
-                alt="Bangalore Caretakers Old Age Home Room with Medical Beds"
+                alt="Bangalore Care Takers Old Age Home Room with Medical Beds"
                 width="600"
                 height="400"
                 loading="lazy"
@@ -126,7 +131,7 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
             <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-900 text-white space-y-4">
               <img
                 src="/assets/senior-healthy-meal.webp"
-                alt="Nutritious Senior Diet Meals at Bangalore Caretakers"
+                alt="Nutritious Senior Diet Meals at Bangalore Care Takers"
                 width="600"
                 height="400"
                 loading="lazy"

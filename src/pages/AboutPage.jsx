@@ -6,12 +6,12 @@ import { GENERAL_INFO } from '../data/keywordsData';
 export default function AboutPage({ onOpenInquiry }) {
   return (
     <>
-      <SEO title="About Bangalore Caretakers | Senior Care in Kothanur" description="Learn how Bangalore Caretakers handles senior-care, home-nursing and residential-care enquiries from Kothanur, Bengaluru, with clear care-plan and visit guidance." canonicalPath="/about-bangalore-caretakers" />
+      <SEO title="About Bangalore Care Takers | Senior Care in Kothanur" description="Learn how Bangalore Care Takers handles senior-care, home-nursing and residential-care enquiries from Kothanur, Bengaluru, with clear care-plan and visit guidance." canonicalPath="/about-bangalore-caretakers" />
       <section className="bg-gradient-to-b from-brand-blue via-slate-900 to-slate-950 text-white py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-widest text-amber-300">About the care team</p>
-          <h1 className="mt-4 text-3xl sm:text-5xl font-black leading-tight">Bangalore Caretakers senior-care enquiries</h1>
-          <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-200">Bangalore Caretakers helps families discuss residential senior care, home nursing, assisted living, dementia support, palliative care and recovery needs in Bengaluru. The residential facility address is in Kothanur; home-care availability depends on the person’s needs, location and current staffing.</p>
+          <h1 className="mt-4 text-3xl sm:text-5xl font-black leading-tight">Bangalore Care Takers senior-care enquiries</h1>
+          <p className="mt-6 max-w-3xl text-lg leading-relaxed text-slate-200">Bangalore Care Takers helps families discuss residential senior care, home nursing, assisted living, dementia support, palliative care and recovery needs in Bengaluru. The residential facility address is in Kothanur; home-care availability depends on the person’s needs, location and current staffing.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3"><button onClick={onOpenInquiry} className="btn-primary inline-flex items-center justify-center gap-2 px-6 py-3 font-bold">Discuss a care plan <ArrowRight className="w-4 h-4" /></button><a href={`tel:${GENERAL_INFO.phoneRaw}`} className="btn-phone inline-flex items-center justify-center gap-2 px-6 py-3 font-bold"><Phone className="w-4 h-4" /> {GENERAL_INFO.phone}</a></div>
         </div>
       </section>

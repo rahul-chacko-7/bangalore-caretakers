@@ -9,7 +9,7 @@ export default function PalliativeCarePage({ onOpenInquiry }) {
     "@context": "https://schema.org",
     "@type": "Service",
     "provider": { "@id": "https://bangalorecaretakers.in/#business" },
-    "name": "Palliative & Cancer Care Services Bangalore - Bangalore Caretakers",
+    "name": "Palliative & Cancer Care Services Bangalore - Bangalore Care Takers",
     "description": "Compassionate Palliative Care Services and Cancer Care at Home in Bangalore. Doctor-supervised pain management, symptom relief, and end-of-life care.",
     "telephone": "+917760506666"
   };

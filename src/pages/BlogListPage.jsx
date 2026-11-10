@@ -7,7 +7,7 @@ export default function BlogListPage({ onOpenInquiry }) {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Bangalore Caretakers Elder Care & Medical Guides",
+    "name": "Bangalore Care Takers Elder Care & Medical Guides",
     "description": "Expert senior living, home nursing, and dementia care guides for families in Bangalore.",
     "url": "https://bangalorecaretakers.in/blog"
   };
@@ -15,7 +15,7 @@ export default function BlogListPage({ onOpenInquiry }) {
   return (
     <div className="bg-slate-50 min-h-screen">
       <SEO 
-        title="Senior Care Guides & Elder Living Articles Bangalore | Bangalore Caretakers Blog"
+        title="Senior Care Guides & Elder Living Articles Bangalore | Bangalore Care Takers Blog"
         description="Read expert guides on choosing old age homes in Bangalore, dementia care techniques, post-surgery home nursing checklists, and senior health tips."
         keywords={['elder care blog bangalore', 'old age home guides', 'dementia care tips', 'home nursing articles']}
         canonicalPath="/blog"

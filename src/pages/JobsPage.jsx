@@ -51,7 +51,7 @@ export default function JobsPage() {
           </h1>
 
           <p className="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed">
-            Are you a trained male/female nurse or experienced elderly caretaker looking for immediate employment in Bangalore? Contact Bangalore Caretakers to discuss current vacancies, qualifications, duties, pay and accommodation arrangements.
+            Are you a trained male/female nurse or experienced elderly caretaker looking for immediate employment in Bangalore? Contact Bangalore Care Takers to discuss current vacancies, qualifications, duties, pay and accommodation arrangements.
           </p>
         </div>
       </section>

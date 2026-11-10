@@ -6,15 +6,15 @@ export default function ContactPage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Contact Bangalore Caretakers | 24/7 Helpline +91 77605 06666"
-        description="Contact Bangalore Caretakers for 24/7 Old Age Home admissions and Home Nursing inquiries across Bangalore. Phone: +91 77605 06666."
+        title="Contact Bangalore Care Takers | 24/7 Helpline +91 77605 06666"
+        description="Contact Bangalore Care Takers for 24/7 Old Age Home admissions and Home Nursing inquiries across Bangalore. Phone: +91 77605 06666."
         canonicalPath="/contact-us"
       />
 
       <section className="bg-gradient-to-r from-brand-blue via-slate-900 to-teal-950 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4 text-center">
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight">
-            Contact <span className="text-teal-400">Bangalore Caretakers</span>
+            Contact <span className="text-teal-400">Bangalore Care Takers</span>
           </h1>
           <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto">
             Available 24 Hours a Day, 7 Days a Week for Immediate Senior Care & Nursing Support.

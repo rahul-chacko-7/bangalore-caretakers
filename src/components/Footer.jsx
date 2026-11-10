@@ -15,7 +15,7 @@ export default function Footer({ onOpenInquiry }) {
             <div className="flex items-center gap-3">
               <img 
                 src="/assets/site-logo.webp" 
-                alt="Bangalore Caretakers Logo" 
+                alt="Bangalore Care Takers Logo" 
                 width="299"
                 height="52"
                 className="h-10 w-auto bg-white p-1 rounded-lg"
@@ -23,7 +23,7 @@ export default function Footer({ onOpenInquiry }) {
             </div>
 
             <p className="text-sm text-slate-400 leading-relaxed">
-              Bangalore Caretakers provides elderly care, old age home, home nursing, assisted living and palliative-care enquiries in Bengaluru. Families can discuss current staffing, facilities and care requirements with the team.
+              Bangalore Care Takers provides elderly care, old age home, home nursing, assisted living and palliative-care enquiries in Bengaluru. Families can discuss current staffing, facilities and care requirements with the team.
             </p>
 
             <div className="pt-2">
@@ -157,7 +157,7 @@ export default function Footer({ onOpenInquiry }) {
 
         {/* Bottom copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} Bangalore Caretakers. All Rights Reserved. Care information and availability: contact our team.</p>
+          <p>© {new Date().getFullYear()} Bangalore Care Takers. All Rights Reserved. Care information and availability: contact our team.</p>
           <div className="flex items-center gap-4">
             <Link to="/about-bangalore-caretakers" className="hover:text-slate-400">About & Trust</Link>
             <Link to="/privacy-policy" className="hover:text-slate-400">Privacy Policy</Link>

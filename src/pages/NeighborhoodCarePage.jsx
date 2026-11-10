@@ -8,37 +8,37 @@ import { GENERAL_INFO } from '../data/keywordsData';
 const NEIGHBORHOOD_DATA = {
   "indiranagar": {
     name: "Indiranagar",
-    title: "Best Old Age Homes & Home Nursing Services in Indiranagar Bangalore",
-    metaDesc: "Old age homes and home nursing care options for families in Indiranagar, East Bangalore. Discuss staff availability, dementia support and care planning.",
-    h1: "24/7 Senior & Home Nursing Care Services in Indiranagar",
+    title: "Home Nursing & Elderly Care in Indiranagar, Bangalore",
+    metaDesc: "Home nurses and caretakers for families in Indiranagar, plus residential care at our Kothanur facility. Check staff availability for your address.",
+    h1: "Home Nursing & Elderly Care for Families in Indiranagar",
     landmark: "Serving Indiranagar 100 Feet Road, CMH Road, HAL 2nd Stage, and Defence Colony."
   },
   "jayanagar": {
     name: "Jayanagar",
-    title: "Old Age Homes & 24/7 Home Nursing Services in Jayanagar Bangalore",
-    metaDesc: "Compassionate elderly care, old age homes with medical support, and trained home caretakers in Jayanagar, South Bangalore.",
-    h1: "Senior Living & Home Caretakers in Jayanagar",
+    title: "Home Nursing & Elderly Care in Jayanagar, Bangalore",
+    metaDesc: "Home nurses and caretakers for families in Jayanagar and JP Nagar, plus residential care at our Kothanur facility. Check staff availability for your address.",
+    h1: "Home Nursing & Elderly Care for Families in Jayanagar",
     landmark: "Serving Jayanagar 3rd Block, 4th Block, 9th Block, JP Nagar, and Banashankari."
   },
   "whitefield": {
     name: "Whitefield",
-    title: "Best Old Age Homes & Nursing Services in Whitefield Bangalore",
-    metaDesc: "24/7 Assisted Living, Old Age Homes with doctor support, and Home Nursing Care in Whitefield, ITPL, and Hope Farm Bangalore.",
-    h1: "24/7 Elderly Care & Home Nursing in Whitefield",
+    title: "Home Nursing & Elderly Care in Whitefield, Bangalore",
+    metaDesc: "Home nurses and caretakers for families in Whitefield and ITPL, plus residential care at our Kothanur facility. Check staff availability for your address.",
+    h1: "Home Nursing & Elderly Care for Families in Whitefield",
     landmark: "Serving Whitefield Main Road, ITPL, Marathahalli, Varthur, and Hoodi."
   },
   "electronic-city": {
     name: "Electronic City",
-    title: "Old Age Homes & Home Nursing Care in Electronic City Bangalore",
-    metaDesc: "Affordable & Premium Senior Living, Old Age Homes, Dementia Care, and Home Nurses in Electronic City Phase 1 & Phase 2.",
-    h1: "Senior Living & Home Nursing Services in Electronic City",
+    title: "Home Nursing & Elderly Care in Electronic City, Bangalore",
+    metaDesc: "Home nurses and caretakers for families in Electronic City Phase 1 and 2, plus residential care at our Kothanur facility. Check staff availability.",
+    h1: "Home Nursing & Elderly Care for Families in Electronic City",
     landmark: "Serving Electronic City Phase 1, Phase 2, Singasandra, and Bommasandra."
   },
   "yelahanka": {
     name: "Yelahanka",
-    title: "Best Old Age Homes & Elderly Care Services in Yelahanka Bangalore",
-    metaDesc: "Peaceful residential Old Age Homes with 24/7 medical care, bedridden patient nursing, and palliative care in Yelahanka, North Bangalore.",
-    h1: "Doctor-Supervised Senior Care in Yelahanka",
+    title: "Home Nursing & Elderly Care in Yelahanka, Bangalore",
+    metaDesc: "Home nurses and caretakers for families in Yelahanka and Hebbal, plus residential care at our nearby Kothanur facility. Check staff availability.",
+    h1: "Home Nursing & Elderly Care for Families in Yelahanka",
     landmark: "Serving Yelahanka New Town, Hebbal, Sahakarnagar, and Kogilu."
   }
 };
@@ -62,7 +62,7 @@ export default function NeighborhoodCarePage({ localityKey, onOpenInquiry }) {
       a: `Contact our team to confirm staff availability and an estimated start time for your address in ${data.name}. Deployment time depends on care needs and available staff.`
     },
     {
-      q: `Are your Old Age Homes near ${data.name} equipped with doctor facilities?`,
+      q: `Is your residential care facility near ${data.name}?`,
       a: `Our residential care facility is in Kothanur. Families from ${data.name} can visit and confirm nursing coverage, doctor arrangements and emergency coordination before admission.`
     }
   ];
@@ -73,9 +73,8 @@ export default function NeighborhoodCarePage({ localityKey, onOpenInquiry }) {
         title={data.title}
         description={data.metaDesc}
         keywords={[
-          `Old Age Homes in ${data.name} Bangalore`,
+          `Elderly Care in ${data.name} Bangalore`,
           `Home Nursing Services in ${data.name}`,
-          `Best Old Age Home ${data.name}`,
           `Female Nurse for Home Care ${data.name}`,
           `Caretaker in ${data.name} Bangalore`
         ]}
@@ -120,7 +119,7 @@ export default function NeighborhoodCarePage({ localityKey, onOpenInquiry }) {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
-              <h3 className="font-bold text-lg text-slate-900">Old Age Homes with Medical Care</h3>
+              <h3 className="font-bold text-lg text-slate-900">Residential Care in Kothanur</h3>
               <p className="text-sm text-slate-600">Our residential facility is in Kothanur. Families from {data.name} can arrange a visit and discuss the care plan, nursing availability and meals.</p>
               <Link to="/old-age-homes-bangalore" className="text-xs font-bold text-teal-700 block pt-2">Learn More →</Link>
             </div>

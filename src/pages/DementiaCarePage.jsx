@@ -9,7 +9,7 @@ export default function DementiaCarePage({ onOpenInquiry }) {
     "@context": "https://schema.org",
     "@type": "Service",
     "provider": { "@id": "https://bangalorecaretakers.in/#business" },
-    "name": "Dementia & Alzheimer's Care Homes Bangalore - Bangalore Caretakers",
+    "name": "Dementia & Alzheimer's Care Homes Bangalore - Bangalore Care Takers",
     "description": "Specialized Dementia Care Homes and Home Caretakers in Bangalore for Alzheimer's and Parkinson's patients. Safe 24/7 memory care facilities.",
     "telephone": "+917760506666"
   };

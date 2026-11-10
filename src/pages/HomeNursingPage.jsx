@@ -9,7 +9,7 @@ export default function HomeNursingPage({ onOpenInquiry }) {
     "@context": "https://schema.org",
     "@type": "Service",
     "provider": { "@id": "https://bangalorecaretakers.in/#business" },
-    "name": "Best Home Nursing Services in Bangalore - Bangalore Caretakers",
+    "name": "Best Home Nursing Services in Bangalore - Bangalore Care Takers",
     "description": "Hire verified male and female home nurses in Bangalore for 12-hour or 24-hour home care, post-surgery recovery, and bedridden elderly patient care.",
     "telephone": "+917760506666",
     "image": "https://bangalorecaretakers.in/assets/nurse-patient-care.jpg"

@@ -7,7 +7,7 @@ export const BLOG_POSTS = [
     category: 'Senior Living Guide',
     date: 'September 15, 2026',
     readTime: '6 min read',
-    author: 'Medical Editorial Team | Bangalore Caretakers',
+    author: 'Medical Editorial Team | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'How to Choose the Best Old Age Home in Bangalore (2026 Checklist)',
     metaDescription: 'Complete checklist for families choosing an old age home in Bangalore. Learn about 24/7 doctor coverage, luxury vs affordable options, nursing ratios, and emergency care.',
@@ -45,8 +45,8 @@ export const BLOG_POSTS = [
       <h3>5. Transparent Pricing & No Hidden Fees</h3>
       <p>Reputable old age homes provide transparent monthly billing covering accommodation, food, laundry, basic nursing, and doctor visits. Beware of unexpected charges for basic assistance like bathing or mobility support.</p>
 
-      <h2>Why Families Trust Bangalore Caretakers</h2>
-      <p>At <strong>Bangalore Caretakers</strong>, we provide both luxury and affordable senior living options paired with 24/7 home nursing care across Bangalore. If your parents prefer staying in their own home, our <a href="/home-nursing-services-bangalore" class="text-teal-600 underline font-semibold">24/7 Home Nursing Services</a> bring hospital-grade care directly to your doorstep.</p>
+      <h2>Why Families Trust Bangalore Care Takers</h2>
+      <p>At <strong>Bangalore Care Takers</strong>, we provide both luxury and affordable senior living options paired with 24/7 home nursing care across Bangalore. If your parents prefer staying in their own home, our <a href="/home-nursing-services-bangalore" class="text-teal-600 underline font-semibold">24/7 Home Nursing Services</a> bring hospital-grade care directly to your doorstep.</p>
     `,
     faq: [
       {
@@ -55,7 +55,7 @@ export const BLOG_POSTS = [
       },
       {
         question: "Do old age homes in Bangalore provide 24/7 emergency medical support?",
-        answer: "Certified senior facilities like Bangalore Caretakers feature 24/7 nursing staff, oxygen readiness, on-call doctors, and direct hospital tie-ups for emergency ambulance response."
+        answer: "Certified senior facilities like Bangalore Care Takers feature 24/7 nursing staff, oxygen readiness, on-call doctors, and direct hospital tie-ups for emergency ambulance response."
       }
     ]
   },
@@ -67,7 +67,7 @@ export const BLOG_POSTS = [
     category: 'Memory Care',
     date: 'September 18, 2026',
     readTime: '7 min read',
-    author: 'Neurology Nursing Team | Bangalore Caretakers',
+    author: 'Neurology Nursing Team | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Dementia & Alzheimer’s Home Care Guide Bangalore | Expert Caretakers',
     metaDescription: 'Learn essential dementia care strategies, home safety tips, and how specialized memory caretakers in Bangalore assist seniors with Alzheimer’s and dementia.',
@@ -121,7 +121,7 @@ export const BLOG_POSTS = [
     category: 'Post-Op Nursing',
     date: 'September 20, 2026',
     readTime: '5 min read',
-    author: 'Surgical Nursing Unit | Bangalore Caretakers',
+    author: 'Surgical Nursing Unit | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Post-Surgery Home Care Checklist Bangalore | 24/7 Home Nurses',
     metaDescription: 'Complete post-operative recovery guide: wound care, IV/catheter care, pain management, and home nurse hiring in Bangalore.',
@@ -162,7 +162,7 @@ export const BLOG_POSTS = [
     category: 'Physiotherapy & Mobility',
     date: 'September 21, 2026',
     readTime: '6 min read',
-    author: 'Physiotherapy & Rehab Team | Bangalore Caretakers',
+    author: 'Physiotherapy & Rehab Team | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Physiotherapy at Home Bangalore | Stroke & Knee Rehab Specialists',
     metaDescription: 'Book certified home physiotherapists in Bangalore for senior stroke rehabilitation, knee replacement recovery, and paralysis mobility exercises.',
@@ -205,7 +205,7 @@ export const BLOG_POSTS = [
     category: 'Specialized Care',
     date: 'September 22, 2026',
     readTime: '6 min read',
-    author: 'Neurology Nursing Specialist | Bangalore Caretakers',
+    author: 'Neurology Nursing Specialist | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Parkinsons Caretakers at Home Bangalore | Specialized Senior Nursing',
     metaDescription: 'Specialized home caretakers for Parkinson’s disease in Bangalore. Support for tremors, gait freezing, medication timing, and feeding assistance.',
@@ -246,7 +246,7 @@ export const BLOG_POSTS = [
     category: 'Critical Nursing',
     date: 'September 23, 2026',
     readTime: '8 min read',
-    author: 'Critical Care Medical Director | Bangalore Caretakers',
+    author: 'Critical Care Medical Director | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'ICU Setup at Home Bangalore Cost & Equipment | 24/7 ICU Nurses',
     metaDescription: 'Hospital-grade ICU setup at home in Bangalore. Ventilators, oxygen concentrators, suction machines, multi-para monitors, and 24/7 critical care nurses.',
@@ -290,7 +290,7 @@ export const BLOG_POSTS = [
     category: 'Cost & Pricing Guide',
     date: 'September 23, 2026',
     readTime: '9 min read',
-    author: 'Healthcare Economics Team | Bangalore Caretakers',
+    author: 'Healthcare Economics Team | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Cost of Old Age Homes & Home Nursing Bangalore (2026 Price Guide)',
     metaDescription: 'Complete 2026 price breakdown for old age homes and home nursing in Bangalore. Monthly fees (₹18,000 to ₹85,000+), admission deposits, 12h/24h caretaker rates, and inclusions.',
@@ -350,7 +350,7 @@ export const BLOG_POSTS = [
         <li><strong>Location Premium:</strong> Centers in central Bangalore (Jayanagar, Indiranagar) command slightly higher rates than suburban facilities (Yelahanka, Electronic City).</li>
       </ul>
 
-      <h2>Transparent Pricing with Bangalore Caretakers</h2>
+      <h2>Transparent Pricing with Bangalore Care Takers</h2>
       <p>We believe every family deserves clear, upfront costs without hidden fees. Explore our <a href="/old-age-homes-bangalore" class="text-teal-600 underline font-semibold">Old Age Homes Page</a> or view <a href="/home-nursing-services-bangalore" class="text-teal-600 underline font-semibold">Home Nursing Rates</a> to get an instant customized quote.</p>
     `,
     faq: [
@@ -372,7 +372,7 @@ export const BLOG_POSTS = [
     category: 'Disability & Rehab',
     date: 'September 23, 2026',
     readTime: '8 min read',
-    author: 'Rehabilitation Care Board | Bangalore Caretakers',
+    author: 'Rehabilitation Care Board | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Residential Care Homes for Physical & Intellectual Disabilities Bangalore',
     metaDescription: 'Specialized residential homes, handicapped ashrams, and MR/ID care centers in Bangalore. 24/7 nursing, caregiver training, and specialized rehabilitation.',
@@ -404,7 +404,7 @@ export const BLOG_POSTS = [
     faq: [
       {
         question: "Are there dedicated residential homes for physical disabilities in Bangalore?",
-        answer: "Yes, Bangalore Caretakers operates barrier-free residential centers equipped with elevators, trained nurses, and daily physiotherapy for physically disabled adults and seniors."
+        answer: "Yes, Bangalore Care Takers operates barrier-free residential centers equipped with elevators, trained nurses, and daily physiotherapy for physically disabled adults and seniors."
       }
     ]
   },
@@ -416,7 +416,7 @@ export const BLOG_POSTS = [
     category: 'Local Care Guide',
     date: 'September 23, 2026',
     readTime: '7 min read',
-    author: 'Local Operations Team | Bangalore Caretakers',
+    author: 'Local Operations Team | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Home Nursing Services Near Me Bangalore | Local Neighborhood Caretakers',
     metaDescription: 'Find background-verified home nurses and caretakers near you in Bangalore. Serving Indiranagar, Jayanagar, Whitefield, Electronic City, and Yelahanka.',
@@ -429,7 +429,7 @@ export const BLOG_POSTS = [
     ],
     content: `
       <h2>Fast, Reliable Home Nursing Across All Bangalore Neighborhoods</h2>
-      <p>When an elderly parent is discharged from the hospital or needs urgent home care after a fall, finding a trusted home nurse near your locality is crucial. Bangalore Caretakers deploys background-verified male and female nurses across all major Bangalore zones within 2 hours of request.</p>
+      <p>When an elderly parent is discharged from the hospital or needs urgent home care after a fall, finding a trusted home nurse near your locality is crucial. Bangalore Care Takers deploys background-verified male and female nurses across all major Bangalore zones within 2 hours of request.</p>
 
       <h3>1. Primary Neighborhood Care Hubs</h3>
       <ul>
@@ -445,7 +445,7 @@ export const BLOG_POSTS = [
     faq: [
       {
         question: "How fast can a home nurse reach my home in Bangalore?",
-        answer: "Bangalore Caretakers can deploy certified home nurses and caretakers within 2 to 4 hours across Indiranagar, Whitefield, Jayanagar, Electronic City, and Yelahanka."
+        answer: "Bangalore Care Takers can deploy certified home nurses and caretakers within 2 to 4 hours across Indiranagar, Whitefield, Jayanagar, Electronic City, and Yelahanka."
       }
     ]
   },
@@ -457,7 +457,7 @@ export const BLOG_POSTS = [
     category: 'Palliative Nursing',
     date: 'September 23, 2026',
     readTime: '8 min read',
-    author: 'Oncology Palliative Board | Bangalore Caretakers',
+    author: 'Oncology Palliative Board | Bangalore Care Takers',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Palliative & Cancer Care at Home Bangalore | Cost & Nursing Guide',
     metaDescription: 'Compassionate home palliative and cancer care in Bangalore. Learn about pain management, oncology nursing, catheter/stoma care, and cost structures.',

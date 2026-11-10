@@ -18,11 +18,11 @@ export default function BlogPostPage({ onOpenInquiry }) {
     "image": `https://bangalorecaretakers.in${post.image}`,
     "author": {
       "@type": "Organization",
-      "name": "Bangalore Caretakers Editorial Team"
+      "name": "Bangalore Care Takers Editorial Team"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Bangalore Caretakers",
+      "name": "Bangalore Care Takers",
       "url": "https://bangalorecaretakers.in"
     },
     "datePublished": "2026-09-15",
@@ -33,7 +33,7 @@ export default function BlogPostPage({ onOpenInquiry }) {
   return (
     <div className="bg-slate-50 min-h-screen">
       <SEO 
-        title={`${post.metaTitle} | Bangalore Caretakers`}
+        title={`${post.metaTitle} | Bangalore Care Takers`}
         description={post.metaDescription}
         keywords={post.keywords}
         canonicalPath={`/blog/${post.slug}`}

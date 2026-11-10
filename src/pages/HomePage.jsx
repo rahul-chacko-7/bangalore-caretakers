@@ -153,7 +153,7 @@ export default function HomePage({ onOpenInquiry }) {
               <div className="relative rounded-2xl overflow-hidden shadow-md">
                 <img
                   src="/assets/senior-caretaker-bond.webp"
-                  alt="Bangalore Caretakers - Verified Nurse & Senior Bonding Care"
+                  alt="Bangalore Care Takers - Verified Nurse & Senior Bonding Care"
                   width="600"
                   height="400"
                   fetchpriority="high"

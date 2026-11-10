@@ -104,7 +104,7 @@ export default function Header({ onOpenInquiry }) {
           <Link to="/" className="flex items-center group shrink-0">
             <img 
               src="/assets/site-logo.webp" 
-              alt="Bangalore Caretakers Official Logo" 
+              alt="Bangalore Care Takers Official Logo" 
               width="299"
               height="52"
               className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
