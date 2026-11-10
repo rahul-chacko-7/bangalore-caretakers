@@ -4,247 +4,112 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/best-old-age-home-services-in-bangalore/",
+      "source": "/%E0%B2%AC%E0%B3%86%E0%B2%82%E0%B2%97%E0%B2%B3%E0%B3%82%E0%B2%B0%E0%B2%BF%E0%B2%A8-%E0%B2%B5%E0%B3%83%E0%B2%A6%E0%B3%8D%E0%B2%A7%E0%B2%BE%E0%B2%B6%E0%B3%8D%E0%B2%B0%E0%B2%AE%E0%B2%97%E0%B2%B3%E0%B3%81",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/best-old-age-home-services-in-bangalore",
+      "source": "/%E0%B2%AC%E0%B3%86%E0%B2%82%E0%B2%97%E0%B2%B3%E0%B3%82%E0%B2%B0%E0%B2%BF%E0%B2%A8-%E0%B2%B5%E0%B3%83%E0%B2%A6%E0%B3%8D%E0%B2%A7%E0%B2%BE%E0%B2%B6%E0%B3%8D%E0%B2%B0%E0%B2%AE%E0%B2%97%E0%B2%B3%E0%B3%81/",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/how-to-choose-the-best-old-age-home-in-bangalore/",
+      "source": "/%e0%b2%ac%e0%b3%86%e0%b2%82%e0%b2%97%e0%b2%b3%e0%b3%82%e0%b2%b0%e0%b2%bf%e0%b2%a8-%e0%b2%b5%e0%b3%83%e0%b2%a6%e0%b3%8d%e0%b2%a7%e0%b2%be%e0%b2%b6%e0%b3%8d%e0%b2%b0%e0%b2%ae%e0%b2%97%e0%b2%b3%e0%b3%81",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/how-to-choose-the-best-old-age-home-in-bangalore",
+      "source": "/%e0%b2%ac%e0%b3%86%e0%b2%82%e0%b2%97%e0%b2%b3%e0%b3%82%e0%b2%b0%e0%b2%bf%e0%b2%a8-%e0%b2%b5%e0%b3%83%e0%b2%a6%e0%b3%8d%e0%b2%a7%e0%b2%be%e0%b2%b6%e0%b3%8d%e0%b2%b0%e0%b2%ae%e0%b2%97%e0%b2%b3%e0%b3%81/",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/old-age-home/",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/12-hour-vs-24-hour-elderly-care-in-bangalore",
+      "destination": "/blog/12-hour-vs-24-hour-home-nursing-bangalore",
       "permanent": true
     },
     {
-      "source": "/old-age-home",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/12-hour-vs-24-hour-elderly-care-in-bangalore/",
+      "destination": "/blog/12-hour-vs-24-hour-home-nursing-bangalore",
       "permanent": true
     },
     {
-      "source": "/old-age-homes/",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/24-7-elder-care-bangalore",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
       "permanent": true
     },
     {
-      "source": "/old-age-homes",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/24-7-elder-care-bangalore/",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
       "permanent": true
     },
     {
-      "source": "/old-age-home-in-bangalore/",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/24-7-home-care-services-in-bangalore",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
       "permanent": true
     },
     {
-      "source": "/old-age-home-in-bangalore",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/24-7-home-care-services-in-bangalore/",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
       "permanent": true
     },
     {
-      "source": "/old-age-homes-in-bangalore/",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/24-hour-home-care-cost-in-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
       "permanent": true
     },
     {
-      "source": "/old-age-homes-in-bangalore",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/24-hour-home-care-cost-in-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
       "permanent": true
     },
     {
-      "source": "/good-old-age-homes-in-bangalore/",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/5-signs-your-parent-may-need-an-old-age-home-in-bangalore",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
       "permanent": true
     },
     {
-      "source": "/good-old-age-homes-in-bangalore",
-      "destination": "/old-age-homes-bangalore",
+      "source": "/5-signs-your-parent-may-need-an-old-age-home-in-bangalore/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
       "permanent": true
     },
     {
-      "source": "/home-nursing-services/",
-      "destination": "/home-nursing-services-bangalore",
+      "source": "/7-signs-your-elderly-parent-needs-more-care-than-you-realize",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
       "permanent": true
     },
     {
-      "source": "/home-nursing-services",
-      "destination": "/home-nursing-services-bangalore",
+      "source": "/7-signs-your-elderly-parent-needs-more-care-than-you-realize/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
       "permanent": true
     },
     {
-      "source": "/home-nursing/",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/home-nursing",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/nursing-services/",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/nursing-services",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/nurse-at-home/",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/nurse-at-home",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/caretaker-services/",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/caretaker-services",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/caretaker/",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/caretaker",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/caretakers-in-bangalore/",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/caretakers-in-bangalore",
-      "destination": "/home-nursing-services-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/dementia-care/",
-      "destination": "/dementia-alzheimers-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/dementia-care",
-      "destination": "/dementia-alzheimers-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/alzheimers-care/",
-      "destination": "/dementia-alzheimers-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/alzheimers-care",
-      "destination": "/dementia-alzheimers-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/palliative-care/",
+      "source": "/7-signs-your-loved-one-may-need-palliative-care-family-guide",
       "destination": "/palliative-cancer-care-bangalore",
       "permanent": true
     },
     {
-      "source": "/palliative-care",
+      "source": "/7-signs-your-loved-one-may-need-palliative-care-family-guide/",
       "destination": "/palliative-cancer-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/cancer-care/",
-      "destination": "/palliative-cancer-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/cancer-care",
-      "destination": "/palliative-cancer-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/assisted-living/",
-      "destination": "/assisted-living-senior-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/assisted-living",
-      "destination": "/assisted-living-senior-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/senior-living/",
-      "destination": "/assisted-living-senior-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/senior-living",
-      "destination": "/assisted-living-senior-care-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/post-surgery-care/",
-      "destination": "/post-surgery-rehabilitation-care",
-      "permanent": true
-    },
-    {
-      "source": "/post-surgery-care",
-      "destination": "/post-surgery-rehabilitation-care",
-      "permanent": true
-    },
-    {
-      "source": "/rehabilitation/",
-      "destination": "/home-for-disabled-and-rehabilitation",
-      "permanent": true
-    },
-    {
-      "source": "/rehabilitation",
-      "destination": "/home-for-disabled-and-rehabilitation",
-      "permanent": true
-    },
-    {
-      "source": "/contact/",
-      "destination": "/contact-us",
-      "permanent": true
-    },
-    {
-      "source": "/contact",
-      "destination": "/contact-us",
-      "permanent": true
-    },
-    {
-      "source": "/contact-us/",
-      "destination": "/contact-us",
-      "permanent": true
-    },
-    {
-      "source": "/about/",
-      "destination": "/",
       "permanent": true
     },
     {
       "source": "/about",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about-bangalore-care-takers",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/about-bangalore-care-takers/",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
       "destination": "/",
       "permanent": true
     },
@@ -254,32 +119,277 @@
       "permanent": true
     },
     {
-      "source": "/about-us",
+      "source": "/about/",
       "destination": "/",
       "permanent": true
     },
     {
-      "source": "/services/",
+      "source": "/activities-at-bangalore-care-takers-old-age-home-in-bangalore",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/activities-at-bangalore-care-takers-old-age-home-in-bangalore/",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-and-luxury-elder-care-by-bangalore-care-takers",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-and-luxury-elder-care-by-bangalore-care-takers/",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-dementia-care-btm-layout",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-dementia-care-btm-layout/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-home-nurse-bangalore-cost",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-home-nurse-bangalore-cost/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-old-age-home-in-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-old-age-home-in-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-old-age-homes-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-old-age-homes-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-old-age-homes-whitefield-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/affordable-old-age-homes-whitefield-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/alzheimers-care",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/alzheimers-care-in-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/alzheimers-care-in-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/alzheimers-care/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/are-paid-old-age-homes-in-bangalore-worth-it",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/are-paid-old-age-homes-in-bangalore-worth-it/",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living-center-near-me-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living-center-near-me-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living-vs-old-age-home-in-bangalore",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living-vs-old-age-home-in-bangalore/",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/assisted-living/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/author/ajith",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/author/ajith/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/bedridden-patient-care-bangalore",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/bedridden-patient-care-bangalore/",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/best-home-nursing-services-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/best-home-nursing-services-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/best-old-age-home-for-dementia-patients-in-bangalore-specialized-memory-care",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/best-old-age-home-for-dementia-patients-in-bangalore-specialized-memory-care/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/best-old-age-home-in-bangalore",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/services",
+      "source": "/best-old-age-home-in-bangalore/",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/our-services/",
+      "source": "/best-old-age-home-services-in-bangalore",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/our-services",
+      "source": "/best-old-age-home-services-in-bangalore/",
       "destination": "/old-age-homes-bangalore",
       "permanent": true
     },
     {
-      "source": "/careers/",
+      "source": "/best-old-age-homes-near-me-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/best-old-age-homes-near-me-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/best-physiotherapy-services-bangalore",
+      "destination": "/blog/physiotherapy-at-home-bangalore-guide",
+      "permanent": true
+    },
+    {
+      "source": "/best-physiotherapy-services-bangalore/",
+      "destination": "/blog/physiotherapy-at-home-bangalore-guide",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-care",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-care-at-home-in-bangalore",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-care-at-home-in-bangalore/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-care-in-bangalore",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-care-in-bangalore/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/cancer-care/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/care-giver-training-center-in-bangalore",
+      "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/care-giver-training-center-in-bangalore/",
+      "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/care-taker-jobs-in-bangalore",
+      "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/care-taker-jobs-in-bangalore/",
       "destination": "/caretaker-nursing-jobs-bangalore",
       "permanent": true
     },
@@ -289,13 +399,1958 @@
       "permanent": true
     },
     {
-      "source": "/jobs/",
+      "source": "/careers/",
       "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-cost-in-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-cost-in-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-services",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-services-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-services-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-services/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-vs-home-nurse-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker-vs-home-nurse-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretaker/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretakers-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caretakers-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caring-for-parkinsons-and-alzheimers-patients-in-bangalore-tips-and-services",
+      "destination": "/blog/parkinsons-disease-care-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/caring-for-parkinsons-and-alzheimers-patients-in-bangalore-tips-and-services/",
+      "destination": "/blog/parkinsons-disease-care-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/11",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/11/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/12",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/12/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/13",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/13/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/16",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/16/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/3",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/3/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/7",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/7/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/8",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/8/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/9",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/category/blogs-updates/page/9/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/catheter-care-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/catheter-care-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/choosing-the-right-old-age-home-in-bangalore",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/choosing-the-right-old-age-home-in-bangalore/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/colostomy-care-in-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/colostomy-care-in-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/complete-cancer-care-support-for-elderly-patients-in-bangalore",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/complete-cancer-care-support-for-elderly-patients-in-bangalore/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/comprehensive-nursing-care-in-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/comprehensive-nursing-care-in-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/conquering-cancer-bangalore-with-bangalore-care-takers",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/conquering-cancer-bangalore-with-bangalore-care-takers/",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/cost-of-old-age-homes-in-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/cost-of-old-age-homes-in-bangalore-2026",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/cost-of-old-age-homes-in-bangalore-2026/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/cost-of-old-age-homes-in-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-centres-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-centres-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-centres-in-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-centres-in-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-home-in-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-home-in-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-home-vs-normal-old-age-home-in-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-home-vs-normal-old-age-home-in-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-bangalore-2",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-bangalore-2/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-bangalore-how-to-choose-the-right-care-support-for-your-loved-one",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-bangalore-how-to-choose-the-right-care-support-for-your-loved-one/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-old-age-homes-in-bangalore-what-families-should-know",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-old-age-homes-in-bangalore-what-families-should-know/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-yelahanka",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-in-yelahanka/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-near-me-in-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care-near-me-in-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-care/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-or-parkinsons-care-in-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementia-or-parkinsons-care-in-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementiacare-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/dementiacare-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/diabetic-care-bangalore",
+      "destination": "/care-guides/diabetic-oxygen-supportive-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/diabetic-care-bangalore/",
+      "destination": "/care-guides/diabetic-oxygen-supportive-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/diabetic-care-in-bangalore",
+      "destination": "/care-guides/diabetic-oxygen-supportive-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/diabetic-care-in-bangalore/",
+      "destination": "/care-guides/diabetic-oxygen-supportive-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/difference-between-dementia-and-alzheimers-bangalore",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/difference-between-dementia-and-alzheimers-bangalore/",
+      "destination": "/dementia-alzheimers-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-at-home-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-at-home-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-cost-in-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-cost-in-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-how-to-provide-compassionate-support",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-how-to-provide-compassionate-support/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-in-hebbal",
+      "destination": "/elderly-care-yelahanka",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-in-hebbal/",
+      "destination": "/elderly-care-yelahanka",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-services-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-services-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-services-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-services-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-services-whitefield-bangalore",
+      "destination": "/elderly-care-whitefield",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-care-services-whitefield-bangalore/",
+      "destination": "/elderly-care-whitefield",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-home-care-services-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/elderly-home-care-services-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/feeding-tube-care-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/feeding-tube-care-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/feeding-tube-care-in-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/feeding-tube-care-in-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/female-nursing-elderly-jp-nagar-price",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/female-nursing-elderly-jp-nagar-price/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/female-vs-male-nurses-for-home-care-in-bangalore",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/female-vs-male-nurses-for-home-care-in-bangalore/",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/finding-the-right-old-age-home-in-bangalore",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/finding-the-right-old-age-home-in-bangalore/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/good-old-age-home-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/good-old-age-home-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/good-old-age-homes-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/good-old-age-homes-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/handicapped-ashram-in-bangalore",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/handicapped-ashram-in-bangalore/",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/home-attendant-for-elderly-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-attendant-for-elderly-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-care-vs-old-age-home-bangalore",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-care-vs-old-age-home-bangalore/",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-disabled-in-bangalore",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/home-disabled-in-bangalore/",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-24-hour-nursing-care-in-bangalore",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-24-hour-nursing-care-in-bangalore/",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-aged-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-aged-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-bedridden-patients-paralysis-treatment-in-bangalore",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-bedridden-patients-paralysis-treatment-in-bangalore/",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-mentally-retarded-mr-id-in-bangalore",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-mentally-retarded-mr-id-in-bangalore/",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-post-operative-care-in-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/home-for-post-operative-care-in-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/home-nurse-bangalore-cost",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nurse-bangalore-cost/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nurse-cost-in-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nurse-cost-in-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nurse-electronic-city-bangalore",
+      "destination": "/elderly-care-electronic-city",
+      "permanent": true
+    },
+    {
+      "source": "/home-nurse-electronic-city-bangalore/",
+      "destination": "/elderly-care-electronic-city",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-care-in-bangalore-a-comprehensive-guide-for-caretakers",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-care-in-bangalore-a-comprehensive-guide-for-caretakers/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-charges-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-charges-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-post-surgery-recovery-in-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-post-surgery-recovery-in-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-bangalore-cost-guide-2025-2026",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-bangalore-cost-guide-2025-2026/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-for-females-in-bangalore",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-for-females-in-bangalore/",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-in-bangalore-2",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-in-bangalore-2/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-in-bangalore-blogs",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-in-bangalore-blogs/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-in-bangalore-blogs/old-age-home-services-in-bangalore",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-in-bangalore-blogs/old-age-home-services-in-bangalore/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-near-me",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-near-me-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-near-me-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services-near-me/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing-services/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home-nursing/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home/home-nursing-services-provide-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/home/home-nursing-services-provide-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-does-palliative-care-cost-in-bangalore-complete-2026-guide",
+      "destination": "/blog/palliative-care-bangalore-home-cost-cancer-guide",
+      "permanent": true
+    },
+    {
+      "source": "/how-much-does-palliative-care-cost-in-bangalore-complete-2026-guide/",
+      "destination": "/blog/palliative-care-bangalore-home-cost-cancer-guide",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-elderly-home-care-services-in-bangalore",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-elderly-home-care-services-in-bangalore/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-best-old-age-home-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-best-old-age-home-in-bangalore-family-checklist",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-best-old-age-home-in-bangalore-family-checklist/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-best-old-age-home-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-right-elder-care-facility-in-bangalore",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-the-right-elder-care-facility-in-bangalore/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
       "permanent": true
     },
     {
       "source": "/jobs",
       "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/",
+      "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-old-age-homes-in-bangalore-premium-senior-living",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/luxury-old-age-homes-in-bangalore-premium-senior-living/",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/male-nurse-for-home-care-in-bangalore",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/male-nurse-for-home-care-in-bangalore/",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/male-nurse-home-care-in-bangalore",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/male-nurse-home-care-in-bangalore/",
+      "destination": "/care-guides/home-nurses-male-female-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/medical-camps-in-bangalore",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/medical-camps-in-bangalore/",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/medical-care-services-for-elderly-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/medical-care-services-for-elderly-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/neuro-care-home-in-bangalore",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/neuro-care-home-in-bangalore/",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/neuro-rehabilitation-geriatric-care-bangalore",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/neuro-rehabilitation-geriatric-care-bangalore/",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nurse-at-home",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nurse-at-home-urgent-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nurse-at-home-urgent-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nurse-at-home/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nurse-for-injection-at-home-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/nurse-for-injection-at-home-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-care-at-home-near-me",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-care-at-home-near-me-in-bangalore-personalized-clinical-support-right-at-your-doorstep",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-care-at-home-near-me-in-bangalore-personalized-clinical-support-right-at-your-doorstep/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-care-at-home-near-me/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-home-in-hennur-bangalore",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-home-in-hennur-bangalore/",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-jobs-in-bangalore",
+      "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-jobs-in-bangalore/",
+      "destination": "/caretaker-nursing-jobs-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-services",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-services-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-services-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/nursing-services/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-admission-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-admission-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-bangalore-cost",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-bangalore-cost/",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-bangalore-elderly-care-services",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-bangalore-elderly-care-services/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-bangalore-faqs",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-bangalore-faqs/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-care-services-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-care-services-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-cost-free-paid-medical-care-options",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-cost-free-paid-medical-care-options/",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-cost-in-bangalore-monthly-price-factors-for-families",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-cost-in-bangalore-monthly-price-factors-for-families/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-for-bedridden-patients-in-bangalore",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-for-bedridden-patients-in-bangalore/",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-in-hennur",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-in-hennur/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-in-kothanur",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-in-kothanur/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-monthly-cost-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-monthly-cost-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-monthly-cost-in-bangalore",
+      "destination": "/blog/old-age-home-facility-visit-checklist-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-monthly-cost-in-bangalore/",
+      "destination": "/blog/old-age-home-facility-visit-checklist-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-near-hennur-bangalore-what-families-should-check",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-near-hennur-bangalore-what-families-should-check/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-near-kothanur-bangalore-with-nursing-and-medical-support",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-near-kothanur-bangalore-with-nursing-and-medical-support/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-near-me-medical-care-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-near-me-medical-care-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-vs-home-care",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-vs-home-care/",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-vs-home-nursing-in-bangalore",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-vs-home-nursing-in-bangalore/",
+      "destination": "/blog/home-care-vs-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-with-medical-facilities-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-with-medical-facilities-in-bangalore-what-families-should-check",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-with-medical-facilities-in-bangalore-what-families-should-check/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-with-medical-facilities-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-with-nursing-care-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home-with-nursing-care-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-home/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-bangalore-frequently-asked-questions",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-bangalore-frequently-asked-questions/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore-2",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore-2/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore-3",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore-3/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore-guide",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore-guide/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-indiranagar-bangalore",
+      "destination": "/elderly-care-indiranagar",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-indiranagar-bangalore/",
+      "destination": "/elderly-care-indiranagar",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-me-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-me-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-you-at-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-you-at-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-you-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes-near-you-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/old-age-homes/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/our-services",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/our-services/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/oxygen-supportive-care-bangalore",
+      "destination": "/care-guides/diabetic-oxygen-supportive-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/oxygen-supportive-care-bangalore/",
+      "destination": "/care-guides/diabetic-oxygen-supportive-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/paid-old-age-home-in-bangalore",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/paid-old-age-home-in-bangalore/",
+      "destination": "/care-guides/affordable-free-old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-bangalore-home-cost-cancer",
+      "destination": "/blog/palliative-care-bangalore-home-cost-cancer-guide",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-bangalore-home-cost-cancer/",
+      "destination": "/blog/palliative-care-bangalore-home-cost-cancer-guide",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-centre-in-bangalore",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-centre-in-bangalore/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-centres-in-bangalore",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-centres-in-bangalore/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-for-cancer-patients-what-families-should-expect",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-for-cancer-patients-what-families-should-expect/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-services-bangalore",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-services-bangalore/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-services-in-bangalore-2",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-services-in-bangalore-2/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-services-in-bangalore-for-elderly-patients",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care-services-in-bangalore-for-elderly-patients/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/palliative-care/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/parkinsons-care-in-bangalore",
+      "destination": "/blog/parkinsons-disease-care-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/parkinsons-care-in-bangalore/",
+      "destination": "/blog/parkinsons-disease-care-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/parkinsons-disease-care-in-bangalore",
+      "destination": "/blog/parkinsons-disease-care-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/parkinsons-disease-care-in-bangalore/",
+      "destination": "/blog/parkinsons-disease-care-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/patient-care-taker-bangalore-contact-number",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/patient-care-taker-bangalore-contact-number/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/physiotherapy-center-in-bangalore",
+      "destination": "/blog/physiotherapy-at-home-bangalore-guide",
+      "permanent": true
+    },
+    {
+      "source": "/physiotherapy-center-in-bangalore/",
+      "destination": "/blog/physiotherapy-at-home-bangalore-guide",
+      "permanent": true
+    },
+    {
+      "source": "/post-surgery-care",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/post-surgery-care-bangalore-cost-best-services",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/post-surgery-care-bangalore-cost-best-services/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/post-surgery-care-in-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/post-surgery-care-in-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/post-surgery-care/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/psychiatric-rehabilitation-care-centre-in-bangalore",
+      "destination": "/care-guides/psychiatric-rehabilitation-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/psychiatric-rehabilitation-care-centre-in-bangalore/",
+      "destination": "/care-guides/psychiatric-rehabilitation-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/recovery-care-after-surgery-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/recovery-care-after-surgery-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation-centre-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation-centre-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation-centre-in-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation-centre-in-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation-home-nursing-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation-home-nursing-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/rehabilitation/",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/residential-care-intellectual-disabilities-bangalore",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/residential-care-intellectual-disabilities-bangalore/",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/residential-care-physical-disabilities-bangalore",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/residential-care-physical-disabilities-bangalore/",
+      "destination": "/home-for-disabled-and-rehabilitation",
+      "permanent": true
+    },
+    {
+      "source": "/retirement-homes-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/retirement-homes-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-care-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-care-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-care-services-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-care-services-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-citizen-care-services-in-bangalore",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-citizen-care-services-in-bangalore/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-home-care-services-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-home-care-services-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living-and-retirement-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living-and-retirement-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living-or-retirement-home-in-bangalore",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living-or-retirement-home-in-bangalore/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/senior-living/",
+      "destination": "/assisted-living-senior-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/services/",
+      "destination": "/old-age-homes-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/stroke-rehabilitation-in-bangalore",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/stroke-rehabilitation-in-bangalore/",
+      "destination": "/care-guides/stroke-paralysis-coma-rehabilitation-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/surgery-care-in-bangalore",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/surgery-care-in-bangalore/",
+      "destination": "/post-surgery-rehabilitation-care",
+      "permanent": true
+    },
+    {
+      "source": "/tag/affordable-dementia-care-btm-layout",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/affordable-dementia-care-btm-layout/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/affordable-old-age-homes-in-whitefield",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/affordable-old-age-homes-in-whitefield/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/best-dementia-centres-bangalore",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/best-dementia-centres-bangalore/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/best-old-age-homes-bangalore",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/best-old-age-homes-bangalore/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/disabled-care-home-in-bangalore",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/disabled-care-home-in-bangalore/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/home-attendant-for-elderly-in-bangalore",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/home-attendant-for-elderly-in-bangalore/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/home-nursing-services-near-me-in-bangalore",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/home-nursing-services-near-me-in-bangalore/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/senior-living-kothanur",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/senior-living-kothanur/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/top-old-age-home-for-bedridden-in-bangalore-near-me",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/tag/top-old-age-home-for-bedridden-in-bangalore-near-me/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/testimonials/",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/top-10-old-age-homes-in-bangalore",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/top-10-old-age-homes-in-bangalore/",
+      "destination": "/blog/how-to-choose-old-age-home-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/top-home-nurse-services-bangalore-cost",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/top-home-nurse-services-bangalore-cost/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/top-home-nursing-agency-in-bangalore",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/top-home-nursing-agency-in-bangalore/",
+      "destination": "/home-nursing-services-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/tracheostomy-care-in-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/tracheostomy-care-in-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-assisted-living-in-bangalore-costs-care-options-trusted-providers",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-assisted-living-in-bangalore-costs-care-options-trusted-providers/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-indians-perceptions-of-old-age-homes",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-indians-perceptions-of-old-age-homes/",
+      "destination": "/about-bangalore-caretakers",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-old-age-home-pricing-in-bangalore",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/understanding-old-age-home-pricing-in-bangalore/",
+      "destination": "/blog/cost-of-old-age-homes-in-bangalore-2026-price-guide",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-included-in-24-7-elderly-care",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-included-in-24-7-elderly-care/",
+      "destination": "/care-guides/nursing-homes-24-hour-skilled-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-palliative-care",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-palliative-care/",
+      "destination": "/palliative-cancer-care-bangalore",
+      "permanent": true
+    },
+    {
+      "source": "/wound-care-in-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/wound-care-in-bangalore/",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/wound-dressing-bangalore",
+      "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/wound-dressing-bangalore/",
+      "destination": "/specialized-nursing-care",
       "permanent": true
     }
   ],
@@ -344,6 +2399,36 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bangalore-caretakers.vercel.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?<preview>.+)\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
         }
       ]
     }
