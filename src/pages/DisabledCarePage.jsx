@@ -10,7 +10,7 @@ export default function DisabledCarePage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Home for Disabled & Mentally Challenged Rehabilitation in Bangalore"
+        title="Home for Disabled Adults in Bangalore | Residential Care"
         description="Compassionate residential care home for physically challenged, handicapped, and mentally disabled individuals in Bangalore. 24/7 care and rehabilitation."
         keywords={[
           "Home for Disabled in Bangalore",

@@ -54,7 +54,7 @@ export default function HomeNursingPage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Best Home Nursing Services in Bangalore | Male & Female Nurses"
+        title="Home Nursing Services in Bangalore | Male & Female Nurses"
         description="Looking for Home Nursing Services in Bangalore? Hire certified male and female nurses for 12-hour or 24-hour home care. Fast 2-hour deployment."
         keywords={[
           "Home Nursing Services in Bangalore",

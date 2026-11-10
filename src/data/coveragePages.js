@@ -1,7 +1,7 @@
 export const COVERAGE_PAGES = {
   'home-nurses-male-female-bangalore': {
-    title: 'Male and Female Home Nurses in Bangalore | Bangalore Care Takers',
-    description: 'Find male or female home nursing support in Bangalore for elderly care, post-surgery recovery, bedridden care, and daily clinical assistance. Ask for a written plan.',
+    title: 'Male and Female Home Nurses in Bangalore',
+    description: 'Male or female home nurses in Bangalore for elderly care, post-surgery recovery, bedridden care and daily clinical support, with a written care plan.',
     heading: 'Male and Female Home Nurses in Bangalore',
     intro: 'Families can discuss male or female nurse requirements, shift length, clinical tasks, mobility support, and the patient’s home setting with Bangalore Care Takers.',
     sections: [['Choose the right nurse support', 'Clarify whether the patient needs daily assistance, medication support, wound care, catheter care, feeding-tube support, mobility help, or post-surgery observation.'], ['Plan the shift', 'Ask about 12-hour, night, or 24-hour coverage, handover notes, replacement arrangements, and the expected start date.'], ['Confirm the scope', 'Request a written care plan that lists included tasks, exclusions, equipment, travel, and escalation contacts.']],
@@ -16,7 +16,7 @@ export const COVERAGE_PAGES = {
     keywords: ['paralysis care in Bangalore', 'stroke rehabilitation in Bangalore', 'coma patient care in Bangalore']
   },
   'specialized-nursing-procedures-bangalore': {
-    title: 'Catheter, Wound, Tracheostomy and Feeding Tube Care in Bangalore',
+    title: 'Catheter, Wound & Feeding Tube Care in Bangalore',
     description: 'Specialized home nursing guidance for catheter, wound dressing, tracheostomy, feeding tube, and colostomy care in Bangalore.',
     heading: 'Specialized Nursing Procedures at Home in Bangalore',
     intro: 'Specialized procedures require instructions from the treating clinician and a caregiver who understands the documented care routine. Discuss the patient’s equipment, supplies, frequency, and warning signs before deployment.',
@@ -32,7 +32,7 @@ export const COVERAGE_PAGES = {
     keywords: ['diabetic care Bangalore', 'oxygen supportive care Bangalore', '24/7 elderly care nursing service']
   },
   'psychiatric-rehabilitation-care-bangalore': {
-    title: 'Psychiatric and Mental Health Rehabilitation Care in Bangalore',
+    title: 'Psychiatric Rehabilitation Care in Bangalore',
     description: 'Family guidance for arranging supervised rehabilitation and daily support for adults with mental-health or intellectual-disability care needs in Bangalore.',
     heading: 'Psychiatric and Rehabilitation Care in Bangalore',
     intro: 'Rehabilitation should be coordinated with a qualified mental-health professional. Families can discuss supervision, routines, medication handover, safety, and family communication with the care team.',
@@ -40,8 +40,8 @@ export const COVERAGE_PAGES = {
     keywords: ['rehabilitation centre for mentally challenged Bangalore', 'psychiatric rehabilitation care centre Bangalore', 'home for mentally challenged Bangalore']
   },
   'affordable-free-old-age-homes-bangalore': {
-    title: 'Affordable and Free Old Age Homes in Bangalore: How to Compare Options',
-    description: 'A practical guide to comparing paid, affordable, charitable, and trust-supported old age homes in Bangalore, including questions to ask about eligibility and fees.',
+    title: 'Affordable and Free Old Age Homes in Bangalore',
+    description: 'How to compare paid, affordable, charitable and trust-run old age homes in Bangalore, with questions to ask about eligibility and fees.',
     heading: 'Affordable and Free Old Age Homes in Bangalore',
     intro: 'Availability, eligibility, funding, and fees differ between facilities. Families should verify current terms directly and request a written list of inclusions before applying.',
     sections: [['Ask about eligibility', 'Charitable and trust-supported homes may have age, income, health, residency, family-support, or documentation requirements.'], ['Compare the real cost', 'Ask about admission fees, deposits, food, medicines, nursing, transport, equipment, laundry, and emergency charges.'], ['Visit before deciding', 'Check room conditions, accessibility, hygiene, meals, staffing, visiting rules, safeguarding, and the medical escalation process.']],
@@ -49,7 +49,7 @@ export const COVERAGE_PAGES = {
   },
   'nursing-homes-24-hour-skilled-care-bangalore': {
     title: '24-Hour Skilled Nursing Homes and Nursing Care in Bangalore',
-    description: 'Compare 24-hour skilled nursing, residential care, and home nursing options in Bangalore. Learn what to verify about staffing, clinical tasks, and emergency escalation.',
+    description: 'Compare 24-hour skilled nursing, residential care and home nursing in Bangalore, and what to check about staffing and emergency escalation.',
     heading: '24-Hour Skilled Nursing and Nursing Homes in Bangalore',
     intro: 'The right setting depends on medical complexity, mobility, family availability, and the need for continuous supervision. Use this checklist when comparing nursing homes or home care.',
     sections: [['Compare the setting', 'Ask whether care is provided at home, in a residential room, or in a nursing facility, and what equipment and staffing are available.'], ['Verify the care team', 'Ask about nurse qualifications, shift handover, replacement cover, supervision, medication responsibilities, and family updates.'], ['Review emergency planning', 'Confirm escalation contacts, ambulance arrangements, hospital coordination, and what the family must provide.']],
@@ -57,7 +57,7 @@ export const COVERAGE_PAGES = {
   },
   'nri-family-elder-care-bangalore': {
     title: 'NRI Guide to Arranging Elder Care in Bangalore',
-    description: 'A practical Bangalore elder-care guide for NRI families arranging home nursing, assisted living, residential care, visits, updates, and emergency contacts remotely.',
+    description: 'How NRI families can arrange home nursing, assisted living or residential care for parents in Bangalore, with updates and emergency contacts.',
     heading: 'NRI Guide to Arranging Elder Care in Bangalore',
     intro: 'Families living outside India can reduce uncertainty by preparing documents, choosing a local contact, arranging a video or in-person visit, and requesting written care details.',
     sections: [['Before admission', 'Collect medical records, identity documents, medication lists, emergency contacts, consent preferences, and payment responsibilities.'], ['Create a communication plan', 'Agree on update frequency, video-call access, family contacts, visit permissions, incident reporting, and escalation approvals.'], ['Review remotely', 'Ask for a written care plan, current photos or a video tour, facility address, visiting process, and a clear contact for urgent questions.']],

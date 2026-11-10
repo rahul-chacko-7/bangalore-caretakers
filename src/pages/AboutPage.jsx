@@ -6,7 +6,7 @@ import { GENERAL_INFO } from '../data/keywordsData';
 export default function AboutPage({ onOpenInquiry }) {
   return (
     <>
-      <SEO title="About Bangalore Care Takers | Senior Care in Kothanur" description="Learn how Bangalore Care Takers handles senior-care, home-nursing and residential-care enquiries from Kothanur, Bengaluru, with clear care-plan and visit guidance." canonicalPath="/about-bangalore-caretakers" />
+      <SEO title="About Bangalore Care Takers | Senior Care in Kothanur" description="How Bangalore Care Takers plans senior care, home nursing and residential care from Kothanur, Bengaluru, with written care plans and facility visits." canonicalPath="/about-bangalore-caretakers" />
       <section className="bg-gradient-to-b from-brand-blue via-slate-900 to-slate-950 text-white py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-widest text-amber-300">About the care team</p>

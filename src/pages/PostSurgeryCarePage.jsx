@@ -10,7 +10,7 @@ export default function PostSurgeryCarePage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Post Surgery Care & Rehabilitation in Bangalore | Bedridden & Stroke Care"
+        title="Post-Surgery Care & Rehabilitation in Bangalore"
         description="Comprehensive Post-Operative Care, Paralysis Care, Stroke Rehabilitation, and Bedridden Patient Care at home & center in Bangalore."
         keywords={[
           "Post Surgery Care in Bangalore",

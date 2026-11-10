@@ -15,7 +15,7 @@ export default function BlogListPage({ onOpenInquiry }) {
   return (
     <div className="bg-slate-50 min-h-screen">
       <SEO 
-        title="Senior Care Guides & Elder Living Articles Bangalore | Bangalore Care Takers Blog"
+        title="Senior Care Guides for Families in Bangalore"
         description="Read expert guides on choosing old age homes in Bangalore, dementia care techniques, post-surgery home nursing checklists, and senior health tips."
         keywords={['elder care blog bangalore', 'old age home guides', 'dementia care tips', 'home nursing articles']}
         canonicalPath="/blog"

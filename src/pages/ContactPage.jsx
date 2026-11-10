@@ -6,7 +6,7 @@ export default function ContactPage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Contact Bangalore Care Takers | 24/7 Helpline +91 77605 06666"
+        title="Contact Bangalore Care Takers | +91 77605 06666"
         description="Contact Bangalore Care Takers for 24/7 Old Age Home admissions and Home Nursing inquiries across Bangalore. Phone: +91 77605 06666."
         canonicalPath="/contact-us"
       />

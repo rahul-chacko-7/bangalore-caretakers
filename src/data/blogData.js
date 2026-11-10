@@ -10,7 +10,7 @@ export const BLOG_POSTS = [
     author: 'Bangalore Care Takers care team',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'How to Choose an Old Age Home in Bangalore: 2026 Checklist',
-    metaDescription: 'Complete checklist for families choosing an old age home in Bangalore. Learn about 24/7 doctor coverage, luxury vs affordable options, nursing ratios, and emergency care.',
+    metaDescription: 'Checklist for choosing an old age home in Bangalore: doctor coverage, nursing ratios, emergency care, and affordable vs premium options.',
     keywords: [
       'how to choose old age home in bangalore',
       'best old age homes in bangalore checklist',
@@ -293,7 +293,7 @@ export const BLOG_POSTS = [
     author: 'Bangalore Care Takers care team',
     image: '/assets/senior-caretaker-bond.webp',
     metaTitle: 'Old Age Home & Home Nursing Costs in Bangalore (2026)',
-    metaDescription: 'Complete 2026 price breakdown for old age homes and home nursing in Bangalore. Monthly fees (₹18,000 to ₹85,000+), admission deposits, 12h/24h caretaker rates, and inclusions.',
+    metaDescription: '2026 price guide for old age homes and home nursing in Bangalore: monthly fees (₹18,000 to ₹85,000+), deposits, 12h/24h caretaker rates and inclusions.',
     keywords: [
       'cost of old age homes in bangalore',
       'home nursing services bangalore cost guide 2026',
@@ -550,7 +550,7 @@ export const BLOG_POSTS = [
     readTime: '7 min read',
     author: 'Bangalore Care Takers care team',
     image: '/assets/caring-hands.webp',
-    metaTitle: 'NRI Guide to Arranging Elder Care in Bangalore',
+    metaTitle: 'Caring for Parents in Bangalore from Abroad: NRI Checklist',
     metaDescription: 'Learn how NRI families can arrange elder care in Bangalore with a written plan, local contact, video visit, family updates, documents, and emergency escalation.',
     keywords: ['NRI elder care Bangalore', 'care for parents in Bangalore', 'old age home Bangalore for NRI families'],
     content: `<h2>Start with a local care brief</h2><p>Collect the medical summary, medicines, allergies, mobility needs, emergency contacts, consent preferences, and the local family member or friend who can help with decisions.</p><h2>Compare care settings</h2><p>Discuss home nursing, assisted living, and residential care. Ask for a written plan that explains staffing, meals, visits, updates, equipment, escalation, and current fees.</p><h2>Build a remote communication routine</h2><ul><li>Set a primary and backup contact.</li><li>Agree on update frequency and video-call access.</li><li>Document who approves hospital transfer or changes to the plan.</li><li>Keep copies of invoices, reports, prescriptions, and incident notes.</li></ul><p>Explore the <a href="/care-guides/nri-family-elder-care-bangalore" class="text-teal-600 underline font-semibold">NRI care planning guide</a> and <a href="/contact-us" class="text-teal-600 underline font-semibold">contact the team</a>.</p>`,

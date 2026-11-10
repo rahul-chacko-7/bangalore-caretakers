@@ -32,8 +32,8 @@ export default function CaregiverTrainingPage() {
   return (
     <>
       <SEO
-        title="Caregiver Training Centre in Bangalore | Bangalore Care Takers"
-        description="Practical caregiver and care taker training in Bangalore: daily living support, fall prevention, safe transfers, feeding, medicine reminders and dementia activities."
+        title="Caregiver Training in Bangalore | Bangalore Care Takers"
+        description="Practical caregiver training in Bangalore: daily living support, fall prevention, safe transfers, feeding, medicine reminders and dementia activities."
         keywords={['Caregiver Training in Bangalore', 'Care Taker Training Bangalore', 'Bedside Assistant Training', 'Elderly Care Training Bangalore']}
         canonicalPath="/care-giver-training-center-in-bangalore"
         schemaData={schema}

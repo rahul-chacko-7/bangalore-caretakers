@@ -49,7 +49,7 @@ export default function DementiaCarePage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Dementia Care in Bangalore | Alzheimer's & Parkinson's Care Homes"
+        title="Dementia & Alzheimer's Care Home in Bangalore"
         description="Specialized Dementia Care Homes and Home Caretakers in Bangalore for Alzheimer's, Parkinson's & memory loss. Safe, compassionate 24/7 care."
         keywords={[
           "Dementia Care in Bangalore",

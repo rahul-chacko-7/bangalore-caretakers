@@ -28,7 +28,7 @@ export default function JobsPage() {
   return (
     <>
       <SEO
-        title="Care Taker Jobs in Bangalore | Nursing Jobs in Bangalore (24/7 Hiring)"
+        title="Care Taker & Nursing Jobs in Bangalore"
         description="Apply for Caretaker Jobs and Nursing Jobs in Bangalore. High salary, flexible shifts, food & accommodation provided. Call +91 77605 06666."
         keywords={[
           "Care Taker Jobs in Bangalore",
