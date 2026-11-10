@@ -1,5 +1,5 @@
 import { useState, useCallback, lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -37,7 +37,7 @@ export default function App() {
   const closeInquiry = useCallback(() => setInquiryOpen(false), []);
 
   return (
-    <Router>
+    <>
       <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-sans selection:bg-teal-500 selection:text-white pb-20 xl:pb-0 overflow-x-hidden w-full max-w-full">
         
         <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] bg-white p-3">Skip to content</a>
@@ -49,7 +49,7 @@ export default function App() {
           <Suspense fallback={
             <div className="min-h-[50vh] flex items-center justify-center p-8">
               <div className="flex items-center gap-3 text-teal-800 font-bold text-sm bg-teal-50 border border-teal-200 px-6 py-3 rounded-2xl shadow-sm animate-pulse">
-                <span>Loading Bangalore Caretakers...</span>
+                <span>Loading Bangalore Care Takers...</span>
               </div>
             </div>
           }>
@@ -99,6 +99,6 @@ export default function App() {
         <FloatingMobileBar onOpenInquiry={handleOpenInquiry} />
 
       </div>
-    </Router>
+    </>
   );
 }

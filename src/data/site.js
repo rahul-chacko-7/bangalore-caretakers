@@ -1,4 +1,5 @@
 export const SITE_URL = 'https://bangalorecaretakers.in';
+export const SITE_NAME = 'Bangalore Care Takers';
 export const SITE_TITLE = 'Old Age Home in Bangalore | Bangalore Care Takers';
 export const SITE_DESCRIPTION = 'Explore elderly care, nursing support and assisted living at Bangalore Care Takers in Kothanur. Call to discuss care needs or arrange a facility visit.';
 export const SOCIAL_IMAGE = `${SITE_URL}/assets/social-preview.jpg`;

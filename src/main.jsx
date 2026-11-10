@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
 import { BUSINESS_SCHEMA } from './data/site';
@@ -21,8 +22,16 @@ if ('serviceWorker' in navigator && import.meta.env.PROD) {
   });
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const container = document.getElementById('root');
+const tree = (
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
+
+// Prerendered pages ship full HTML: hydrate it instead of replacing it,
+// so visitors and crawlers see the same content with no loading flash.
+if (container.hasChildNodes()) ReactDOM.hydrateRoot(container, tree);
+else ReactDOM.createRoot(container).render(tree);
