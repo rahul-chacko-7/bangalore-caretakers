@@ -3,6 +3,7 @@ import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import FAQSection from '../components/FAQSection';
 import { GENERAL_INFO } from '../data/keywordsData';
+import ServiceDetails from '../components/ServiceDetails';
 
 export default function PalliativeCarePage({ onOpenInquiry }) {
   const schema = {
@@ -26,6 +27,22 @@ export default function PalliativeCarePage({ onOpenInquiry }) {
     {
       q: "Do you offer specialized Cancer Care Services in Bangalore?",
       a: "Yes, we specialize in post-chemotherapy care, radiation side-effect management, cancer pain management, tracheostomy/feeding tube handling, and compassionate end-of-life support."
+    },
+    {
+      q: "Is palliative care only for the last days of life?",
+      a: "No. Palliative care can start at any stage of a serious illness, alongside treatment, to manage symptoms and improve comfort."
+    },
+    {
+      q: "Do you work with the patient’s own doctor?",
+      a: "Yes. Care follows the treating oncologist’s or palliative doctor’s plan, and our nurses coordinate with them on medicines and symptoms."
+    },
+    {
+      q: "Can a patient stay at your facility for palliative care?",
+      a: "Yes. Patients who need continuous nursing can stay at our Kothanur facility, with family visits."
+    },
+    {
+      q: "What support is there for the family?",
+      a: "We keep families informed, support them in caregiving decisions and make time for them to be with their loved one."
     }
   ];
 
@@ -130,6 +147,7 @@ export default function PalliativeCarePage({ onOpenInquiry }) {
         </div>
       </section>
 
+      <ServiceDetails service="palliative" />
       <FAQSection faqs={palliativeFaqs} title="Palliative & Cancer Care - FAQ" />
     </>
   );

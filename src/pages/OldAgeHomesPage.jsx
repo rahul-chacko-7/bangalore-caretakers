@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import FAQSection from '../components/FAQSection';
 import { GENERAL_INFO } from '../data/keywordsData';
+import ServiceDetails from '../components/ServiceDetails';
 
 export default function OldAgeHomesPage({ onOpenInquiry }) {
   const schema = {
@@ -32,6 +33,22 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
     {
       q: "How do you handle dietary and food requirements for elderly residents?",
       a: "We provide 4 freshly prepared, hygienic, vegetarian/non-vegetarian meals daily formulated according to physician guidelines (diabetic-friendly, low-sodium, soft/pureed diets)."
+    },
+    {
+      q: "Can we visit the facility before admission?",
+      a: "Yes. Families are welcome to visit the Kothanur facility, inspect rooms, hygiene and meals, meet the team and discuss the care plan before deciding."
+    },
+    {
+      q: "Do you accept bedridden and dementia residents?",
+      a: "Yes. We support bedridden, dementia, Alzheimer’s, Parkinson’s and post-surgery residents. The level of nursing is agreed in the care plan."
+    },
+    {
+      q: "How does admission work?",
+      a: "Call or WhatsApp with the senior’s health condition, the care team assesses nursing and personal-care needs, you visit and review the care plan, then the admission date is confirmed once the room, documents and plan are agreed."
+    },
+    {
+      q: "How do families abroad stay informed?",
+      a: "The care team shares regular updates by phone or WhatsApp and contacts the family when health needs change."
     }
   ];
 
@@ -183,6 +200,7 @@ export default function OldAgeHomesPage({ onOpenInquiry }) {
         </div>
       </section>
 
+      <ServiceDetails service="old-age-homes" />
       <FAQSection faqs={oldAgeFaqs} title="Old Age Homes in Bangalore - Frequently Asked Questions" />
     </>
   );

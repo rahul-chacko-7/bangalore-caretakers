@@ -3,6 +3,7 @@ import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import FAQSection from '../components/FAQSection';
 import { GENERAL_INFO } from '../data/keywordsData';
+import ServiceDetails from '../components/ServiceDetails';
 
 export default function HomeNursingPage({ onOpenInquiry }) {
   const schema = {
@@ -31,6 +32,22 @@ export default function HomeNursingPage({ onOpenInquiry }) {
     {
       q: "How fast can you send a home nurse near me in Bangalore?",
       a: "We deploy qualified nurses to your doorstep within 2 to 4 hours of confirmation across all localities in Bangalore."
+    },
+    {
+      q: "Can a nurse start on the day of hospital discharge?",
+      a: "Often, yes. Call before discharge so we can confirm a suitable nurse or caretaker for your address and the required shift."
+    },
+    {
+      q: "What happens if the assigned nurse cannot come?",
+      a: "For continuing care we arrange shift handover, records and a replacement when the regular nurse is unavailable."
+    },
+    {
+      q: "Which areas of Bangalore do you cover?",
+      a: "Home care is arranged across Bangalore, including Yelahanka, Hebbal, Whitefield, Indiranagar, Jayanagar, JP Nagar and Electronic City, subject to staff availability."
+    },
+    {
+      q: "Can you handle injections, catheters or feeding tubes at home?",
+      a: "Yes, when a doctor has prescribed them and a nurse with the right qualification and competence is assigned."
     }
   ];
 
@@ -195,6 +212,7 @@ export default function HomeNursingPage({ onOpenInquiry }) {
         </div>
       </section>
 
+      <ServiceDetails service="home-nursing" />
       <FAQSection faqs={nursingFaqs} title="Home Nursing Services Bangalore - FAQ" />
     </>
   );

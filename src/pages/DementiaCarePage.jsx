@@ -3,6 +3,7 @@ import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import FAQSection from '../components/FAQSection';
 import { GENERAL_INFO } from '../data/keywordsData';
+import ServiceDetails from '../components/ServiceDetails';
 
 export default function DementiaCarePage({ onOpenInquiry }) {
   const schema = {
@@ -26,6 +27,22 @@ export default function DementiaCarePage({ onOpenInquiry }) {
     {
       q: "What conditions do you support in your memory care centers?",
       a: "We specialize in early, moderate, and advanced stages of Vascular Dementia, Alzheimer's Disease, Parkinson's Dementia, and Lewy Body Dementia."
+    },
+    {
+      q: "Is dementia care at home or at your facility better?",
+      a: "Home care suits early stages with a stable routine and family nearby. Residential care at our Kothanur facility suits people who wander, are restless at night or need supervision around the clock."
+    },
+    {
+      q: "Do you care for people with Parkinson’s?",
+      a: "Yes. We support mobility, fall-risk supervision, meals and medicine routines for people with Parkinson’s."
+    },
+    {
+      q: "How do you keep the family involved?",
+      a: "Families receive regular updates and are welcome to visit; changes in behaviour or health are shared promptly."
+    },
+    {
+      q: "How much does dementia care cost?",
+      a: "It depends on the stage and how much supervision is needed. You receive the fee in writing with the care plan; see our cost guide for typical ranges."
     }
   ];
 
@@ -131,6 +148,7 @@ export default function DementiaCarePage({ onOpenInquiry }) {
         </div>
       </section>
 
+      <ServiceDetails service="dementia" />
       <FAQSection faqs={dementiaFaqs} title="Dementia & Alzheimer's Care - FAQ" />
     </>
   );

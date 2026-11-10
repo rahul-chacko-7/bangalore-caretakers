@@ -2,6 +2,9 @@ import { Phone, Stethoscope, ShieldCheck, Activity } from 'lucide-react';
 import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import { GENERAL_INFO } from '../data/keywordsData';
+import ServiceDetails from '../components/ServiceDetails';
+import FAQSection from '../components/FAQSection';
+import { SERVICE_FAQS } from '../data/serviceDetails';
 
 export default function PostSurgeryCarePage({ onOpenInquiry }) {
   return (
@@ -68,6 +71,8 @@ export default function PostSurgeryCarePage({ onOpenInquiry }) {
           </div>
         </div>
       </section>
+      <ServiceDetails service="post-surgery" />
+      <FAQSection faqs={SERVICE_FAQS["post-surgery"]} />
     </>
   );
 }

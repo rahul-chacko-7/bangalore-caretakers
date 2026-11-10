@@ -7,7 +7,7 @@ import InteractiveCareWizard from '../components/InteractiveCareWizard';
 import CareComparisonMatrix from '../components/CareComparisonMatrix';
 import TransitionCareSection from '../components/TransitionCareSection';
 import { GENERAL_INFO } from '../data/keywordsData';
-import { BLOG_POSTS } from '../data/blogData';
+import { BLOG_POSTS, imageAlt } from '../data/blogData';
 
 export default function HomePage({ onOpenInquiry }) {
 
@@ -449,7 +449,7 @@ export default function HomePage({ onOpenInquiry }) {
                 <div className="relative h-44 bg-slate-200 overflow-hidden">
                   <img 
                     src={post.image} 
-                    alt={post.title}
+                    alt={imageAlt(post)}
                     loading="lazy"
                     decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

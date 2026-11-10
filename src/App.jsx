@@ -25,6 +25,7 @@ const ContactPage = lazy(() => import('./pages/ContactPage'));
 const NeighborhoodCarePage = lazy(() => import('./pages/NeighborhoodCarePage'));
 const BlogListPage = lazy(() => import('./pages/BlogListPage'));
 const BlogPostPage = lazy(() => import('./pages/BlogPostPage'));
+const CaregiverTrainingPage = lazy(() => import('./pages/CaregiverTrainingPage'));
 
 export default function App() {
   const [inquiryOpen, setInquiryOpen] = useState(false);
@@ -66,6 +67,7 @@ export default function App() {
               <Route path="/blog" element={<BlogListPage onOpenInquiry={() => handleOpenInquiry('Blog Inquiry')} />} />
               <Route path="/blog/:slug" element={<BlogPostPage onOpenInquiry={() => handleOpenInquiry('Blog Post Inquiry')} />} />
               <Route path="/caretaker-nursing-jobs-bangalore" element={<JobsPage />} />
+              <Route path="/care-giver-training-center-in-bangalore" element={<CaregiverTrainingPage />} />
               <Route path="/contact-us" element={<ContactPage onOpenInquiry={handleOpenInquiry} />} />
               <Route path="/about-bangalore-caretakers" element={<AboutPage onOpenInquiry={handleOpenInquiry} />} />
               

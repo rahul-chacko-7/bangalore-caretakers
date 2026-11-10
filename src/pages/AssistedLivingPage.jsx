@@ -3,6 +3,8 @@ import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import FAQSection from '../components/FAQSection';
 import { GENERAL_INFO } from '../data/keywordsData';
+import ServiceDetails from '../components/ServiceDetails';
+import { SERVICE_FAQS } from '../data/serviceDetails';
 
 export default function AssistedLivingPage({ onOpenInquiry }) {
   return (
@@ -64,6 +66,8 @@ export default function AssistedLivingPage({ onOpenInquiry }) {
           </div>
         </div>
       </section>
+      <ServiceDetails service="assisted-living" />
+      <FAQSection faqs={SERVICE_FAQS["assisted-living"]} />
     </>
   );
 }

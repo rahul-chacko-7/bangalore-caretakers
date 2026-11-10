@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import { BLOG_POSTS } from '../data/blogData';
+import { BLOG_POSTS, imageAlt } from '../data/blogData';
 import { BookOpen, Calendar, Clock, ChevronRight, UserCheck } from 'lucide-react';
 
 export default function BlogListPage({ onOpenInquiry }) {
@@ -45,7 +45,7 @@ export default function BlogListPage({ onOpenInquiry }) {
               <div className="relative h-48 bg-slate-200 overflow-hidden">
                 <img 
                   src={post.image} 
-                  alt={post.title}
+                  alt={imageAlt(post)}
                   loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

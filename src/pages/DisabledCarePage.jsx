@@ -2,6 +2,9 @@ import { Phone, Heart, ShieldCheck } from 'lucide-react';
 import SEO from '../components/SEO';
 import TrustBadges from '../components/TrustBadges';
 import { GENERAL_INFO } from '../data/keywordsData';
+import ServiceDetails from '../components/ServiceDetails';
+import FAQSection from '../components/FAQSection';
+import { SERVICE_FAQS } from '../data/serviceDetails';
 
 export default function DisabledCarePage({ onOpenInquiry }) {
   return (
@@ -71,6 +74,8 @@ export default function DisabledCarePage({ onOpenInquiry }) {
           </div>
         </div>
       </section>
+      <ServiceDetails service="disabled" />
+      <FAQSection faqs={SERVICE_FAQS["disabled"]} />
     </>
   );
 }

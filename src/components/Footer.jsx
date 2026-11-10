@@ -112,12 +112,17 @@ export default function Footer({ onOpenInquiry }) {
               </li>
               <li>
                 <Link to="/elderly-care-yelahanka" className="hover:text-amber-400 transition-colors flex items-center gap-1.5">
-                  <ChevronRight className="w-4 h-4 text-amber-400" /> Yelahanka Medical Care
+                  <ChevronRight className="w-4 h-4 text-amber-400" /> Yelahanka Home Care
                 </Link>
               </li>
               <li>
                 <Link to="/caretaker-nursing-jobs-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5">
                   <ChevronRight className="w-4 h-4 text-amber-400" /> Caretaker & Nursing Jobs
+                </Link>
+              </li>
+              <li>
+                <Link to="/care-giver-training-center-in-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5">
+                  <ChevronRight className="w-4 h-4 text-amber-400" /> Caregiver Training
                 </Link>
               </li>
             </ul>

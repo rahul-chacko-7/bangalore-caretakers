@@ -374,16 +374,6 @@
       "permanent": true
     },
     {
-      "source": "/care-giver-training-center-in-bangalore",
-      "destination": "/caretaker-nursing-jobs-bangalore",
-      "permanent": true
-    },
-    {
-      "source": "/care-giver-training-center-in-bangalore/",
-      "destination": "/caretaker-nursing-jobs-bangalore",
-      "permanent": true
-    },
-    {
       "source": "/care-taker-jobs-in-bangalore",
       "destination": "/caretaker-nursing-jobs-bangalore",
       "permanent": true
@@ -2351,6 +2341,11 @@
     {
       "source": "/wound-dressing-bangalore/",
       "destination": "/specialized-nursing-care",
+      "permanent": true
+    },
+    {
+      "source": "/care-giver-training-center-in-bangalore/",
+      "destination": "/care-giver-training-center-in-bangalore",
       "permanent": true
     }
   ],

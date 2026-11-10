@@ -1,14 +1,24 @@
 import { useParams, Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import NotFoundPage from './NotFoundPage';
-import { BLOG_POSTS } from '../data/blogData';
+import { BLOG_POSTS, imageAlt } from '../data/blogData';
 import { Calendar, Clock, User, ArrowLeft, PhoneCall, ShieldCheck, CheckCircle2 } from 'lucide-react';
+
+const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+// "September 15, 2026" -> "2026-09-15" without timezone shifts.
+function isoDate(text) {
+  const match = /([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})/.exec(text || '');
+  if (!match) return undefined;
+  const month = MONTHS.indexOf(match[1].toLowerCase()) + 1;
+  return month ? `${match[3]}-${String(month).padStart(2, '0')}-${match[2].padStart(2, '0')}` : undefined;
+}
 
 export default function BlogPostPage({ onOpenInquiry }) {
   const { slug } = useParams();
   const post = BLOG_POSTS.find((p) => p.slug === slug);
 
   if (!post) return <NotFoundPage />;
+
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -18,14 +28,15 @@ export default function BlogPostPage({ onOpenInquiry }) {
     "image": `https://bangalorecaretakers.in${post.image}`,
     "author": {
       "@type": "Organization",
-      "name": "Bangalore Care Takers Editorial Team"
+      "@id": "https://bangalorecaretakers.in/#business",
+      "name": "Bangalore Care Takers"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Bangalore Care Takers",
       "url": "https://bangalorecaretakers.in"
     },
-    "datePublished": "2026-09-15",
+    "datePublished": isoDate(post.date),
     "mainEntityOfPage": `https://bangalorecaretakers.in/blog/${post.slug}`
   };
 
@@ -33,7 +44,7 @@ export default function BlogPostPage({ onOpenInquiry }) {
   return (
     <div className="bg-slate-50 min-h-screen">
       <SEO 
-        title={`${post.metaTitle} | Bangalore Care Takers`}
+        title={post.metaTitle.length <= 36 ? `${post.metaTitle} | Bangalore Care Takers` : post.metaTitle}
         description={post.metaDescription}
         keywords={post.keywords}
         canonicalPath={`/blog/${post.slug}`}
@@ -66,7 +77,7 @@ export default function BlogPostPage({ onOpenInquiry }) {
           <div className="rounded-xl overflow-hidden mb-8 max-h-[400px]">
             <img 
               src={post.image} 
-              alt={post.title} 
+              alt={imageAlt(post)} 
               className="w-full h-full object-cover"
               loading="eager"
             />
