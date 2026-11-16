@@ -30,7 +30,23 @@ export default function ServiceDetails({ service }) {
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">{data.heading}</h2>
           <p className="text-slate-600 leading-relaxed">{data.intro}</p>
           <Checklist items={data.included} />
+          {data.links && (
+            <ul className="flex flex-wrap gap-2 pt-2">
+              {data.links.map(link => <li key={link.to}><Link to={link.to} className="inline-block text-sm font-semibold px-4 py-2 rounded-full bg-teal-50 text-teal-800 hover:bg-teal-100">{link.label}</Link></li>)}
+            </ul>
+          )}
         </div>
+
+        {data.topics && (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {data.topics.map(topic => (
+              <div key={topic.h} className="space-y-2">
+                <h2 className="text-xl font-extrabold text-slate-900">{topic.h}</h2>
+                <p className="text-sm text-slate-700 leading-relaxed">{topic.p}</p>
+              </div>
+            ))}
+          </div>
+        )}
 
         {data.shifts && (
           <div className="space-y-3">
@@ -87,6 +103,42 @@ export default function ServiceDetails({ service }) {
             <AlertTriangle className="w-4 h-4 mt-0.5 shrink-0" aria-hidden="true" /> {data.caution}
           </p>
         )}
+      </div>
+    </section>
+  );
+}
+
+// Shared care-team / how-care-starts / areas block for pages without a
+// SERVICE_DETAILS entry (the original-URL landing pages).
+export function CareBasics() {
+  return (
+    <section className="py-16 bg-white border-t border-slate-200">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="space-y-3">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 flex items-center gap-2"><Users className="w-5 h-5 text-teal-600" aria-hidden="true" /> Who provides the care</h2>
+          <ul className="space-y-2">
+            {TEAM_POINTS.map(item => <li key={item} className="text-sm text-slate-700 leading-relaxed border-l-2 border-teal-500 pl-3">{item}</li>)}
+          </ul>
+        </div>
+        <div className="space-y-4">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 flex items-center gap-2"><ClipboardList className="w-5 h-5 text-teal-600" aria-hidden="true" /> How care starts</h2>
+          <ol className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            {START_STEPS.map((step, index) => (
+              <li key={step.title} className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                <span className="text-xs font-bold text-teal-700">Step {index + 1}</span>
+                <h3 className="font-bold text-slate-900">{step.title}</h3>
+                <p className="text-sm text-slate-600 leading-relaxed">{step.text}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+        <div className="space-y-3">
+          <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 flex items-center gap-2"><MapPin className="w-5 h-5 text-teal-600" aria-hidden="true" /> Where we provide care</h2>
+          <p className="text-sm text-slate-700 leading-relaxed">Residential care is at our facility at #206, BCT Nagar, Athmavidyanagar Layout, Kothanur, Bangalore 560077. Home care is arranged across Bangalore, subject to staff availability. Fees depend on the care needed and are shared in writing before care starts; see our <Link to={COST_GUIDE} className="font-semibold text-teal-700 underline">cost guide</Link> for typical ranges.</p>
+          <ul className="flex flex-wrap gap-2">
+            {AREA_LINKS.map(area => <li key={area.to}><Link to={area.to} className="inline-block text-xs font-semibold px-3 py-1.5 rounded-full bg-slate-100 text-slate-700 hover:bg-teal-50">{area.name}</Link></li>)}
+          </ul>
+        </div>
       </div>
     </section>
   );

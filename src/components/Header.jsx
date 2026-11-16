@@ -22,22 +22,22 @@ export default function Header({ onOpenInquiry }) {
   ];
 
   const serviceCategories = [
-    { name: 'Best Old Age Homes in Bangalore', path: '/old-age-homes-bangalore', desc: '24/7 Medical Care & Nursing Rooms' },
+    { name: 'Old Age Home in Bangalore', path: '/old-age-homes-bangalore', desc: '24/7 Medical Care & Nursing Rooms' },
     { name: 'Home Nursing Services (Male/Female)', path: '/home-nursing-services-bangalore', desc: '12h & 24h Live-in Home Caretakers' },
     { name: "Dementia & Alzheimer's Care", path: '/dementia-alzheimers-care-bangalore', desc: 'Memory Care Facilities & Attendants' },
     { name: 'Palliative & Cancer Care', path: '/palliative-cancer-care-bangalore', desc: 'Pain Management & Comfort Care' },
     { name: 'Assisted Living & Senior Living', path: '/assisted-living-senior-care-bangalore', desc: 'Retirement Homes in Bangalore' },
     { name: 'Post-Surgery & Stroke Rehab', path: '/post-surgery-rehabilitation-care', desc: 'Paralysis & Bedridden Recovery' },
     { name: 'Tracheostomy & Tube Nursing', path: '/specialized-nursing-care', desc: 'Catheter, Feeding Tube & Wound Care' },
-    { name: 'Disabled & Rehabilitation Care', path: '/home-for-disabled-and-rehabilitation', desc: 'Physically & Mentally Challenged' },
+    { name: 'Home for Disabled', path: '/residential-care-physical-disabilities-bangalore', desc: 'Physically & Mentally Challenged' },
   ];
 
   const locationLinks = [
     { name: 'Indiranagar Senior Care', path: '/elderly-care-indiranagar' },
     { name: 'Jayanagar Home Nursing', path: '/elderly-care-jayanagar' },
-    { name: 'Whitefield Old Age Homes', path: '/elderly-care-whitefield' },
+    { name: 'Whitefield Home Nursing', path: '/elderly-care-whitefield' },
     { name: 'Electronic City Caretakers', path: '/elderly-care-electronic-city' },
-    { name: 'Yelahanka Medical Care', path: '/elderly-care-yelahanka' },
+    { name: 'Yelahanka Home Care', path: '/elderly-care-yelahanka' },
   ];
 
   const filteredServices = mobileSearch.trim()

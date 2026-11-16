@@ -19,7 +19,7 @@ const PalliativeCarePage = lazy(() => import('./pages/PalliativeCarePage'));
 const AssistedLivingPage = lazy(() => import('./pages/AssistedLivingPage'));
 const PostSurgeryCarePage = lazy(() => import('./pages/PostSurgeryCarePage'));
 const SpecializedNursingPage = lazy(() => import('./pages/SpecializedNursingPage'));
-const DisabledCarePage = lazy(() => import('./pages/DisabledCarePage'));
+const LandingPage = lazy(() => import('./pages/LandingPage'));
 const JobsPage = lazy(() => import('./pages/JobsPage'));
 const ContactPage = lazy(() => import('./pages/ContactPage'));
 const NeighborhoodCarePage = lazy(() => import('./pages/NeighborhoodCarePage'));
@@ -63,7 +63,20 @@ export default function App() {
               <Route path="/assisted-living-senior-care-bangalore" element={<AssistedLivingPage onOpenInquiry={() => handleOpenInquiry('Assisted Living')} />} />
               <Route path="/post-surgery-rehabilitation-care" element={<PostSurgeryCarePage onOpenInquiry={() => handleOpenInquiry('Post Surgery Care')} />} />
               <Route path="/specialized-nursing-care" element={<SpecializedNursingPage onOpenInquiry={() => handleOpenInquiry('Specialized Nursing')} />} />
-              <Route path="/home-for-disabled-and-rehabilitation" element={<DisabledCarePage onOpenInquiry={() => handleOpenInquiry('Disabled Care')} />} />
+              {/* Pages kept at their original bangalorecaretakers.in URLs (src/data/landingPages.js) */}
+              <Route path="/best-old-age-home-services-in-bangalore" element={<LandingPage slug="best-old-age-home-services-in-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/elderly-care-in-bangalore" element={<LandingPage slug="elderly-care-in-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/home-for-24-hour-nursing-care-in-bangalore" element={<LandingPage slug="home-for-24-hour-nursing-care-in-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/bedridden-patient-care-bangalore" element={<LandingPage slug="bedridden-patient-care-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/residential-care-physical-disabilities-bangalore" element={<LandingPage slug="residential-care-physical-disabilities-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/residential-care-intellectual-disabilities-bangalore" element={<LandingPage slug="residential-care-intellectual-disabilities-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/rehabilitation-centre-bangalore" element={<LandingPage slug="rehabilitation-centre-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/oxygen-supportive-care-bangalore" element={<LandingPage slug="oxygen-supportive-care-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/tracheostomy-care-in-bangalore" element={<LandingPage slug="tracheostomy-care-in-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/catheter-care-bangalore" element={<LandingPage slug="catheter-care-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/feeding-tube-care-in-bangalore" element={<LandingPage slug="feeding-tube-care-in-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/colostomy-care-in-bangalore" element={<LandingPage slug="colostomy-care-in-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
+              <Route path="/wound-care-in-bangalore" element={<LandingPage slug="wound-care-in-bangalore" onOpenInquiry={() => handleOpenInquiry()} />} />
               <Route path="/blog" element={<BlogListPage onOpenInquiry={() => handleOpenInquiry('Blog Inquiry')} />} />
               <Route path="/blog/:slug" element={<BlogPostPage onOpenInquiry={() => handleOpenInquiry('Blog Post Inquiry')} />} />
               <Route path="/caretaker-nursing-jobs-bangalore" element={<JobsPage />} />

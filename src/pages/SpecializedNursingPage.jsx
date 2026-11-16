@@ -10,8 +10,8 @@ export default function SpecializedNursingPage({ onOpenInquiry }) {
   return (
     <>
       <SEO
-        title="Tracheostomy, Catheter & Feeding Tube Care in Bangalore"
-        description="Clinical Nursing Procedures at Home in Bangalore: Tracheostomy Care, Catheterization, Feeding Tube (Ryle's tube/PEG), Colostomy Care & Wound Dressing."
+        title="Specialized Nursing Care at Home in Bangalore"
+        description="Specialized nursing at home in Bangalore: tracheostomy, catheter, feeding tube, colostomy, wound and oxygen care by qualified nurses, as prescribed."
         keywords={[
           "Tracheostomy Care in Bangalore",
           "Catheter Care in Bangalore",
@@ -27,7 +27,7 @@ export default function SpecializedNursingPage({ onOpenInquiry }) {
       <section className="bg-gradient-to-r from-slate-900 via-blue-950 to-brand-blue text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-            Specialized Clinical Nursing: <span className="text-amber-400">Tracheostomy, Catheter & Tube Care</span>
+            Specialized Nursing Care at Home: <span className="text-amber-400">Procedures by Qualified Nurses</span>
           </h1>
           <p className="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed">
             Certified GNM / B.Sc clinical nurses in Bangalore trained in sterile tracheostomy suctioning, urinary catheterization, Ryle's tube feeding, colostomy pouch changing, and diabetic wound dressing.

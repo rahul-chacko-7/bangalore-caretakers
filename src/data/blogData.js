@@ -399,7 +399,7 @@ export const BLOG_POSTS = [
       <p>Our associated <em>Care Giver Training Centers in Bangalore</em> ensure all staff undergo rigorous training in patient lifting mechanics, tracheostomy hygiene, seizure management, and emotional empathy.</p>
 
       <h2>Explore Specialized Disability & Rehab Facilities</h2>
-      <p>Visit our dedicated <a href="/home-for-disabled-and-rehabilitation" class="text-teal-600 underline font-semibold">Home for Disabled and Rehabilitation Page</a> to learn more about admissions and personalized care plans.</p>
+      <p>Visit our dedicated <a href="/residential-care-physical-disabilities-bangalore" class="text-teal-600 underline font-semibold">Home for Disabled and Rehabilitation Page</a> to learn more about admissions and personalized care plans.</p>
     `,
     faq: [
       {

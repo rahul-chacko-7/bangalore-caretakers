@@ -79,7 +79,11 @@ export default function Footer({ onOpenInquiry }) {
               </li>
               <li><Link to="/care-guides/home-nurses-male-female-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Male & Female Home Nurses</Link></li>
               <li><Link to="/care-guides/stroke-paralysis-coma-rehabilitation-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Stroke & Paralysis Care</Link></li>
-              <li><Link to="/care-guides/specialized-nursing-procedures-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Specialized Nursing Procedures</Link></li>
+              <li><Link to="/elderly-care-in-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Elder Care Services</Link></li>
+              <li><Link to="/home-for-24-hour-nursing-care-in-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> 24-Hour Nursing Home</Link></li>
+              <li><Link to="/bedridden-patient-care-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Bedridden Patient Care</Link></li>
+              <li><Link to="/residential-care-intellectual-disabilities-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Home for Mentally Challenged</Link></li>
+              <li><Link to="/rehabilitation-centre-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Psychiatric Rehabilitation</Link></li>
               <li><Link to="/care-guides/affordable-free-old-age-homes-bangalore" className="hover:text-amber-400 transition-colors flex items-center gap-1.5"><ChevronRight className="w-4 h-4 text-teal-400" /> Affordable & Free Care Guide</Link></li>
             </ul>
           </div>

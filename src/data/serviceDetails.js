@@ -30,6 +30,11 @@ export const START_STEPS = [
 
 export const SERVICE_DETAILS = {
   'old-age-homes': {
+    topics: [
+      { h: "Old age home with medical facilities", p: "Residents receive medicine management, health monitoring, BP and sugar checks and doctor coordination at the same home, so routine medical care is handled without moving." },
+      { h: "Old age home with nursing care", p: "Nurses support residents who need injections, wound care, catheter or feeding-tube care, and close observation after a hospital stay, alongside caregivers on every shift." },
+      { h: "Home for aged in Bangalore", p: "For families looking for a home for aged parents, our Kothanur home combines residential living, caregivers on every shift and nursing support. Visits are welcome before admission." }
+    ],
     heading: 'What residential care at our Kothanur facility includes',
     intro: 'Residents live at our facility in Kothanur, North-East Bangalore, with caregivers on every shift and nursing support for those who need it. Families can visit before admission to see rooms, meals and daily routines.',
     included: [
@@ -52,6 +57,11 @@ export const SERVICE_DETAILS = {
     costNote: 'Monthly fees depend on room type, the level of nursing needed, medical condition, diet, personal-care support and length of stay.'
   },
   'home-nursing': {
+    topics: [
+      { h: "Nursing care at home in Bangalore", p: "Nursing care services at home cover vitals, medicines, injections, wound care, and catheter or feeding-tube care when prescribed, from a single visit to 24-hour cover." },
+      { h: "Care taker at home for elderly parents", p: "When the need is personal care rather than clinical tasks, a trained care taker at home helps with bathing, meals, mobility, toileting and companionship, and a nurse can be added if needs change." },
+      { h: "24/7 home care services", p: "Round-the-clock home care is arranged with rostered caretakers or nurses, shift handover and replacement cover, so the patient is not left without support." }
+    ],
     heading: 'Home nursing support we can arrange',
     intro: 'Home nursing is planned around the patient’s diagnosis, mobility, prescribed procedures and the number of hours support is needed. We recommend a caretaker, ANM, GNM or BSc Nursing professional only after discussing these details.',
     included: [
@@ -72,6 +82,12 @@ export const SERVICE_DETAILS = {
     caution: 'Complex or unstable conditions may need a hospital or doctor-led clinical setup rather than routine home nursing. We will say so during the assessment.'
   },
   dementia: {
+    topics: [
+      { h: "Dementia care centre and dementia care home in Bangalore", p: "Our Kothanur facility works as a dementia care centre and care home for people who need supervision around the clock, with a calm routine and staff experienced with memory loss and wandering." },
+      { h: "Alzheimer’s care centre", p: "People with Alzheimer’s receive structured routines, memory activities, medicine reminders and help with daily living, alongside the neurologist’s plan." },
+      { h: "Parkinson’s care home", p: "Residents with Parkinson’s get help with movement, fall-risk supervision, meals and medicine timing. Parkinson’s care at home is also available." },
+      { h: "Dementia care near me", p: "Families across Bangalore can arrange dementia care at home in their area, subject to staff availability, or visit our Kothanur facility." }
+    ],
     heading: 'How we support people living with dementia',
     intro: 'People with dementia, Alzheimer’s or Parkinson’s do best with a calm routine, safe surroundings and staff who know how to handle confusion and wandering. We provide this at our Kothanur facility or at home.',
     included: [
@@ -91,6 +107,10 @@ export const SERVICE_DETAILS = {
     costNote: 'Dementia care usually costs more than standard residential care because of closer supervision; the fee depends on the stage and support needed.'
   },
   palliative: {
+    topics: [
+      { h: "Cancer care services in Bangalore", p: "For people living with cancer, we provide comfort-focused nursing, symptom observation, wound and tube care, and family support, coordinated with the treating oncologist." },
+      { h: "Palliative care services at home", p: "Palliative care at home brings nursing, comfort care and help with daily living to the patient’s own home, from a few hours a day to 24-hour care." }
+    ],
     heading: 'What palliative care with us includes',
     intro: 'Palliative care focuses on comfort and quality of life for people with serious, life-limiting illness. It can be provided at home or at our Kothanur facility, alongside the treating doctor’s plan.',
     included: [
@@ -112,6 +132,10 @@ export const SERVICE_DETAILS = {
     costLink: '/blog/palliative-care-bangalore-home-cost-cancer-guide'
   },
   'assisted-living': {
+    topics: [
+      { h: "Senior living in Bangalore", p: "Senior living at our Kothanur facility offers company, safety and daily help for retired people, with nursing added if health needs change." },
+      { h: "Retirement homes near me", p: "Families from Hennur, Hebbal, Yelahanka, KR Puram, Whitefield, Banaswadi and Indiranagar choose our retirement home in Kothanur. Visits are welcome before deciding." }
+    ],
     heading: 'What assisted living at our facility includes',
     intro: 'Assisted living suits seniors who are fairly independent but need help with some daily tasks and want company and safety. Residents live at our Kothanur facility, with more nursing added if health needs change.',
     included: [
@@ -131,6 +155,10 @@ export const SERVICE_DETAILS = {
     costNote: 'Fees depend on room type, the amount of daily help, any nursing needs and length of stay.'
   },
   'post-surgery': {
+    topics: [
+      { h: "Post surgery care at home in Bangalore", p: "After discharge, a nurse can visit or stay for 12 or 24 hours to manage wounds, medicines, vitals and safe movement at home." },
+      { h: "Post-operative care at our facility", p: "Patients who need continuous monitoring, or whose family cannot provide support, can recover at our Kothanur facility with 24/7 nursing and doctor coordination." }
+    ],
     heading: 'Post-surgery recovery: at home or at our facility',
     intro: 'After discharge, patients need wound care, pain control, safe movement and someone watching for warning signs. We provide this at home, or as a short stay at our Kothanur facility when continuous monitoring is needed or family support is not available.',
     included: [
@@ -170,7 +198,15 @@ export const SERVICE_DETAILS = {
       'Diabetic patients with wounds that need regular dressing'
     ],
     costNote: 'Charges depend on the procedure, how often it is needed (a visit or a full shift) and the nurse’s qualification.',
-    caution: 'Procedures are only taken on with a doctor’s prescription. Unstable patients may need hospital care instead.'
+    caution: 'Procedures are only taken on with a doctor’s prescription. Unstable patients may need hospital care instead.',
+    links: [
+      { to: '/tracheostomy-care-in-bangalore', label: 'Tracheostomy care' },
+      { to: '/catheter-care-bangalore', label: 'Catheter care' },
+      { to: '/feeding-tube-care-in-bangalore', label: 'Feeding tube care' },
+      { to: '/colostomy-care-in-bangalore', label: 'Colostomy care' },
+      { to: '/wound-care-in-bangalore', label: 'Wound care and dressing' },
+      { to: '/oxygen-supportive-care-bangalore', label: 'Oxygen supportive care' }
+    ]
   },
   disabled: {
     heading: 'Residential care for adults with disabilities',
