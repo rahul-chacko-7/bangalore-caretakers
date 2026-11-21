@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Briefcase } from 'lucide-react';
 import SEO from '../components/SEO';
+import { track } from '../analytics';
 import { GENERAL_INFO } from '../data/keywordsData';
 
 export default function JobsPage() {
@@ -22,6 +23,7 @@ export default function JobsPage() {
     setError('');
     const text = `Job inquiry for ${jobForm.role}. Name: ${jobForm.name.trim()}. Phone: ${jobForm.phone.trim()}. Experience: ${jobForm.experience}. Locality: ${jobForm.locality.trim() || 'Bangalore'}.`;
     const url = `https://wa.me/${GENERAL_INFO.whatsappNumber}?text=${encodeURIComponent(text)}`;
+    track('job_application_submit', { job_role: jobForm.role });
     setMessageUrl(url); window.open(url, '_blank', 'noopener,noreferrer');
   };
 

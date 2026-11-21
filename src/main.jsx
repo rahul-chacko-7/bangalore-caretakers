@@ -4,6 +4,9 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
 import { BUSINESS_SCHEMA } from './data/site';
+import { initAnalytics } from './analytics';
+
+initAnalytics();
 
 if (!document.getElementById('business-schema')) {
   const schema = document.createElement('script'); schema.id = 'business-schema'; schema.type = 'application/ld+json'; schema.textContent = JSON.stringify(BUSINESS_SCHEMA); document.head.appendChild(schema);

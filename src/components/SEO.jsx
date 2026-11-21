@@ -2,6 +2,7 @@ import { useContext, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { SITE_URL, SITE_TITLE, SITE_DESCRIPTION, SOCIAL_IMAGE, SITE_NAME } from '../data/site';
 import { HeadContext } from './HeadContext';
+import { trackPageView } from '../analytics';
 
 export default function SEO({ title = SITE_TITLE, description = SITE_DESCRIPTION, keywords, canonicalPath, schemaData, image = SOCIAL_IMAGE, noindex = false }) {
   const { pathname } = useLocation();
@@ -40,6 +41,8 @@ export default function SEO({ title = SITE_TITLE, description = SITE_DESCRIPTION
     document.documentElement.dataset.seoPath = pathname;
     return () => { document.getElementById('dynamic-page-schema')?.remove(); delete document.documentElement.dataset.seoPath; };
   }, [title, description, keywordText, canonical, pathname, schemaText, image, robots]);
+  // Runs after the head effect above, so the page view gets this page's title.
+  useEffect(() => { trackPageView(pathname); }, [pathname]);
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   return null;
 }

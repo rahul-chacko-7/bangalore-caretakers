@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import NotFoundPage from './NotFoundPage';
 import { BLOG_POSTS, imageAlt } from '../data/blogData';
+import { GENERAL_INFO } from '../data/keywordsData';
 import { Calendar, Clock, User, ArrowLeft, PhoneCall, ShieldCheck, CheckCircle2 } from 'lucide-react';
 
 const MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
@@ -125,10 +126,10 @@ export default function BlogPostPage({ onOpenInquiry }) {
               Request Free Consultation
             </button>
             <a 
-              href="tel:+918047485555"
+              href={`tel:${GENERAL_INFO.phoneRaw}`}
               className="bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-3 rounded-xl border border-white/20 flex items-center justify-center gap-2 text-sm whitespace-nowrap"
             >
-              <PhoneCall className="w-4 h-4 text-teal-300" /> Call 080 4748 5555
+              <PhoneCall className="w-4 h-4 text-teal-300" /> Call {GENERAL_INFO.phone}
             </a>
           </div>
         </div>

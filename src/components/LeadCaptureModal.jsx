@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, MessageSquare, X } from 'lucide-react';
 import { GENERAL_INFO } from '../data/keywordsData';
+import { track } from '../analytics';
 
 const SERVICES = ['Old Age Home / Nursing Care', 'Old Age Home Bangalore', 'Home Nursing Services', 'Dementia Care', 'Palliative Care', 'Assisted Living', 'Post Surgery Care', 'Specialized Nursing', 'Disabled Care'];
 
@@ -41,6 +42,7 @@ export default function LeadCaptureModal({ isOpen, onClose, defaultService = SER
     if (!form.name.trim() || digits.length < 7 || digits.length > 15) { setError('Enter your name and a valid phone number (7 to 15 digits).'); return; }
     const text = `Hello Bangalore Care Takers, I am looking for ${form.service} in ${form.location.trim() || 'Bangalore'}. Name: ${form.name.trim()}. Phone: ${form.phone.trim()}.`;
     const url = `https://wa.me/${GENERAL_INFO.whatsappNumber}?text=${encodeURIComponent(text)}`;
+    track('lead_form_submit', { form_name: 'care_inquiry', care_service: form.service });
     setMessageUrl(url); window.open(url, '_blank', 'noopener,noreferrer');
   };
   const services = SERVICES.includes(form.service) ? SERVICES : [form.service, ...SERVICES];
